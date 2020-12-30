@@ -5,45 +5,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SelectScreen"
+    tools:context=".MainActivity"
     tools:ignore="HardcodedText"
     android:orientation="vertical"
     android:background="@color/white">
 
-    <TextView
-        android:id="@+id/titleSelectScreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:padding="4dp"
-        android:text="PLACEHOLDER"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:id="@+id/contentSelectScreen_linearLayout"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/select_screen_background_style"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/style_card_background"
         android:orientation="vertical"
         android:padding="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/adSpaceSelectScreen_linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleSelectScreen">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kategoria A1 A2 B1 B"
-            android:textAllCaps="true"
             android:textAlignment="center"
+            android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -58,8 +44,8 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/select_screen_content"
-                android:contentDescription="image" />
+                android:contentDescription="image"
+                android:src="@drawable/artwork_launch" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -109,45 +95,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:background="@drawable/select_screen_button_style"
+            android:background="@drawable/style_button_launch"
             android:padding="4dp"
             android:text="FILLO"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:id="@+id/adSpaceSelectScreen_linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="32dp"
+        android:text="RESERVED"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="UseCompoundDrawables">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="64dp"
-            android:text="RESERVED AD SPACE"
-            android:textColor="@color/cardview_dark_background"
-            android:textAlignment="center"
-            android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/showInformationDialog"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="end"
+        android:contentDescription="info"
+        android:src="@drawable/ic_github"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <ImageView
-            android:id="@+id/showInformationDialog"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:contentDescription="info"
-            android:src="@drawable/select_screen_ic_information" />
 
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

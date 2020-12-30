@@ -9,7 +9,7 @@
     android:layout_gravity="center"
     android:padding="10dp"
     tools:ignore="HardcodedText"
-    android:background="@drawable/test_screen_navigation_style">
+    android:background="@drawable/style_navigation">
 
 
     <LinearLayout
@@ -57,40 +57,40 @@
 
         <Button
             android:id="@+id/reviewMistakesButton"
-            android:background="@drawable/test_screen_navigation_style"
+            android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginTop="20dp"
             android:text="RISHIKO GABIMET"
             android:textColor="#000000"
-            android:drawableStart="@drawable/test_screen_result_dialog_ic_review"
+            android:drawableStart="@drawable/ic_review"
             android:paddingStart="80dp"
             android:paddingEnd="80dp"/>
 
         <Button
             android:id="@+id/startNewTestButton"
-            android:background="@drawable/test_screen_navigation_style"
+            android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginTop="10dp"
             android:text="PROVIM TJETER"
             android:textColor="#000000"
-            android:drawableStart="@drawable/test_screen_result_dialog_ic_redo"
+            android:drawableStart="@drawable/ic_redo"
             android:paddingStart="80dp"
             android:paddingEnd="80dp"/>
 
         <Button
             android:id="@+id/closeResultScreenButton"
-            android:background="@drawable/test_screen_navigation_style"
+            android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginTop="10dp"
             android:text="MBYLL PROVIMIN"
             android:textColor="#000000"
-            android:drawableStart="@drawable/test_screen_result_dialog_ic_close"
+            android:drawableStart="@drawable/ic_close"
             android:paddingStart="80dp"
             android:paddingEnd="80dp"/>
 

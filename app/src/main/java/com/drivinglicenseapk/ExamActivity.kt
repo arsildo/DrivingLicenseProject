@@ -9,20 +9,18 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
-import android.widget.Button
 import android.widget.Chronometer
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_test_screen.*
-import kotlinx.android.synthetic.main.test_screen_list_dialog.*
-import kotlinx.android.synthetic.main.test_screen_result_dialog.*
+import kotlinx.android.synthetic.main.activity_exam.*
+import kotlinx.android.synthetic.main.exam_question_list_dialog.*
+import kotlinx.android.synthetic.main.exam_result_dialog.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-class TestScreen : AppCompatActivity(){
+class ExamActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_test_screen)
+        setContentView(R.layout.activity_exam)
 
 
 
@@ -33,11 +31,10 @@ class TestScreen : AppCompatActivity(){
 
 
         /* Start Counting Time Being Used */
-        val chronometer = findViewById<Chronometer>(R.id.hiddenChronometer)
-        chronometer.base = SystemClock.elapsedRealtime()
-        chronometer.format = "%02d:%02d"
-        chronometer.start()
-        formatChronometer(chronometer)
+        hiddenChronometer.base = SystemClock.elapsedRealtime()
+        hiddenChronometer.format = "%02d:%02d"
+        hiddenChronometer.start()
+        formatChronometer(hiddenChronometer)
 
 
         /* Start CountDownTimer from 40Min */
@@ -59,8 +56,6 @@ class TestScreen : AppCompatActivity(){
 
                 }
             }
-
-            @SuppressLint("SetTextI18n")
             override fun onFinish() {
                 cancel()
             }
@@ -78,8 +73,7 @@ class TestScreen : AppCompatActivity(){
 
 
         /* Display Question List */
-        val questionListButton = findViewById<Button>(R.id.showQuestionList)
-        questionListButton.setOnClickListener {
+        displayQuestionList.setOnClickListener {
             showQuestionList()
         }
 
@@ -116,7 +110,7 @@ class TestScreen : AppCompatActivity(){
     /* Display Question List Dialog */
     private fun showQuestionList(){
         val questionListDialog = Dialog(this)
-        questionListDialog.setContentView(R.layout.test_screen_list_dialog)
+        questionListDialog.setContentView(R.layout.exam_question_list_dialog)
         questionListDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         questionListDialog.setCancelable(true)
         questionListDialog.backToTestScreen.setOnClickListener {
@@ -129,16 +123,16 @@ class TestScreen : AppCompatActivity(){
     @SuppressLint("SetTextI18n")
     private fun showTestResultDialog(){
         val resultDialog = Dialog(this)
-        resultDialog.setContentView(R.layout.test_screen_result_dialog)
+        resultDialog.setContentView(R.layout.exam_result_dialog)
         resultDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         resultDialog.setCancelable(false)
 
         // Show Time taken to finish
-        resultDialog.testTimerResult.text = formatChronometer(findViewById(R.id.hiddenChronometer))
+        resultDialog.testTimerResult.text = formatChronometer(hiddenChronometer)
 
         // Buttons
         resultDialog.startNewTestButton.setOnClickListener {
-            val intent = Intent(this,TestScreen::class.java)
+            val intent = Intent(this,ExamActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -149,18 +143,18 @@ class TestScreen : AppCompatActivity(){
         resultDialog.reviewMistakesButton.setOnClickListener {
             resultDialog.hide()
 
-            showQuestionList.setBackgroundColor(Color.parseColor("#0A870F"))
-            showQuestionList.setTextColor(Color.WHITE)
+            displayQuestionList.setBackgroundColor(Color.parseColor("#0A870F"))
+            displayQuestionList.setTextColor(Color.WHITE)
 
             endTest_Button.setOnClickListener {
-                val intent = Intent(this,TestScreen::class.java)
+                val intent = Intent(this,ExamActivity::class.java)
                 startActivity(intent)
                 finish()
             }
             endTest_Button.text = "FILLO PROVIM TJETER"
             endTest_Button.setTextColor(Color.BLACK)
             endTest_Button.setBackgroundColor(Color.WHITE)
-            endTest_Button.setBackgroundResource(R.drawable.test_screen_navigation_style)
+            endTest_Button.setBackgroundResource(R.drawable.style_navigation)
             endTest_Button.setCompoundDrawablesWithIntrinsicBounds(0, 0,0,0)
         }
 
