@@ -11,15 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /* Open Test Screen */
-        startTest.setOnClickListener {
+        openExam.setOnClickListener {
             val intent = Intent(this,ExamActivity::class.java)
             startActivity(intent)
         }
 
-
-        /* Dev Info */
-        showInformationDialog.setOnClickListener {
+        gitHubLink.setOnClickListener {
             val openUrl = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/arsildo"))
             startActivity(openUrl)
         }
