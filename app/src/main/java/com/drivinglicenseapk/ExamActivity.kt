@@ -1,6 +1,5 @@
 package com.drivinglicenseapk
 
-import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
@@ -136,7 +135,6 @@ class ExamActivity : AppCompatActivity(){
             resultDialog.hide()
 
             questionListDialog.setBackgroundColor(Color.parseColor("#0A870F"))
-            questionListDialog.setTextColor(Color.WHITE)
 
             endExam.setOnClickListener {
                 val intent = Intent(this,ExamActivity::class.java)

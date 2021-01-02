@@ -31,15 +31,18 @@
             android:textColor="@color/black"/>
 
 
-        <Button
+        <ImageView
             android:id="@+id/questionListDialog"
             android:background="@drawable/style_button_overall"
-            android:layout_width="128dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
-            android:padding="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="2dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="question list"/>
+            android:src="@drawable/ic_questions"
+            android:contentDescription="ql" />
 
         <TextView
             android:id="@+id/examTimer"
