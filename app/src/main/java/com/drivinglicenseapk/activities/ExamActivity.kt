@@ -1,4 +1,4 @@
-package com.drivinglicenseapk
+package com.drivinglicenseapk.activities
 
 import android.app.AlertDialog
 import android.app.Dialog
@@ -10,6 +10,7 @@ import android.os.CountDownTimer
 import android.os.SystemClock
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
+import com.drivinglicenseapk.R
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
@@ -17,54 +18,64 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 class ExamActivity : AppCompatActivity(){
+    private var ifExamEndedOnce = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
-        endExam.setOnClickListener {
-            showTestResultDialog()
-        }
 
-
-        /* Start Counting Time Being Used */
+        /* Start Counting Time Being Used and Exam Timer */
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
             format = "%02d:%02d"
             start()
         }
-        formatChronometer(chronometer)
-
-        /* Start CountDownTimer from 40Min */
         startExamTimer()
 
-        /* CheckBox Behaviour */
-        trueCheckBox.setOnClickListener {
-            falseCheckBox.isChecked = false
-        }
-        falseCheckBox.setOnClickListener {
-            trueCheckBox.isChecked = false
-        }
 
-
-        /* Display Question List */
+        /* Display Question List When clicked */
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
 
+        /* End Exam and Display Results */
+        endExam.setOnClickListener {
+            showTestResultDialog()
+        }
+
 
     }
 
+    private fun generateExam(){
+        val questionStrings = arrayOf("Hello","Dude","What","Is","Up")
+        val overallImage = R.drawable.img_overall
+        val testImageOne = R.drawable.ic_back
+        val testImageTwo = R.drawable.ic_github
+        val questionImages = arrayOf(overallImage,testImageOne,testImageTwo,testImageOne)
+        val questionAnswers = arrayOf(false,true,false,true,false)
+
+    }
+
+
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
-        exitPrompt.setMessage("Doni te mbyllni testin pa marrjen e rezultateve?")
+        exitPrompt.setMessage("Jeni te sigurte qe doni te mbyllni provimin pa marre rezultatin?")
+
         exitPrompt.setPositiveButton("Po"){_,_ ->
             finish()
         }
         exitPrompt.setNegativeButton("Jo"){_,_ -> }
-
         val dialog: AlertDialog = exitPrompt.create()
-        dialog.show()
+
+        if (ifExamEndedOnce==0){
+            dialog.show()
+        }
+        else {
+            finish()
+        }
+
     }
+
 
     private fun startExamTimer(){
         object : CountDownTimer(2401000, 1000){
@@ -106,13 +117,14 @@ class ExamActivity : AppCompatActivity(){
             window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             setCancelable(true)
             backToTestScreen.setOnClickListener {
-                questionListDialog.hide()
+                hide()
             }
         }
         questionListDialog.show()
     }
 
     private fun showTestResultDialog(){
+        ifExamEndedOnce++
         val resultDialog = Dialog(this)
         resultDialog.apply {
             setContentView(R.layout.exam_result_dialog)
@@ -124,7 +136,7 @@ class ExamActivity : AppCompatActivity(){
 
         // Buttons
         resultDialog.startNewExam.setOnClickListener {
-            val intent = Intent(this,ExamActivity::class.java)
+            val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -135,9 +147,10 @@ class ExamActivity : AppCompatActivity(){
             resultDialog.hide()
 
             questionListDialog.setBackgroundColor(Color.parseColor("#0A870F"))
+            questionListDialog.setImageResource(R.drawable.ic_questions_completed)
 
             endExam.setOnClickListener {
-                val intent = Intent(this,ExamActivity::class.java)
+                val intent = Intent(this, ExamActivity::class.java)
                 startActivity(intent)
                 finish()
             }
@@ -150,10 +163,7 @@ class ExamActivity : AppCompatActivity(){
             }
         }
 
-
-
         resultDialog.show()
     }
-
 
 }
