@@ -18,13 +18,14 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 class ExamActivity : AppCompatActivity(){
-    private var ifExamEndedOnce = 0
+
+    private var ifExamAlreadyEnded = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
 
-        /* Start Counting Time Being Used and Exam Timer */
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
             format = "%02d:%02d"
@@ -33,29 +34,18 @@ class ExamActivity : AppCompatActivity(){
         startExamTimer()
 
 
-        /* Display Question List When clicked */
+
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
 
-        /* End Exam and Display Results */
+
         endExam.setOnClickListener {
-            showTestResultDialog()
+            showExamResultDialog()
         }
 
 
     }
-
-    private fun generateExam(){
-        val questionStrings = arrayOf("Hello","Dude","What","Is","Up")
-        val overallImage = R.drawable.img_overall
-        val testImageOne = R.drawable.ic_back
-        val testImageTwo = R.drawable.ic_github
-        val questionImages = arrayOf(overallImage,testImageOne,testImageTwo,testImageOne)
-        val questionAnswers = arrayOf(false,true,false,true,false)
-
-    }
-
 
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
@@ -67,7 +57,7 @@ class ExamActivity : AppCompatActivity(){
         exitPrompt.setNegativeButton("Jo"){_,_ -> }
         val dialog: AlertDialog = exitPrompt.create()
 
-        if (ifExamEndedOnce==0){
+        if (ifExamAlreadyEnded==0){
             dialog.show()
         }
         else {
@@ -80,7 +70,7 @@ class ExamActivity : AppCompatActivity(){
     private fun startExamTimer(){
         object : CountDownTimer(2401000, 1000){
             override fun onTick(millisUntilFinished: Long) {
-                examTimer.text= "" + millisUntilFinished/1000
+                examTimer.text = "${millisUntilFinished / 1000}"
                 val format = String.format(
                         Locale.getDefault(),
                         "%02d:%02d",
@@ -90,12 +80,13 @@ class ExamActivity : AppCompatActivity(){
                 examTimer.text = format
                 // Test Result Window //
                 endExam.setOnClickListener {
-                    showTestResultDialog()
+                    showExamResultDialog()
                     cancel()
 
                 }
             }
             override fun onFinish() {
+                showExamResultDialog()
                 cancel()
             }
 
@@ -123,8 +114,8 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
-    private fun showTestResultDialog(){
-        ifExamEndedOnce++
+    private fun showExamResultDialog(){
+        ifExamAlreadyEnded++
         val resultDialog = Dialog(this)
         resultDialog.apply {
             setContentView(R.layout.exam_result_dialog)

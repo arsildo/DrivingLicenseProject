@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="HardcodedText"
     android:background="@color/white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
 
     <LinearLayout
         android:id="@+id/top_LinearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:padding="2dp"
         android:gravity="center"
+        android:padding="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,35 +23,35 @@
             android:id="@+id/currentQuestion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginEnd="32dp"
+            android:orientation="horizontal"
             android:text="1/40"
-            android:textSize="32sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="32sp" />
 
 
         <ImageView
             android:id="@+id/questionListDialog"
-            android:background="@drawable/style_button_overall"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:layout_marginStart="16dp"
-            android:padding="2dp"
             android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/style_button_overall"
+            android:contentDescription="ql"
             android:gravity="center"
-            android:src="@drawable/ic_questions"
-            android:contentDescription="ql" />
+            android:padding="2dp"
+            android:src="@drawable/ic_questions" />
 
         <TextView
             android:id="@+id/examTimer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="32dp"
             android:layout_gravity="end"
+            android:layout_marginStart="32dp"
             android:gravity="end"
             android:text="40:00"
             android:textColor="@color/black"
-            android:textSize="32sp"/>
+            android:textSize="32sp" />
 
 
     </LinearLayout>
@@ -68,12 +67,24 @@
         app:layout_constraintTop_toBottomOf="@+id/top_LinearLayout" />
 
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/questionViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toTopOf="@+id/endExam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+
+    <!--
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
         android:orientation="vertical"
+        android:gravity="center"
         android:padding="4dp"
         app:layout_constraintBottom_toTopOf="@+id/endExam"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,15 +102,18 @@
 
         <TextView
             android:id="@+id/questionString"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:singleLine="false"
-            android:text="placeholder"
+            android:text="text"
+            android:textAllCaps="false"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -113,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="32dp"
                 android:buttonTint="@color/black"
-                android:text="Sakte"
+                android:text="True"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -123,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:buttonTint="@color/black"
-                android:text="Gabim"
+                android:text="False"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -131,7 +145,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -158,6 +172,8 @@
 
 
     </LinearLayout>
+
+    -->
 
     <Button
         android:id="@+id/endExam"
