@@ -71,109 +71,14 @@
         android:id="@+id/questionViewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layoutDirection="ltr"
         app:layout_constraintBottom_toTopOf="@+id/endExam"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chronometer" />
 
-    <!--
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/endExam"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chronometer"
-        tools:ignore="HardcodedText">
 
-
-        <ImageView
-            android:id="@+id/questionImage"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:contentDescription="img"
-            android:src="@drawable/img_overall" />
-
-        <TextView
-            android:id="@+id/questionString"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:singleLine="false"
-            android:text="text"
-            android:textAllCaps="false"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="22sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/trueCheckBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="32dp"
-                android:buttonTint="@color/black"
-                android:text="True"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-
-            <CheckBox
-                android:id="@+id/falseCheckBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:buttonTint="@color/black"
-                android:text="False"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/previousQuestion"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
-                android:layout_marginEnd="25dp"
-                android:background="@drawable/style_navigation"
-                android:contentDescription="backImg"
-                android:padding="4dp"
-                android:src="@drawable/ic_back" />
-
-            <ImageView
-                android:id="@+id/nextQuestion"
-                android:layout_width="100dp"
-                android:layout_height="64dp"
-                android:layout_marginStart="25dp"
-                android:background="@drawable/style_navigation"
-                android:contentDescription="backImg"
-                android:padding="4dp"
-                android:src="@drawable/ic_forward" />
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-    -->
 
     <Button
         android:id="@+id/endExam"

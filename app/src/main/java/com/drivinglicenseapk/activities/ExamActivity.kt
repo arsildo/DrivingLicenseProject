@@ -11,6 +11,8 @@ import android.os.SystemClock
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import com.drivinglicenseapk.R
+import com.drivinglicenseapk.handling.QuestionData
+import com.drivinglicenseapk.handling.QuestionViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
@@ -21,10 +23,14 @@ class ExamActivity : AppCompatActivity(){
 
     private var ifExamAlreadyEnded = 0
 
+    private val questionData = QuestionData()
+    private val questionAdapter = QuestionViewPagerAdapter(questionData)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
+        questionViewPager.adapter = questionAdapter
 
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
