@@ -8,14 +8,20 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
+import android.view.View
 import android.widget.Chronometer
+import android.widget.Toast
+import androidx.annotation.NonNull
 import androidx.appcompat.app.AppCompatActivity
+import androidx.viewpager2.widget.ViewPager2
 import com.drivinglicenseapk.R
 import com.drivinglicenseapk.handling.QuestionData
 import com.drivinglicenseapk.handling.QuestionViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
+import kotlinx.android.synthetic.main.item_question.*
+import kotlinx.android.synthetic.main.item_question.view.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
@@ -24,13 +30,32 @@ class ExamActivity : AppCompatActivity(){
     private var ifExamAlreadyEnded = 0
 
     private val questionData = QuestionData()
-    private val questionAdapter = QuestionViewPagerAdapter(questionData)
+    private var  questionAdapter = QuestionViewPagerAdapter(questionData)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
         questionViewPager.adapter = questionAdapter
+
+        questionViewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                super.onPageSelected(position)
+                ((position + 1).toString() + "/40").also { currentQuestionIndicator.text = it }
+            }
+
+        })
+
+        nextQuestion.setOnClickListener {
+            questionViewPager.currentItem = questionViewPager.currentItem+1
+        }
+        previousQuestion.setOnClickListener {
+            questionViewPager.currentItem = questionViewPager.currentItem-1
+        }
+
+
+
+
 
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
@@ -53,6 +78,7 @@ class ExamActivity : AppCompatActivity(){
 
     }
 
+
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
         exitPrompt.setMessage("Jeni te sigurte qe doni te mbyllni provimin pa marre rezultatin?")
@@ -74,7 +100,7 @@ class ExamActivity : AppCompatActivity(){
 
 
     private fun startExamTimer(){
-        object : CountDownTimer(2401000, 1000){
+        object : CountDownTimer(2400000, 1000){
             override fun onTick(millisUntilFinished: Long) {
                 examTimer.text = "${millisUntilFinished / 1000}"
                 val format = String.format(
@@ -109,6 +135,7 @@ class ExamActivity : AppCompatActivity(){
 
     private fun showQuestionList(){
         val questionListDialog = Dialog(this)
+        val questionViewPager = questionViewPager
         questionListDialog.apply {
             setContentView(R.layout.exam_question_list_dialog)
             window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -116,6 +143,51 @@ class ExamActivity : AppCompatActivity(){
             backToTestScreen.setOnClickListener {
                 hide()
             }
+            question_1.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 0
+            }
+
+            question_2.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 1
+            }
+
+            question_3.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 2
+            }
+
+            question_4.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 3
+            }
+
+            question_5.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 4
+            }
+
+            question_6.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 5
+            }
+
+            question_7.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 6
+            }
+
+            question_8.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 7
+            }
+
+            question_9.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 8
+            }
+
         }
         questionListDialog.show()
     }

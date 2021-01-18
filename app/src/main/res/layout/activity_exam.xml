@@ -10,6 +10,7 @@
 
     <LinearLayout
         android:id="@+id/top_LinearLayout"
+        android:background="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -20,11 +21,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/currentQuestion"
+            android:id="@+id/currentQuestionIndicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
             android:orientation="horizontal"
+            android:padding="2dp"
             android:text="1/40"
             android:textColor="@color/black"
             android:textSize="32sp" />
@@ -49,6 +51,7 @@
             android:layout_gravity="end"
             android:layout_marginStart="32dp"
             android:gravity="end"
+            android:padding="2dp"
             android:text="40:00"
             android:textColor="@color/black"
             android:textSize="32sp" />
@@ -62,29 +65,67 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/top_LinearLayout"
-        app:layout_constraintStart_toStartOf="@+id/top_LinearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/top_LinearLayout" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/questionViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_weight="1"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/pagerNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/pagerNavigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal"
-        android:layoutDirection="ltr"
         app:layout_constraintBottom_toTopOf="@+id/endExam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chronometer" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
 
+        <ImageView
+            android:id="@+id/previousQuestion"
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/style_navigation"
+            android:contentDescription="backImg"
+            android:padding="4dp"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+            android:id="@+id/nextQuestion"
+            android:layout_width="100dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/style_navigation"
+            android:contentDescription="backImg"
+            android:padding="4dp"
+            android:src="@drawable/ic_forward" />
+
+    </LinearLayout>
 
 
     <Button
         android:id="@+id/endExam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/red"
         android:drawableStart="@drawable/ic_conclude"
         android:paddingStart="100dp"
