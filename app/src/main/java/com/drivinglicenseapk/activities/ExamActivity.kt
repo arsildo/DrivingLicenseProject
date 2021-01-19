@@ -100,7 +100,7 @@ class ExamActivity : AppCompatActivity(){
 
 
     private fun startExamTimer(){
-        object : CountDownTimer(2400000, 1000){
+        object : CountDownTimer(2401000, 1000){
             override fun onTick(millisUntilFinished: Long) {
                 examTimer.text = "${millisUntilFinished / 1000}"
                 val format = String.format(
@@ -130,7 +130,7 @@ class ExamActivity : AppCompatActivity(){
         val time = elapsedTime / 1000
         val minutes = time / 60
         val seconds = time % 60
-        return  String.format("%02d:%02d",minutes,seconds)
+        return  String.format(format = "%02d:%02d",minutes,seconds)
     }
 
     private fun showQuestionList(){
