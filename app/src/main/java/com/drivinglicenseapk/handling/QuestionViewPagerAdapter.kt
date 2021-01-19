@@ -1,12 +1,14 @@
 package com.drivinglicenseapk.handling
 
 
+import android.util.SparseBooleanArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.util.set
 import androidx.recyclerview.widget.RecyclerView
 import com.drivinglicenseapk.R
 import kotlinx.android.synthetic.main.item_question.view.*
@@ -15,16 +17,47 @@ import kotlinx.android.synthetic.main.item_question.view.*
 class QuestionViewPagerAdapter(private val questionData: QuestionData) :
     RecyclerView.Adapter<QuestionViewPagerAdapter.QuestionViewPagerViewHolder>() {
 
-    inner class QuestionViewPagerViewHolder(questionView: View) : RecyclerView.ViewHolder(questionView){
+    private val checkBoxTrueState = SparseBooleanArray(10)
+    private val checkBoxFalseState = SparseBooleanArray(10)
+
+    inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         val questionPosition = adapterPosition
 
-        var qString: TextView = questionView.questionString
-        var qImage : ImageView = questionView.questionImage
-        var qTrue : CheckBox = questionView.trueCheckBox
-        var qFalse : CheckBox = questionView.falseCheckBox
+        var qString: TextView = itemView.questionString
+        var qImage : ImageView = itemView.questionImage
+        var qTrue : CheckBox = itemView.trueCheckBox
+        var qFalse : CheckBox = itemView.falseCheckBox
 
         init {
+
+            qTrue.setOnClickListener{
+                qFalse.isChecked = false
+                if(!checkBoxTrueState.get(adapterPosition,false)){
+                    qTrue.isChecked = true
+                    checkBoxTrueState.put(adapterPosition,true)
+                    checkBoxFalseState.put(adapterPosition,false)
+                }else{
+                    qTrue.isChecked = false
+                    checkBoxTrueState.put(adapterPosition,false)
+                    checkBoxFalseState.put(adapterPosition,true)
+                }
+            }
+
+            qFalse.setOnClickListener{
+                qTrue.isChecked = false
+                if(!checkBoxFalseState.get(adapterPosition,false)){
+                    qFalse.isChecked = true
+                    checkBoxFalseState.put(adapterPosition,true)
+                    checkBoxTrueState.put(adapterPosition,false)
+                }else{
+                    qFalse.isChecked = false
+                    checkBoxFalseState.put(adapterPosition,false)
+                    checkBoxTrueState.put(adapterPosition,true)
+                }
+            }
+
+
 
         }
 
@@ -47,6 +80,8 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         val currentQuestion = questionData.questionStrings[position]
 
 
+
+
         val qString = holder.qString
         val qImage = holder.qImage
         val qTrue = holder.qTrue
@@ -57,10 +92,14 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         qImage.setImageResource(questionData.questionImages[position])
 
 
+        qTrue.isChecked = checkBoxTrueState.get(position,false)
+        qFalse.isChecked = checkBoxFalseState.get(position,false)
+
+
 
 
     }
 
-    override fun getItemCount() = questionData.questionStrings.size
+    override fun getItemCount() = 10
 
 }
