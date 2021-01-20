@@ -30,5 +30,18 @@ class QuestionData {
         R.drawable.ic_github,
     )
 
+    val questionAnswers = arrayOf(
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+    )
+
 
 }

@@ -8,10 +8,7 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
-import android.view.View
 import android.widget.Chronometer
-import android.widget.Toast
-import androidx.annotation.NonNull
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.drivinglicenseapk.R
@@ -20,8 +17,6 @@ import com.drivinglicenseapk.handling.QuestionViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
-import kotlinx.android.synthetic.main.item_question.*
-import kotlinx.android.synthetic.main.item_question.view.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
@@ -192,8 +187,10 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
-    private fun showExamResultDialog(){
+    fun showExamResultDialog(){
         ifExamAlreadyEnded++
+        val questionViewPager = questionViewPager
+        questionViewPager.isEnabled = false
         val resultDialog = Dialog(this)
         resultDialog.apply {
             setContentView(R.layout.exam_result_dialog)
