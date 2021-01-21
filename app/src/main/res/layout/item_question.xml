@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="4dp"
     android:background="@color/white"
     tools:ignore="HardcodedText">
 
@@ -16,37 +15,45 @@
         android:id="@+id/questionImage"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
         android:contentDescription="img"
-        android:src="@drawable/img_overall" />
+        android:src="@drawable/img_overall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/questionString"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="2dp"
         android:singleLine="false"
-        android:text="text"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionImage" />
 
     <LinearLayout
         android:id="@+id/checkboxes"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
         android:gravity="center"
         android:orientation="horizontal">
-
         <CheckBox
             android:id="@+id/trueCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="16dp"
             android:buttonTint="@color/black"
-            android:text="Sakte"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Saktë"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
@@ -54,16 +61,15 @@
             android:id="@+id/falseCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="16dp"
             android:buttonTint="@color/black"
+            android:gravity="center"
+            android:padding="4dp"
             android:text="Gabim"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>
 

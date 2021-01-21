@@ -1,7 +1,5 @@
 package com.drivinglicenseapk.handling
 
-
-import android.util.SparseBooleanArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,8 +14,15 @@ import kotlinx.android.synthetic.main.item_question.view.*
 class QuestionViewPagerAdapter(private val questionData: QuestionData) :
     RecyclerView.Adapter<QuestionViewPagerAdapter.QuestionViewPagerViewHolder>() {
 
-    private val checkBoxStateA = SparseBooleanArray(10)
-    private val checkBoxStateB = SparseBooleanArray(10)
+    private val checkBoxStateA = BooleanArray(40)
+    private val checkBoxStateB = BooleanArray(40)
+    private var userGivenAnswers = arrayOf(
+        "1","2","3","4","5","6","7","8","9","10",
+        "1","2","3","4","5","6","7","8","9","10",
+        "1","2","3","4","5","6","7","8","9","10",
+        "1","2","3","4","5","6","7","8","9","10",
+    )
+    private var mistakes=0
 
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
@@ -26,24 +31,31 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         var chTrue : CheckBox = itemView.trueCheckBox
         var chFalse : CheckBox = itemView.falseCheckBox
 
+
         init {
 
             chTrue.setOnCheckedChangeListener { _, isChecked ->
                 if (isChecked) {
                     chFalse.isChecked = false
-                    checkBoxStateA.put(adapterPosition, true)
+                    checkBoxStateA[adapterPosition] = true
+                    userGivenAnswers[adapterPosition] = "Sakte"
                 }else {
-                    checkBoxStateA.put(adapterPosition,false)
+                    checkBoxStateA[adapterPosition] = false
                 }
             }
+
+
             chFalse.setOnCheckedChangeListener { _, isChecked ->
                 if (isChecked) {
                     chTrue.isChecked = false
-                    checkBoxStateB.put(adapterPosition, true)
+                    checkBoxStateB[adapterPosition] = true
+                    userGivenAnswers[adapterPosition] = "Gabim"
                 }else{
-                    checkBoxStateB.put(adapterPosition,false)
+                    checkBoxStateB[adapterPosition] = false
                 }
             }
+
+
 
         }
 
@@ -55,24 +67,32 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         )
     }
 
-
     override fun onBindViewHolder(holder: QuestionViewPagerViewHolder, position: Int) {
-
-        val currentQuestion = questionData.questionStrings[position]
 
         val qString = holder.qString
         val qImage = holder.qImage
         val chTrue = holder.chTrue
         val chFalse = holder.chFalse
 
-        qString.text = questionData.questionStrings[position]
-        qImage.setImageResource(questionData.questionImages[position])
+        qString.text = questionData.questionStrings.random()
+        qImage.setImageResource(questionData.questionImages.random())
 
-        chTrue.isChecked = checkBoxStateA.get(position,false)
-        chFalse.isChecked = checkBoxStateB.get(position,false)
-
+        chTrue.isChecked = checkBoxStateA[position]
+        chFalse.isChecked = checkBoxStateB[position]
     }
 
-    override fun getItemCount() = 10
+    override fun getItemCount() = 40
+
+
+
+    fun countMistakes() : Int{
+        for (i in 0..39){
+            if (userGivenAnswers[i]!=questionData.questionAnswers[i]){
+                mistakes++
+            }
+        }
+        return mistakes
+    }
+
 
 }

@@ -26,22 +26,32 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
+
         <TextView
             android:id="@+id/numberOfMistakes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
             android:text="NUM Gabime"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Koha e perfundimit "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/examChronometer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="16dp"
             android:text="time"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -52,7 +62,7 @@
             android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="8dp"
             android:layout_marginTop="20dp"
             android:text="RISHIKO GABIMET"
             android:textColor="@color/black"
@@ -65,8 +75,8 @@
             android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
             android:text="PROVIM TJETER"
             android:textColor="@color/black"
             android:drawableStart="@drawable/ic_redo"
@@ -78,8 +88,8 @@
             android:background="@drawable/style_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
             android:text="MBYLL PROVIMIN"
             android:textColor="@color/black"
             android:drawableStart="@drawable/ic_close"

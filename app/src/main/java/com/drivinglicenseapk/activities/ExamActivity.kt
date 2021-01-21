@@ -48,10 +48,6 @@ class ExamActivity : AppCompatActivity(){
             questionViewPager.currentItem = questionViewPager.currentItem-1
         }
 
-
-
-
-
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
             format = "%02d:%02d"
@@ -59,17 +55,9 @@ class ExamActivity : AppCompatActivity(){
         }
         startExamTimer()
 
-
-
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
-
-
-        endExam.setOnClickListener {
-            showExamResultDialog()
-        }
-
 
     }
 
@@ -90,9 +78,18 @@ class ExamActivity : AppCompatActivity(){
         else {
             finish()
         }
-
     }
 
+    private fun promptExamEnd(){
+        val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
+        endPrompt.setMessage("Perfundo  Provimin ?")
+        endPrompt.setPositiveButton("Po"){_,_->
+            showExamResultDialog()
+        }
+        endPrompt.setNegativeButton("Jo"){_,_-> }
+        val dialog : AlertDialog = endPrompt.create()
+        endPrompt.show()
+    }
 
     private fun startExamTimer(){
         object : CountDownTimer(2401000, 1000){
@@ -107,9 +104,8 @@ class ExamActivity : AppCompatActivity(){
                 examTimer.text = format
                 // Test Result Window //
                 endExam.setOnClickListener {
-                    showExamResultDialog()
+                    promptExamEnd()
                     cancel()
-
                 }
             }
             override fun onFinish() {
@@ -138,51 +134,167 @@ class ExamActivity : AppCompatActivity(){
             backToTestScreen.setOnClickListener {
                 hide()
             }
+
             question_1.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 0
             }
-
             question_2.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 1
             }
-
             question_3.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 2
             }
-
             question_4.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 3
             }
-
             question_5.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 4
             }
-
             question_6.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 5
             }
-
             question_7.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 6
             }
-
             question_8.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 7
             }
-
             question_9.setOnClickListener {
                 hide()
                 questionViewPager.currentItem = 8
             }
-
+            question_10.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 9
+            }
+            question_11.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 10
+            }
+            question_12.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 11
+            }
+            question_13.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 12
+            }
+            question_14.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 13
+            }
+            question_15.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 14
+            }
+            question_16.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 15
+            }
+            question_17.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 16
+            }
+            question_18.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 17
+            }
+            question_19.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 18
+            }
+            question_20.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 19
+            }
+            question_21.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 20
+            }
+            question_22.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 21
+            }
+            question_23.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 22
+            }
+            question_24.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 23
+            }
+            question_25.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 24
+            }
+            question_26.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 25
+            }
+            question_27.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 26
+            }
+            question_28.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 27
+            }
+            question_29.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 28
+            }
+            question_30.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 29
+            }
+            question_31.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 30
+            }
+            question_32.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 31
+            }
+            question_33.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 32
+            }
+            question_34.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 33
+            }
+            question_35.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 34
+            }
+            question_36.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 35
+            }
+            question_37.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 36
+            }
+            question_38.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 37
+            }
+            question_39.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 38
+            }
+            question_40.setOnClickListener {
+                hide()
+                questionViewPager.currentItem = 39
+            }
         }
         questionListDialog.show()
     }
@@ -197,10 +309,20 @@ class ExamActivity : AppCompatActivity(){
             window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             setCancelable(false)
         }
-        // Show Time used text
+
+        val numberOfMistakes = questionAdapter.countMistakes()
+        if (numberOfMistakes>4){
+            ("$numberOfMistakes Gabime").also { resultDialog.numberOfMistakes.text = it }
+            resultDialog.numberOfMistakes.setTextColor(Color.RED)
+        }else{
+            ("$numberOfMistakes Gabime").also { resultDialog.numberOfMistakes.text = it }
+            resultDialog.numberOfMistakes.setTextColor(Color.GREEN)
+        }
+
+
+
         resultDialog.examChronometer.text = formatChronometer(chronometer)
 
-        // Buttons
         resultDialog.startNewExam.setOnClickListener {
             val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)
@@ -212,16 +334,20 @@ class ExamActivity : AppCompatActivity(){
         resultDialog.reviewExam.setOnClickListener {
             resultDialog.hide()
 
-            questionListDialog.setBackgroundColor(Color.parseColor("#0A870F"))
-            questionListDialog.setImageResource(R.drawable.ic_questions_completed)
+
+            questionViewPager.isClickable = false
+
+            questionListDialog.apply {
+                setBackgroundColor(Color.parseColor("#0A870F"))
+                setImageResource(R.drawable.ic_questions_completed)
+            }
 
             endExam.setOnClickListener {
                 val intent = Intent(this, ExamActivity::class.java)
                 startActivity(intent)
-                finish()
             }
             endExam.apply {
-                text = "FILLO PROVIM TJETER"
+                text = "FILLO PROVIM TE RI"
                 setTextColor(Color.BLACK)
                 setBackgroundColor(Color.WHITE)
                 setBackgroundResource(R.drawable.style_navigation)

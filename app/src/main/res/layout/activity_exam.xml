@@ -10,10 +10,10 @@
 
     <LinearLayout
         android:id="@+id/top_LinearLayout"
-        android:background="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="@color/white"
         android:gravity="center"
         android:padding="2dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,36 +65,35 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/top_LinearLayout"
+        app:layout_constraintStart_toStartOf="@+id/top_LinearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/top_LinearLayout" />
 
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/questionViewPager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:layout_weight="1"
         android:layoutDirection="ltr"
         android:orientation="horizontal"
+        android:padding="2dp"
         app:layout_constraintBottom_toTopOf="@+id/pagerNavigation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chronometer" />
 
 
     <LinearLayout
         android:id="@+id/pagerNavigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/endExam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
