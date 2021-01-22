@@ -1,5 +1,6 @@
 package com.drivinglicenseapk.handling
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -74,8 +75,8 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         val chTrue = holder.chTrue
         val chFalse = holder.chFalse
 
-        qString.text = questionData.questionStrings.random()
-        qImage.setImageResource(questionData.questionImages.random())
+        qString.text = questionData.questionStrings[position]
+        qImage.setImageResource(questionData.questionImages[position])
 
         chTrue.isChecked = checkBoxStateA[position]
         chFalse.isChecked = checkBoxStateB[position]
@@ -94,5 +95,20 @@ class QuestionViewPagerAdapter(private val questionData: QuestionData) :
         return mistakes
     }
 
+    fun markMistakes(): Array<Int> {
 
+        val markMistakes = arrayOf(
+            1,2,3,4,5,6,7,8,9,10,
+            1,2,3,4,5,6,7,8,9,10,
+            1,2,3,4,5,6,7,8,9,10,
+            1,2,3,4,5,6,7,8,9,10,
+        )
+        for (i in 0..39){
+            if (userGivenAnswers[i]!=questionData.questionAnswers[i]){
+                markMistakes[i] = 0
+                Log.d("MARKED","mistake at $i marked with 0")
+            }
+        }
+        return  markMistakes
+    }
 }
