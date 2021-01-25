@@ -8,26 +8,26 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
+import android.widget.Button
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.viewpager2.widget.ViewPager2
 import com.drivinglicenseapk.R
 import com.drivinglicenseapk.handling.QuestionData
-import com.drivinglicenseapk.handling.QuestionViewPagerAdapter
+import com.drivinglicenseapk.handling.QuestionAdapter
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
-import kotlinx.android.synthetic.main.item_question.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
 class ExamActivity : AppCompatActivity(){
 
-    private var ifExamAlreadyEnded = 0
+    private var ifExamEnded = 0
 
     private val questionData = QuestionData()
-    private var  questionAdapter = QuestionViewPagerAdapter(questionData)
+    private var  questionAdapter = QuestionAdapter(questionData)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,13 +55,18 @@ class ExamActivity : AppCompatActivity(){
             format = "%02d:%02d"
             start()
         }
+
         startExamTimer()
 
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
 
+
+
     }
+
+
 
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
@@ -73,13 +78,15 @@ class ExamActivity : AppCompatActivity(){
         exitPrompt.setNegativeButton("Jo"){_,_ -> }
         val dialog: AlertDialog = exitPrompt.create()
 
-        if (ifExamAlreadyEnded==0){
+        if (ifExamEnded==0){
             dialog.show()
         }
         else {
             finish()
         }
     }
+
+
     private fun promptExamEnd(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         endPrompt.setMessage("Perfundo  Provimin ?")
@@ -104,6 +111,7 @@ class ExamActivity : AppCompatActivity(){
                 examTimer.text = format
                 // Test Result Window //
                 endExam.setOnClickListener {
+                    ifExamEnded++
                     promptExamEnd()
                     cancel()
                 }
@@ -136,7 +144,7 @@ class ExamActivity : AppCompatActivity(){
                 hide()
             }
             val markedMistakes = questionAdapter.markMistakes()
-            if (ifExamAlreadyEnded==0){
+            if (ifExamEnded==0){
                 question_1.setOnClickListener {
                     hide()
                     questionViewPager.currentItem = 0
@@ -742,6 +750,7 @@ class ExamActivity : AppCompatActivity(){
                 question_40.setOnClickListener {
                     hide()
                     questionViewPager.currentItem = 39
+
                 }
 
             }
@@ -749,10 +758,8 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
+
     fun showExamResultDialog(){
-        ifExamAlreadyEnded++
-        val questionViewPager = questionViewPager
-        questionViewPager.isEnabled = false
         val resultDialog = Dialog(this)
         resultDialog.apply {
             setContentView(R.layout.exam_result_dialog)
@@ -785,7 +792,6 @@ class ExamActivity : AppCompatActivity(){
             showQuestionList()
             resultDialog.hide()
 
-
             questionListDialog.apply {
                 setBackgroundColor(Color.parseColor("#0A870F"))
                 setImageResource(R.drawable.ic_questions_completed)
@@ -794,6 +800,7 @@ class ExamActivity : AppCompatActivity(){
             endExam.setOnClickListener {
                 val intent = Intent(this, ExamActivity::class.java)
                 startActivity(intent)
+                finish()
             }
             endExam.apply {
                 text = "FILLO PROVIM TE RI"
@@ -806,5 +813,4 @@ class ExamActivity : AppCompatActivity(){
 
         resultDialog.show()
     }
-
 }
