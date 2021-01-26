@@ -4,7 +4,9 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+import android.widget.CheckBox
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.drivinglicenseapk.R
 import com.drivinglicenseapk.activities.ExamActivity
@@ -23,7 +25,9 @@ class QuestionAdapter(private val questionData: QuestionData) :
         "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
     )
     private var mistakes=0
-    private var ifExamEnded = 0
+
+
+    var ifExamEnded  = 0
 
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
@@ -31,6 +35,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
         var qImage : ImageView = itemView.questionImage
         var chTrue : CheckBox = itemView.trueCheckBox
         var chFalse : CheckBox = itemView.falseCheckBox
+        var wrongMark : ImageView = itemView.wrongMark
 
         init {
 
@@ -80,6 +85,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
         val qImage = holder.qImage
         val chTrue = holder.chTrue
         val chFalse = holder.chFalse
+        val wrongMark = holder.wrongMark
 
         qString.text = questionData.questionStrings[position]
         qImage.setImageResource(questionData.questionImages[position])
@@ -88,22 +94,33 @@ class QuestionAdapter(private val questionData: QuestionData) :
         chTrue.isChecked = checkBoxStateA[position]
         chFalse.isChecked = checkBoxStateB[position]
 
+        Log.d("DEBUG2","${ExamActivity().ifExamEnded}")
+
+        val markMistakes = markMistakes()
         if (ifExamEnded==0){
             chTrue.isChecked = checkBoxStateA[position]
-            chTrue.isClickable = true
             chFalse.isChecked = checkBoxStateB[position]
-            chFalse.isClickable = true
+
         }else{
             chTrue.isChecked = checkBoxStateA[position]
             chFalse.isChecked = checkBoxStateB[position]
             chTrue.isClickable = false
             chFalse.isClickable = false
+
+            if (markMistakes[position]!=0){
+                wrongMark.setImageResource(R.drawable.ic_check)
+            }else{
+                wrongMark.setImageResource(R.drawable.ic_wrong)
+            }
+
         }
 
 
     }
 
     override fun getItemCount() = 40
+
+
 
     fun countMistakes() : Int{
         for (i in 0..39){

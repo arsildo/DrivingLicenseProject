@@ -5,6 +5,8 @@ import com.drivinglicenseapk.R
 
 class QuestionData {
 
+    var ifExamEnded = 0
+
     val questionStrings = arrayOf(
         "Sinjali në figurë, si rregull, në rrugë interurbane është 150 metër para pjesës ku fillon deformimi i rrugës.",
         "Sinjali në figurë paralajmëron një pjesë rruge të deformuar",

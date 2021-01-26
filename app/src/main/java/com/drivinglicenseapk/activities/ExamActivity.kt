@@ -8,23 +8,24 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
-import android.widget.Button
+import android.util.Log
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.viewpager2.widget.ViewPager2
 import com.drivinglicenseapk.R
-import com.drivinglicenseapk.handling.QuestionData
 import com.drivinglicenseapk.handling.QuestionAdapter
+import com.drivinglicenseapk.handling.QuestionData
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
+import kotlinx.android.synthetic.main.item_question.view.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
 class ExamActivity : AppCompatActivity(){
 
-    private var ifExamEnded = 0
+    var ifExamEnded  = 0
 
     private val questionData = QuestionData()
     private var  questionAdapter = QuestionAdapter(questionData)
@@ -33,7 +34,9 @@ class ExamActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
+
         questionViewPager.adapter = questionAdapter
+        Log.d("DEBUG1", "$ifExamEnded")
 
         questionViewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
@@ -62,11 +65,7 @@ class ExamActivity : AppCompatActivity(){
             showQuestionList()
         }
 
-
-
     }
-
-
 
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
@@ -85,7 +84,6 @@ class ExamActivity : AppCompatActivity(){
             finish()
         }
     }
-
 
     private fun promptExamEnd(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
@@ -109,7 +107,6 @@ class ExamActivity : AppCompatActivity(){
                         TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
                 )
                 examTimer.text = format
-                // Test Result Window //
                 endExam.setOnClickListener {
                     ifExamEnded++
                     promptExamEnd()
@@ -758,7 +755,6 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
-
     fun showExamResultDialog(){
         val resultDialog = Dialog(this)
         resultDialog.apply {
@@ -797,11 +793,6 @@ class ExamActivity : AppCompatActivity(){
                 setImageResource(R.drawable.ic_questions_completed)
             }
 
-            endExam.setOnClickListener {
-                val intent = Intent(this, ExamActivity::class.java)
-                startActivity(intent)
-                finish()
-            }
             endExam.apply {
                 text = "FILLO PROVIM TE RI"
                 setTextColor(Color.BLACK)
@@ -809,8 +800,15 @@ class ExamActivity : AppCompatActivity(){
                 setBackgroundResource(R.drawable.style_navigation)
                 setCompoundDrawablesWithIntrinsicBounds(0, 0,0,0)
             }
+
+            endExam.setOnClickListener {
+                val intent = Intent(this, ExamActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
         }
 
         resultDialog.show()
     }
+
 }
