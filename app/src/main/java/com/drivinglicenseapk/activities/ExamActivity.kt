@@ -1,5 +1,6 @@
 package com.drivinglicenseapk.activities
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
@@ -19,14 +20,13 @@ import com.drivinglicenseapk.handling.QuestionData
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
-import kotlinx.android.synthetic.main.item_question.view.*
 import java.util.*
 import java.util.concurrent.TimeUnit
 
+
 class ExamActivity : AppCompatActivity(){
 
-    var ifExamEnded  = 0
-
+    var ifExamEnded  = false
     private val questionData = QuestionData()
     private var  questionAdapter = QuestionAdapter(questionData)
 
@@ -34,10 +34,7 @@ class ExamActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_exam)
 
-
         questionViewPager.adapter = questionAdapter
-        Log.d("DEBUG1", "$ifExamEnded")
-
         questionViewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
@@ -68,16 +65,16 @@ class ExamActivity : AppCompatActivity(){
     }
 
     override fun onBackPressed() {
-        val exitPrompt = AlertDialog.Builder(this,R.style.AlertDialog)
+        val exitPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         exitPrompt.setMessage("Jeni te sigurte qe doni te mbyllni provimin pa marre rezultatin?")
 
-        exitPrompt.setPositiveButton("Po"){_,_ ->
+        exitPrompt.setPositiveButton("Po"){ _, _ ->
             finish()
         }
-        exitPrompt.setNegativeButton("Jo"){_,_ -> }
+        exitPrompt.setNegativeButton("Jo"){ _, _ -> }
         val dialog: AlertDialog = exitPrompt.create()
 
-        if (ifExamEnded==0){
+        if (!ifExamEnded){
             dialog.show()
         }
         else {
@@ -88,10 +85,10 @@ class ExamActivity : AppCompatActivity(){
     private fun promptExamEnd(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         endPrompt.setMessage("Perfundo  Provimin ?")
-        endPrompt.setPositiveButton("Po"){_,_->
+        endPrompt.setPositiveButton("Po"){ _, _->
             showExamResultDialog()
         }
-        endPrompt.setNegativeButton("Jo"){_,_-> }
+        endPrompt.setNegativeButton("Jo"){ _, _-> }
         val dialog : AlertDialog = endPrompt.create()
         endPrompt.show()
     }
@@ -101,14 +98,14 @@ class ExamActivity : AppCompatActivity(){
             override fun onTick(millisUntilFinished: Long) {
                 examTimer.text = "${millisUntilFinished / 1000}"
                 val format = String.format(
-                        Locale.getDefault(),
-                        "%02d:%02d",
-                        TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) % 60,
-                        TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
+                    Locale.getDefault(),
+                    "%02d:%02d",
+                    TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) % 60,
+                    TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
                 )
                 examTimer.text = format
                 endExam.setOnClickListener {
-                    ifExamEnded++
+                    ifExamEnded = true
                     promptExamEnd()
                     cancel()
                 }
@@ -126,7 +123,7 @@ class ExamActivity : AppCompatActivity(){
         val time = elapsedTime / 1000
         val minutes = time / 60
         val seconds = time % 60
-        return  String.format(format = "%02d:%02d",minutes,seconds)
+        return  String.format(format = "%02d:%02d", minutes, seconds)
     }
 
     private fun showQuestionList(){
@@ -141,7 +138,7 @@ class ExamActivity : AppCompatActivity(){
                 hide()
             }
             val markedMistakes = questionAdapter.markMistakes()
-            if (ifExamEnded==0){
+            if (!ifExamEnded){
                 question_1.setOnClickListener {
                     hide()
                     questionViewPager.currentItem = 0
@@ -755,6 +752,7 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
+    @SuppressLint("SetTextI18n")
     fun showExamResultDialog(){
         val resultDialog = Dialog(this)
         resultDialog.apply {
@@ -798,7 +796,7 @@ class ExamActivity : AppCompatActivity(){
                 setTextColor(Color.BLACK)
                 setBackgroundColor(Color.WHITE)
                 setBackgroundResource(R.drawable.style_navigation)
-                setCompoundDrawablesWithIntrinsicBounds(0, 0,0,0)
+                setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
             }
 
             endExam.setOnClickListener {
@@ -810,5 +808,6 @@ class ExamActivity : AppCompatActivity(){
 
         resultDialog.show()
     }
+
 
 }
