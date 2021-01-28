@@ -9,7 +9,6 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
-import android.util.Log
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
@@ -27,6 +26,8 @@ import java.util.concurrent.TimeUnit
 class ExamActivity : AppCompatActivity(){
 
     var ifExamEnded  = false
+    var alreadyPrompted = false
+    var alreadyTimed = false
     private val questionData = QuestionData()
     private var  questionAdapter = QuestionAdapter(questionData)
 
@@ -53,7 +54,10 @@ class ExamActivity : AppCompatActivity(){
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
             format = "%02d:%02d"
-            start()
+            if (!alreadyTimed){
+                start()
+                alreadyTimed = true
+            }else stop()
         }
 
         startExamTimer()
@@ -61,6 +65,7 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
+
 
     }
 
@@ -89,7 +94,7 @@ class ExamActivity : AppCompatActivity(){
             showExamResultDialog()
         }
         endPrompt.setNegativeButton("Jo"){ _, _-> }
-        val dialog : AlertDialog = endPrompt.create()
+        endPrompt.create()
         endPrompt.show()
     }
 
@@ -106,7 +111,13 @@ class ExamActivity : AppCompatActivity(){
                 examTimer.text = format
                 endExam.setOnClickListener {
                     ifExamEnded = true
-                    promptExamEnd()
+                    if (!alreadyPrompted){
+                        promptExamEnd()
+                        alreadyPrompted = true
+
+                    }else{
+                        showExamResultDialog()
+                    }
                     cancel()
                 }
             }
@@ -123,6 +134,7 @@ class ExamActivity : AppCompatActivity(){
         val time = elapsedTime / 1000
         val minutes = time / 60
         val seconds = time % 60
+        chronometer.stop()
         return  String.format(format = "%02d:%02d", minutes, seconds)
     }
 
@@ -770,8 +782,6 @@ class ExamActivity : AppCompatActivity(){
             resultDialog.numberOfMistakes.setTextColor(Color.GREEN)
         }
 
-
-
         resultDialog.examChronometer.text = formatChronometer(chronometer)
 
         resultDialog.startNewExam.setOnClickListener {
@@ -792,18 +802,13 @@ class ExamActivity : AppCompatActivity(){
             }
 
             endExam.apply {
-                text = "FILLO PROVIM TE RI"
+                text = "KTHEHU NE MENU"
                 setTextColor(Color.BLACK)
                 setBackgroundColor(Color.WHITE)
                 setBackgroundResource(R.drawable.style_navigation)
                 setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
             }
 
-            endExam.setOnClickListener {
-                val intent = Intent(this, ExamActivity::class.java)
-                startActivity(intent)
-                finish()
-            }
         }
 
         resultDialog.show()

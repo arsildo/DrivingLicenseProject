@@ -117,6 +117,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
 
 
     fun countMistakes() : Int{
+        mistakes=0
         for (i in 0..39){
             if (userGivenAnswers[i]!=questionData.questionAnswers[i]){
                 mistakes++
@@ -139,4 +140,5 @@ class QuestionAdapter(private val questionData: QuestionData) :
         }
         return  markMistakes
     }
+    
 }
