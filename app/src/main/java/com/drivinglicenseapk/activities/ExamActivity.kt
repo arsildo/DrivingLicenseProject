@@ -1,6 +1,5 @@
 package com.drivinglicenseapk.activities
 
-import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
@@ -9,6 +8,7 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
+import android.util.Log
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
@@ -25,9 +25,12 @@ import java.util.concurrent.TimeUnit
 
 class ExamActivity : AppCompatActivity(){
 
-    var ifExamEnded  = false
-    var alreadyPrompted = false
-    var alreadyTimed = false
+    private var examState  = false
+    private var alreadyPrompted = false
+    private var alreadyTimed = false
+    private var elapsedTimeStored = false
+    private var elapsedTime : Long = 0
+
     private val questionData = QuestionData()
     private var  questionAdapter = QuestionAdapter(questionData)
 
@@ -60,14 +63,27 @@ class ExamActivity : AppCompatActivity(){
             }else stop()
         }
 
-        startExamTimer()
 
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
 
+        endExam.setOnClickListener {
+            Log.d("EXAM","$examState")
+            if (examState){
+                showExamResultDialog()
+            }else promptExamEnd()
+        }
+
+
+        startExamTimer()
 
     }
+
+    fun passExamState() : Boolean {
+        return examState
+    }
+
 
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
@@ -79,7 +95,7 @@ class ExamActivity : AppCompatActivity(){
         exitPrompt.setNegativeButton("Jo"){ _, _ -> }
         val dialog: AlertDialog = exitPrompt.create()
 
-        if (!ifExamEnded){
+        if (!examState){
             dialog.show()
         }
         else {
@@ -91,6 +107,7 @@ class ExamActivity : AppCompatActivity(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         endPrompt.setMessage("Perfundo  Provimin ?")
         endPrompt.setPositiveButton("Po"){ _, _->
+            examState = true
             showExamResultDialog()
         }
         endPrompt.setNegativeButton("Jo"){ _, _-> }
@@ -109,15 +126,7 @@ class ExamActivity : AppCompatActivity(){
                     TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
                 )
                 examTimer.text = format
-                endExam.setOnClickListener {
-                    ifExamEnded = true
-                    if (!alreadyPrompted){
-                        promptExamEnd()
-                        alreadyPrompted = true
-
-                    }else{
-                        showExamResultDialog()
-                    }
+                if (alreadyPrompted){
                     cancel()
                 }
             }
@@ -130,11 +139,16 @@ class ExamActivity : AppCompatActivity(){
     }
 
     private fun formatChronometer(chronometer: Chronometer) : String {
-        val elapsedTime = SystemClock.elapsedRealtime() - chronometer.base
+
+        if (!elapsedTimeStored){
+            elapsedTime = SystemClock.elapsedRealtime()
+            elapsedTimeStored = true
+        }
+
+        val elapsedTime = elapsedTime - chronometer.base
         val time = elapsedTime / 1000
         val minutes = time / 60
         val seconds = time % 60
-        chronometer.stop()
         return  String.format(format = "%02d:%02d", minutes, seconds)
     }
 
@@ -150,7 +164,7 @@ class ExamActivity : AppCompatActivity(){
                 hide()
             }
             val markedMistakes = questionAdapter.markMistakes()
-            if (!ifExamEnded){
+            if (!examState){
                 question_1.setOnClickListener {
                     hide()
                     questionViewPager.currentItem = 0
@@ -764,7 +778,6 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
-    @SuppressLint("SetTextI18n")
     fun showExamResultDialog(){
         val resultDialog = Dialog(this)
         resultDialog.apply {
@@ -790,7 +803,7 @@ class ExamActivity : AppCompatActivity(){
             finish()
         }
         resultDialog.closeResults.setOnClickListener {
-            finish()
+            finishAndRemoveTask()
         }
         resultDialog.reviewExam.setOnClickListener {
             showQuestionList()
@@ -810,7 +823,6 @@ class ExamActivity : AppCompatActivity(){
             }
 
         }
-
         resultDialog.show()
     }
 

@@ -1,5 +1,6 @@
 package com.drivinglicenseapk.handling
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,7 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.drivinglicenseapk.R
+import com.drivinglicenseapk.activities.ExamActivity
 import kotlinx.android.synthetic.main.item_question.view.*
 
 
@@ -24,7 +26,6 @@ class QuestionAdapter(private val questionData: QuestionData) :
         "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
     )
     private var mistakes=0
-    var ifExamEnded  = false
 
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
@@ -35,15 +36,13 @@ class QuestionAdapter(private val questionData: QuestionData) :
         var wrongMark : ImageView = itemView.wrongMark
 
         init {
-
-
-            if (!ifExamEnded){
+            if (!ExamActivity().passExamState()) {
                 chTrue.setOnCheckedChangeListener { _, isChecked ->
                     if (isChecked) {
                         chFalse.isChecked = false
                         checkBoxStateA[adapterPosition] = true
                         userGivenAnswers[adapterPosition] = "Sakte"
-                    }else {
+                    } else {
                         checkBoxStateA[adapterPosition] = false
                     }
                 }
@@ -53,16 +52,18 @@ class QuestionAdapter(private val questionData: QuestionData) :
                         chTrue.isChecked = false
                         checkBoxStateB[adapterPosition] = true
                         userGivenAnswers[adapterPosition] = "Gabim"
-                    }else{
+                    } else {
                         checkBoxStateB[adapterPosition] = false
                     }
-
                 }
+
+            }else{
+                chTrue.isChecked = checkBoxStateA[adapterPosition]
+                chTrue.isClickable = false
+                chFalse.isChecked = checkBoxStateB[adapterPosition]
+                chFalse.isClickable = false
             }
-
-
         }
-
 
     }
 
@@ -86,23 +87,20 @@ class QuestionAdapter(private val questionData: QuestionData) :
         wrongMark.isVisible = false
 
 
-        chTrue.isChecked = checkBoxStateA[position]
-        chFalse.isChecked = checkBoxStateB[position]
-
-
-
         val markMistakes = markMistakes()
-        if (!ifExamEnded){
+
+        Log.d("ON BIND", "${ExamActivity().passExamState()}")
+        if (!ExamActivity().passExamState()){
             chTrue.isChecked = checkBoxStateA[position]
             chFalse.isChecked = checkBoxStateB[position]
-
         }else{
             chTrue.isChecked = checkBoxStateA[position]
             chFalse.isChecked = checkBoxStateB[position]
             chTrue.isClickable = false
             chFalse.isClickable = false
+            wrongMark.isVisible = true
             if (markMistakes[position]!=0){
-                wrongMark.setImageResource(R.drawable.ic_check)
+                wrongMark.setImageResource(R.drawable.ic_correct)
             }else{
                 wrongMark.setImageResource(R.drawable.ic_wrong)
             }
@@ -112,9 +110,8 @@ class QuestionAdapter(private val questionData: QuestionData) :
 
     }
 
+
     override fun getItemCount() = 40
-
-
 
     fun countMistakes() : Int{
         mistakes=0
@@ -140,5 +137,4 @@ class QuestionAdapter(private val questionData: QuestionData) :
         }
         return  markMistakes
     }
-    
 }
