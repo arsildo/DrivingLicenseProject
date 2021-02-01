@@ -69,10 +69,11 @@ class ExamActivity : AppCompatActivity(){
         }
 
         endExam.setOnClickListener {
-            Log.d("EXAM","$examState")
             if (examState){
                 showExamResultDialog()
-            }else promptExamEnd()
+            }else{
+                promptExamEnd()
+            }
         }
 
 
@@ -80,17 +81,12 @@ class ExamActivity : AppCompatActivity(){
 
     }
 
-    fun passExamState() : Boolean {
-        return examState
-    }
-
-
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         exitPrompt.setMessage("Jeni te sigurte qe doni te mbyllni provimin pa marre rezultatin?")
 
         exitPrompt.setPositiveButton("Po"){ _, _ ->
-            finish()
+            finishAndRemoveTask()
         }
         exitPrompt.setNegativeButton("Jo"){ _, _ -> }
         val dialog: AlertDialog = exitPrompt.create()
@@ -107,6 +103,8 @@ class ExamActivity : AppCompatActivity(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         endPrompt.setMessage("Perfundo  Provimin ?")
         endPrompt.setPositiveButton("Po"){ _, _->
+            questionAdapter.notifyDataSetChanged()
+            questionAdapter.examEditState = true
             examState = true
             showExamResultDialog()
         }
@@ -800,7 +798,8 @@ class ExamActivity : AppCompatActivity(){
         resultDialog.startNewExam.setOnClickListener {
             val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)
-            finish()
+            resultDialog.dismiss()
+            finishAndRemoveTask()
         }
         resultDialog.closeResults.setOnClickListener {
             finishAndRemoveTask()

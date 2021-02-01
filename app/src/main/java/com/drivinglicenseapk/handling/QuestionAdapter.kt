@@ -27,6 +27,8 @@ class QuestionAdapter(private val questionData: QuestionData) :
     )
     private var mistakes=0
 
+    var examEditState : Boolean = false
+
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         var qString: TextView = itemView.questionString
@@ -36,7 +38,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
         var wrongMark : ImageView = itemView.wrongMark
 
         init {
-            if (!ExamActivity().passExamState()) {
+            if (!examEditState) {
                 chTrue.setOnCheckedChangeListener { _, isChecked ->
                     if (isChecked) {
                         chFalse.isChecked = false
@@ -58,15 +60,12 @@ class QuestionAdapter(private val questionData: QuestionData) :
                 }
 
             }else{
-                chTrue.isChecked = checkBoxStateA[adapterPosition]
                 chTrue.isClickable = false
-                chFalse.isChecked = checkBoxStateB[adapterPosition]
                 chFalse.isClickable = false
             }
         }
 
     }
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuestionViewPagerViewHolder {
         return QuestionViewPagerViewHolder(
@@ -88,9 +87,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
 
 
         val markMistakes = markMistakes()
-
-        Log.d("ON BIND", "${ExamActivity().passExamState()}")
-        if (!ExamActivity().passExamState()){
+        if (!examEditState){
             chTrue.isChecked = checkBoxStateA[position]
             chFalse.isChecked = checkBoxStateB[position]
         }else{
