@@ -8,7 +8,6 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.os.SystemClock
-import android.util.Log
 import android.widget.Chronometer
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
@@ -124,12 +123,14 @@ class ExamActivity : AppCompatActivity(){
                     TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
                 )
                 examTimer.text = format
-                if (alreadyPrompted){
+                if (examState){
                     cancel()
                 }
             }
             override fun onFinish() {
                 showExamResultDialog()
+                questionAdapter.notifyDataSetChanged()
+                questionAdapter.examEditState = true
                 cancel()
             }
 
@@ -788,9 +789,13 @@ class ExamActivity : AppCompatActivity(){
         if (numberOfMistakes>4){
             ("$numberOfMistakes Gabime").also { resultDialog.numberOfMistakes.text = it }
             resultDialog.numberOfMistakes.setTextColor(Color.RED)
+            "Provoni perseri!".also { resultDialog.resultMessage.text = it }
+            resultDialog.resultMessage.setTextColor(Color.RED)
         }else{
             ("$numberOfMistakes Gabime").also { resultDialog.numberOfMistakes.text = it }
             resultDialog.numberOfMistakes.setTextColor(Color.GREEN)
+            "Urime ju kaluat!".also { resultDialog.resultMessage.text = it }
+            resultDialog.resultMessage.setTextColor(Color.GREEN)
         }
 
         resultDialog.examChronometer.text = formatChronometer(chronometer)

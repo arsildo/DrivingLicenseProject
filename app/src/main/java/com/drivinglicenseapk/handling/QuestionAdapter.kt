@@ -1,6 +1,6 @@
 package com.drivinglicenseapk.handling
 
-import android.util.Log
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,8 +10,8 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.drivinglicenseapk.R
-import com.drivinglicenseapk.activities.ExamActivity
 import kotlinx.android.synthetic.main.item_question.view.*
+import java.util.*
 
 
 class QuestionAdapter(private val questionData: QuestionData) :
@@ -26,8 +26,16 @@ class QuestionAdapter(private val questionData: QuestionData) :
         "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
     )
     private var mistakes=0
-
     var examEditState : Boolean = false
+
+    private var generatedOnce = false
+    private val randomIndexes = arrayOf(
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+    )
+
 
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
@@ -80,9 +88,9 @@ class QuestionAdapter(private val questionData: QuestionData) :
         val chTrue = holder.chTrue
         val chFalse = holder.chFalse
         val wrongMark = holder.wrongMark
-
-        qString.text = questionData.questionStrings[position]
-        qImage.setImageResource(questionData.questionImages[position])
+        generateIndexes()
+        qString.text = questionData.questionStrings[randomIndexes[position]]
+        qImage.setImageResource(questionData.questionImages[randomIndexes[position]])
         wrongMark.isVisible = false
 
 
@@ -104,16 +112,24 @@ class QuestionAdapter(private val questionData: QuestionData) :
 
         }
 
-
     }
 
-
     override fun getItemCount() = 40
+
+    private fun generateIndexes(): Array<Int> {
+        if (!generatedOnce){
+            for (i in 0..39){
+                randomIndexes[i] = Random().nextInt(questionData.questionStrings.size)
+            }
+            generatedOnce = true
+        }
+        return randomIndexes
+    }
 
     fun countMistakes() : Int{
         mistakes=0
         for (i in 0..39){
-            if (userGivenAnswers[i]!=questionData.questionAnswers[i]){
+            if (userGivenAnswers[i]!=questionData.questionAnswers[generateIndexes()[i]]){
                 mistakes++
             }
         }
@@ -128,7 +144,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         )
         for (i in 0..39){
-            if (userGivenAnswers[i]!=questionData.questionAnswers[i]){
+            if (userGivenAnswers[i]!=questionData.questionAnswers[generateIndexes()[i]]){
                 markMistakes[i] = 0
             }
         }
