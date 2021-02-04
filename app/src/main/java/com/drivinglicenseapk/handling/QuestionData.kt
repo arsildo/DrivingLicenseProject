@@ -91,7 +91,7 @@ class QuestionData {
         "Sinjali në figurë është një sinjal vertikal që paralajmëron rrezik.",
         "Sinjali në figurë paralajmëron një kalim në nivel të ruajtur me barriera ose me gjysmëbarriera",
         "Sinjali në figurë paralajmëron kalim në nivel pranë të cilit ka drita të kuqe dhe aparate akustikë.",
-        "Në prani të sinjalit në figurë duhet zvogëluar shpejtësia e lëvizjes së mjetit",
+        "Në prani të sinjalit në figurë duhet zvogëluar shpejtësia e lëvizjes së mjetit.",
         "Sinjali në figurë paralajmëron ndërprerjen e rrugës me një linjë hekurudhore.",
         "Në prani të sinjalit në figurë ndalohet qëndrimi i mjetit në afërsi ose përgjatë kalimit në nivel.",
         "Sinjali në figurë paralajmëron një kalim në nivel, të paruajtur me barriera ose me gjysmëbarriera.",
@@ -100,7 +100,7 @@ class QuestionData {
         "Sinjali në figurë paralajmëron një rrugë me një karrexhatë dhe me tri korsi lëvizjeje.",
         //9//
         "Sinjali në figurë është sinjal vertikal rreziku.",
-        "Sinjali në figurë paralajmëron ndërprerjen e rrugës me një linjë hekurudhore të pambrojtur",
+        "Sinjali në figurë paralajmëron ndërprerjen e rrugës me një linjë hekurudhore të pambrojtur.",
         "Në prani të sinjalit në figurë drejtuesit e mjeteve duhet të rrisin kujdesin në drejtimin e mjetit.",
         "Sinjali në figurë paralajmëron kalim në nivel të pa mbrojtur.",
         "Në prani të sinjalit në figurë ndalohet qëndrimi i mjetit si në afërsi ashtu dhe përgjatë kalimit në nivel pa pengesa.",
@@ -234,6 +234,10 @@ class QuestionData {
         //1-2//
         "Sakte",
         //2//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
         "Sakte",
         "Sakte",
         "Sakte",

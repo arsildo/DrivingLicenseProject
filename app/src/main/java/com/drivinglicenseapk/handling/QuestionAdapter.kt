@@ -119,7 +119,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
     private fun generateIndexes(): Array<Int> {
         if (!generatedOnce){
             for (i in 0..39){
-                randomIndexes[i] = Random().nextInt(questionData.questionStrings.size)
+                randomIndexes[i] = Random().nextInt(questionData.questionAnswers.size)
             }
             generatedOnce = true
         }
