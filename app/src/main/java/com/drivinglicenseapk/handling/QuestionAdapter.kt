@@ -36,7 +36,6 @@ class QuestionAdapter(private val questionData: QuestionData) :
         1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
     )
 
-
     inner class QuestionViewPagerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         var qString: TextView = itemView.questionString
