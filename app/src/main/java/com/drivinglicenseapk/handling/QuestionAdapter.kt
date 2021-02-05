@@ -1,6 +1,7 @@
 package com.drivinglicenseapk.handling
 
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -89,7 +90,10 @@ class QuestionAdapter(private val questionData: QuestionData) :
         val wrongMark = holder.wrongMark
         generateIndexes()
         qString.text = questionData.questionStrings[randomIndexes[position]]
+        Log.d("MATCHst","${questionData.questionStrings.size}")
         qImage.setImageResource(questionData.questionImages[randomIndexes[position]])
+        Log.d("MATCHimg","${questionData.questionImages.size}")
+        Log.d("MATCHans","${questionData.questionAnswers.size}")
         wrongMark.isVisible = false
 
 

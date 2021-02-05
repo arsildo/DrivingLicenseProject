@@ -110,6 +110,75 @@ class QuestionData {
         "Sinjali në figurë paralajmëron një kalim në nivel, të pajisur me gjysmëbarriera.",
         "Sinjali në figurë paralajmëron një ndërprerje të rrugës me një linjë hekurudhore të mbrojtur me barriera.",
         //10//
+        "Sinjali në figurë na detyron të ndalojmë para vijës së ndalimit, kur është duke ardhur një tren",
+        "Sinjali në figurë vendoset në rrugë pas sinjalit te rrezikut “KALIM NË NIVEL PA BARRIERA dhe pranë linjës hekurudhore që ndërpret rrugën.",
+        "Sinjali në figurë paralajmëron kryqëzim linjash hekurudhore.",
+        //11//
+        "Sinjali në figurë paralajmëron se po i afrohemi një kalimi ne nivel me dy ose me shumë linja hekurudhore, i paruajtur.",
+        "Në prani të sinjalit në figurë detyrohet ndalimi i mjetit para vijës se ndalimit, nëse ka lëvizje të trenave",
+        "Në prani të sinjalit në figurë duhet të tregojmë kujdes sepse mund të vijë treni si nga njëra linjë ashtu dhe nga tjetra.",
+        "Sinjali në figurë shoqërohet me semafor me dy drita të kuqe.",
+        "Sinjali në figurë lejon qëndrimin e mjetit.",
+        "Sinjali në figurë paralajmëron kalim ne nivel me një pale shina.",
+        //13//
+        "Panelet distancometrike në figurë gjenden para një kalimi në nivel ose para një ure të lëvizshme.",
+        "Paneli me 1 vijë të kuqe në figurë, tregon se në largësinë 50 metër ndodhet një kalim në nivel apo urë e lëvizshme",
+        "Paneli me 2 vija të kuqe në figurë, tregon se në largësinë 100 metër ndodhet një kalim në nivel apo urë e lëvizshme.",
+        "Paneli me 3 vija të kuqe në figurë, tregon se në largësinë 50 metër ndodhet një kalim në nivel apo urë e lëvizshme.",
+        "Panelet distancometrike na detyrojmë të ndalojmë para tyre.",
+        "Panelet distancometrike si në figurë gjenden vetëm në kalimet në nivel pa pengesa.",
+        "Panelet distancometrike si në figurë tregojnë qe rruga është e përmbytur.",
+        "Paneli me 1 vijë të kuqe në figurë, tregon se në largësinë 150 metër ndodhet një kalim në nivel apo urë e lëvizshme.",
+        //13-1//
+        "Paneli me 3 vija të kuqe në figurë, tregon se në largësinë 150 metër ndodhet një kalim në nivel apo urë e lëvizshme.",
+        //13-2//
+        "Sinjali si në figurë tregon se pas 150 metër ndodhet një kalim në nivel i pa mbrojtur",
+        //14//
+        "Sinjali në figurë paralajmëron një linjë tramvaji, të parregulluar me semafor",
+        "Sinjali në figurë paralajmëron një linjë tramvaji që ndërpret ose ngushton karrexhatën",
+        "Në prani të sinjalit në figurë duhet të tregojmë kujdes që të mos pengojmë kalimin e tramvajit.",
+        "Sinjali në figurë paralajmëron një kalim në nivel pa barriera.",
+        "Sinjali në figurë tregon se kemi përparësi ndaj tramvajit tramvajit.",
+        //15//
+        "Sinjali në figurë është një sinjal vertikal që paralajmëron rrezik.",
+        "Sinjali në figurë paralajmëron një vendkalim këmbësorësh të rregulluar me sinjale horizontale.",
+        "Në prani të sinjalit në figurë duhet të tregoni kujdes për t’i dhënë përparësi këmbësorëve që kalojnë mbi vijat e bardha",
+        "Sinjali në figurë gjendet edhe në rrugë urbane.",
+        "Në prani të sinjalit në figurë ndalohet qëndrimi mbi vijat e bardha pasi bllokojmë kalimin e këmbësorëve.",
+        "Në prani të sinjalit në figurë ndalohet parakalimi i mjeteve që po ngadalësojnë shpejtësinë, për t’i dhënë përparësi këmbësorëve.",
+        "Sinjali në figurë paralajmëron një vend që frekuentohet vetëm nga fëmijët.",
+        "Sinjali në figurë ndalon kalimin e këmbësorëve.",
+        "Sinjali në figurë na kujton përdorimin e borive për të tërhequr vëmendjen e këmbësorëve në rrugë.",
+        "Sinjali në figurë kërkon t’u jepet përparësi vetëm fëmijëve që dalin nga shkolla.",
+        //16//
+        "Sinjali në figurë paralajmëron një vendkalim biçikletash të rregulluar me sinjale horizontale",
+        "Në prani të sinjalit në figurë duhet zvogëluar shpejtësia e lëvizjes së mjetit dhe t’i japim përparësi biçikilistëve që kalojnë karrexhatën.",
+        "Në prani të sinjalit në figurë duhet të zvogëlojmë shpejtësinë e lëvizjes së mjetit dhe po të jetë e nevojshme, të ndalojmë lëvizjen.",
+        "Në prani të sinjalit në figurë ndalohet parakalimi i mjeteve që kanë ndaluar për t’i dhënë përparësi biçikilistëve",
+        "Sinjali në figurë vendoset pas çdo vendkalimi për biçikletat.",
+        "Në prani të sinjalit në figurë nuk është e nevojshme te zvogëlohet shpejtësia e lëvizjes së mjetit.",
+        "Sinjali në figurë ndalon qarkullimin e biçikletave.",
+        "Sinjali në figurë vendoset për të treguar gara çiklistike në rrugë.",
+        //17//
+        "Sinjali në figurë është një sinjal vertikal që paralajmëron rrezik.",
+        "Sinjali në figurë, si rregull, në rrugë interurbane është 150 metër para pikës ku fillon zbritja e rrezikshme.",
+        "Sinjali në figurë paralajmëron një zbritje të rrezikshme me pjerrësi 10%.",
+        "Në prani të sinjalit në figurë duhet të kemi parasysh që gjatësia e frenimit të mjetit në zbritje rritet në krahasim me atë në rrugë të drejtë.",
+        "Sinjali në figurë paralajmëron të jemi të kujdesshëm me shpejtësinë e lëvizjes.",
+        "Pas sinjalit në figurë duhet të shmangim përdorimin e shpeshtë të frenave pasi mbinxehen elementët frenues.",
+        "Në prani të sinjalit në figurë duhet të rrisim distancën me mjetet që kemi përpara.",
+        "Në prani të sinjalit në figurë duhet të tregojmë kujdes, sidomos kur rruga është e lagur.",
+        "Në prani të sinjalit në figurë mund ta shtojmë shpejtësinë.",
+        "Sinjali në figurë paralajmëron se nuk lejohet të kalohet shpejtësia prej 10 km/orë.",
+        "Sinjali në figurë kërkon të ecim me marshin më të lartë dhe ta ruajmë shpejtësinë me anën e frenimeve të vazhdueshme.",
+        //18//
+        "Sinjali në figurë është një sinjal vertikal që paralajmëron rrezik.",
+        "Sinjali në figurë paralajmëron një ngjitje të rrezikshme me pjerrësi prej 10%.",
+        "Sinjali në figurë paralajmëron një rrugë me të përpjetë të fortë.",
+        "Sinjali në figurë paralajmëron një pjesë rruge që duhet përshkuar me friksionin e shkelur plotësisht.",
+        "Sinjali në figurë paralajmëron një pjesë rruge me kthesa të ngushta.",
+        "Sinjali në figurë paralajmëron një rrugë në zbritje me pjerrësi 10%",
+        //19//
 
     )
     val noImage = R.drawable.img_overall
@@ -218,7 +287,75 @@ class QuestionData {
         R.drawable.img_9,
         R.drawable.img_9,
         //10//
-
+        R.drawable.img_10,
+        R.drawable.img_10,
+        R.drawable.img_10,
+        //11//
+        R.drawable.img_11,
+        R.drawable.img_11,
+        R.drawable.img_11,
+        R.drawable.img_11,
+        R.drawable.img_11,
+        R.drawable.img_11,
+        //13//
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        R.drawable.img_13,
+        //13-1//
+        R.drawable.img_13_1,
+        //13-2//
+        R.drawable.img_13_2,
+        //14//
+        R.drawable.img_14,
+        R.drawable.img_14,
+        R.drawable.img_14,
+        R.drawable.img_14,
+        R.drawable.img_14,
+        //15//
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        R.drawable.img_15,
+        //16//
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        R.drawable.img_16,
+        //17//
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        R.drawable.img_17,
+        //18//
+        R.drawable.img_18,
+        R.drawable.img_18,
+        R.drawable.img_18,
+        R.drawable.img_18,
+        R.drawable.img_18,
+        R.drawable.img_18,
+        //19//
 
     )
     val questionAnswers = arrayOf(
@@ -297,7 +434,6 @@ class QuestionData {
         "Sakte",
         "Sakte",
         "Sakte",
-        "Sakte",
         "Gabim",
         "Gabim",
         "Gabim",
@@ -327,8 +463,75 @@ class QuestionData {
         "Gabim",
         "Gabim",
         //10//
-
-
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //11//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //13//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //13-1//
+        "Sakte",
+        //13-2//
+        "Sakte",
+        //14//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //15//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //16//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //17//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //18//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //19//
 
     )
 }
