@@ -345,9 +345,101 @@ class QuestionData {
         "Sinjali në figurë është një sinjal vertikal që paralajmëron rrezik.",
         "Sinjali në figurë paralajmëron një rrezik të ndryshëm nga ata që janë parashikuar në sinjalet e tjerë të rrezikut.",
         "Sinjali në figurë paralajmëron një ngjitje ( të përpjetë ) të vështirë.",
-        //40//
-        //41//
-
+        //54//
+        "Sinjali në figurë është sinjal vertikal ndalimi.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve në të dy senset.",
+        "Sinjali në figurë ndalon qarkullimin e të gjithë mjeteve rrugore.",
+        "Në prani të sinjalit në figurë lejohet qarkullimi i këmbësorëve.",
+        "Sinjali në figurë është ndalim qarkullimi vetëm për mjetet me motor.",
+        "Sinjali në figurë paralajmëron një rrugë me një sens lëvizjeje.",
+        "Sinjali në figurë lejon qarkullimin e ciklomotorëve.",
+        //54-1//
+        "Sinjali në figurë me panelin plotësues vendosur poshtë tij tregon se ndalim qarkullimi i mjeteve është në fuqi nga ora 7 e 30 minuta deri në orën 19:00.",
+        //56//
+        "Sinjali në figurë ndalon hyrjen për të gjitha mjetet që kanë përballë këtë sinjal.",
+        "Sinjali në figurë është ndalim kalimi edhe për taksitë.",
+        "Sinjali në figurë është ndalim kalimi edhe për mjetet pa motor.",
+        "Sinjali në figurë është i vlefshëm edhe në orët e natës.",
+        "Sinjali në figurë ndalon kalimin dhe për biçikletat dhe për ciklomotorët.",
+        "Sinjali në figurë lejon hyrjen në rrugë të ciklomotorëve.",
+        "Sinjali në figurë lejon hyrjen në rrugë të motokarrove.",
+        "Sinjali në figurë tregon ndalim parakalimi.",
+        "Sinjali në figurë tregon se ndalohet qëndrimi dhe pushimi për mjetet.",
+        //56//
+        "Sinjali në figurë është një sinjal vertikal ndalimi.",
+        "Në prani të sinjalit në figurë lejohet të parakalohen biçikletat ose mjete të tjera pa motor, me kusht që manovra të bëhet brenda korsisë së lëvizjes.",
+        "Në prani të sinjalit në figurë lejohet që një autoveturë të parakalojë një motor me dy rrota, me kusht që manovra të bëhet brenda korsisë së lëvizjes.",
+        "Sinjali në figurë lejon një motor ose ciklomotor të parakalojë një motor ose ciklomotor tjetër",
+        "Në prani të sinjalit në figurë ndalohet që një motor ose ciklomotor të parakalojë një autoveturë",
+        "Sinjali në figurë lejon një motor të parakalojë një autoveturë",
+        "Sinjali në figurë e lejon manovrën e parakalimit të një autoveturë por pa e kapërcyer vijën gjatësore të pandërprerë.",
+        "Sinjali në figurë ndalon një autoveturë të parakalojë një ciklomotor.",
+        //57//
+        "Sinjali në figurë është një sinjal vertikal ndalimi.",
+        "Sinjali në figurë ndalon të ndjekësh mjetin që ke përpara në distancë më të vogël se ajo që tregon sinjali.",
+        "Sinjali në figurë është i vlefshëm edhe për motomjetet.",
+        "Sinjali në figurë ndalon mjetin ti afrohet mjetit që ka përpara në distancë më të vogël se 70 metër.",
+        "Sinjali në figurë paraqet kufizim shpejtësie prej 70 km/orë për autoveturat.",
+        "Sinjali në figurë tregon se pas një distance 70 metër fillon ndalim qarkullimi për autoveturat.",
+        //58//
+        "Sinjali në figurë ndalon të tejkalohet shpejtësia 80 km/orë.",
+        "Sinjali në figurë mund të gjendet edhe në autostrada.",
+        "Vlefshmëria e sinjalit në figurë fillon menjëherë pas tij.",
+        "Në prani të sinjalit në figurë jemi të detyruar të lëvizim me shpejtësi më të vogël ose të barabartë me 80 km/orë.",
+        "Sinjali në figurë detyron të ruash një distancë sigurie me mjetin përpara të paktën 80 metër",
+        "Sinjali në figurë tregon një kufi të shpejtësisë të vlefshëm vetëm për autoveturat.",
+        "Sinjali në figurë të detyron të mbash një distancë sigurie me mjetin përpara të paktën 80 metër.",
+        "Sinjali në figurë tregon që në çdo rast duhet të qarkullojmë me shpejtësi 80 km/orë.",
+        //59//
+        "Sinjali në figurë tregon fillimin e një zone ku është e ndaluar të përdorësh sinjalizimin zanor të mjetit (borinë).",
+        "Në prani të sinjalit në figurë ndalohet të përdorësh borinë",
+        "Në prani të sinjalit në figurë lejohet përdorimi i borive, por vetëm në raste rreziku të papritur",
+        "Sinjali në figurë mund të mos respektohet në rastin kur po transportojmë të aksidentuar ose të sëmurë rendë.",
+        "Sinjali në figurë duhet të respektohet vetëm natën.",
+        "Sinjali në figurë lejon përdorimin e borive, kur mjeti përpara po vonohet në semafor me dritën jeshile të ndezur.",
+        //60//
+        "Sinjali në figurë lejon një kamion me ngarkesë të plotë mbi 3.5 tonë të parakalojë një mjet me motor me dy rrota, brenda korsisë së lëvizjes.",
+        "Sinjali në figurë lejon një autoveturë të parakalojë një mjet transporti mallrash.",
+        "Sinjali në figurë ndalon parakalimin për mjete me peshë me ngarkesë të plotë 3 tonë.",
+        //61//
+        "Sinjali në figurë ndalon qarkullimin e të gjithë llojeve të mjeteve pa motor.",
+        //62//
+        "Sinjali në figurë lejon qarkullimin e mjeteve me motor.",
+        "Sinjali në figurë lejon qarkullimin e biçikilistëve.",
+        "Sinjali në figurë ndalon qarkullimin e ciklomotorëve.",
+        //63//
+        "Sinjali në figurë ndalon qarkullimin e biçikletave.",
+        "Sinjali në figurë lejon qarkullimin e motomjeteve.",
+        "Sinjali në figurë ndalon qarkullimin edhe të ciklomotorëve.",
+        "Sinjali në figurë tregon një korsi të rezervuar për biçikletat dhe ciklomotorët.",
+        //64//
+        "Sinjali në figurë ndalon qarkullimin e motorëve.",
+        "Sinjali në figurë lejon qarkullimin e motorëve.",
+        "Sinjali në figurë ndalon qarkullimin e të gjithë mjeteve me dy rrota.",
+        "Sinjali në figurë ndalon qarkullimin për të gjithë ciklomotorët.",
+        //66//
+        "Sinjali në figurë ndalon qarkullimin për mjetet me motor, përjashtuar ato me dy rrota.",
+        "Sinjali në figurë ndalon qarkullimin për të gjitha automjetet dhe motomjetet me tre rrota.",
+        "Në prani të sinjalit në figurë lejohet qarkullimi i mjeteve me dy rrota.",
+        "Sinjali në figurë ndalon qarkullimin e motokarrove.",
+        "Në prani të sinjalit në figurë lejohet qarkullimi i mjeteve pa motor.",
+        "Sinjali në figurë lejon qarkullimin e motorëve me tri rrota ( motorë me kosh).",
+        "Sinjali në figurë ndalon qarkullimin vetëm të autoveturave.",
+        "Sinjali në figurë lejon qarkullimin e taksive.",
+        "Sinjali në figurë lejon qarkullimin e motomjeteve me tri rrota",
+        //67//
+        "Sinjali në figurë ndalon qarkullimin për autobusët.",
+        "Sinjali në figurë lejon qarkullimin e gjithë mjeteve të tjera me përjashtim të Autobusëve.",
+        "Sinjali në figurë lejon qarkullimin e autobusëve të shkollave.",
+        //68//
+        "Sinjali në figurë ndalon qarkullimin e automjeteve për transport malli me peshë me ngarkesë të plotë mbi 3.5 tonë.",
+        "Sinjali në figurë ndalon qarkullimin e një automjeti për transport malli me peshë me ngarkesë të plotë deri në 3.5 tonë.",
+        //69//
+        "Sinjali në figurë ndalon qarkullimin e autoambulancave.",
+        //70//
+        "Sinjali në figurë ndalon qarkullimin e mjeteve qe tërheqin një rimorkio.",
+        "Sinjali në figurë tregon që kamionët duhet të ruajnë një distancë sigurie 100 metër mes njëri-tjetrit.",
+        //71//
     )
     val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -690,7 +782,101 @@ class QuestionData {
         R.drawable.img_39,
         R.drawable.img_39,
         R.drawable.img_39,
-        //40//
+        //54//
+        R.drawable.img_54,
+        R.drawable.img_54,
+        R.drawable.img_54,
+        R.drawable.img_54,
+        R.drawable.img_54,
+        R.drawable.img_54,
+        R.drawable.img_54,
+        //54-1//
+        R.drawable.img_54_1,
+        //55//
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        R.drawable.img_55,
+        //56//
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        R.drawable.img_56,
+        //57//
+        R.drawable.img_57,
+        R.drawable.img_57,
+        R.drawable.img_57,
+        R.drawable.img_57,
+        R.drawable.img_57,
+        R.drawable.img_57,
+        //58//
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        R.drawable.img_58,
+        //59//
+        R.drawable.img_59,
+        R.drawable.img_59,
+        R.drawable.img_59,
+        R.drawable.img_59,
+        R.drawable.img_59,
+        R.drawable.img_59,
+        //60//
+        R.drawable.img_60,
+        R.drawable.img_60,
+        R.drawable.img_60,
+        //61//
+        R.drawable.img_61,
+        //62//
+        R.drawable.img_62,
+        R.drawable.img_62,
+        R.drawable.img_62,
+        //63//
+        R.drawable.img_63,
+        R.drawable.img_63,
+        R.drawable.img_63,
+        R.drawable.img_63,
+        //64//
+        R.drawable.img_64,
+        R.drawable.img_64,
+        R.drawable.img_64,
+        R.drawable.img_64,
+        //66//
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        R.drawable.img_66,
+        //67//
+        R.drawable.img_67,
+        R.drawable.img_67,
+        R.drawable.img_67,
+        //68//
+        R.drawable.img_68,
+        R.drawable.img_68,
+        //69//
+        R.drawable.img_69,
+        //70//
+        R.drawable.img_70,
+        R.drawable.img_70,
+        //71//
     )
     val questionAnswers = arrayOf(
         //1//
@@ -1032,9 +1218,100 @@ class QuestionData {
         "Sakte",
         "Sakte",
         "Gabim",
-        //40//
-
-
-
+        //54//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //54-1//
+        "Sakte",
+        //55//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //56//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //57//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //58//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //59//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //60//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //61//
+        "Gabim",
+        //62//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //63//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //64//
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //66//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //67//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //68//
+        "Sakte",
+        "Gabim",
+        //69//
+        "Gabim",
+        //70//
+        "Sakte",
+        "Gabim",
+        //71//
     )
 }
