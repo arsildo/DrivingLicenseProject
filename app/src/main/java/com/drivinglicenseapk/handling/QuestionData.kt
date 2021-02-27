@@ -518,11 +518,113 @@ class QuestionData {
         "Sinjali në figurë ka fuqi detyrimi edhe në anën tjetër të rrugës.",
         "Sinjali në figurë lejon edhe qëndrimin, edhe pushimin e mjeteve në të dy anët e rrugës",
         "Sinjali në figurë tregon një ven parkimi për mjetet.",
-        //86//
-        //87//
-        //88//
-        //89//
         //90//
+        "Sinjali në figurë ndalon pushimin e mjeteve në zonën ku është vendosur.",
+        "Sinjali në figurë tregon një zonë për hyrje-daljen e mjeteve ku është i ndaluar pushimi.",
+        "Sinjali në figurë lejon qëndrimin, për sa kohë që kjo gjë nuk sjell pengesa për hyrje-daljen e mjeteve nga zona private",
+        "Sinjali në figurë lejon qëndrimin kur nuk sjell pengesa dhe bllokim për qarkullimin.",
+        "Sinjali në figurë ka vlefshmëri vetëm në orët e natës.",
+        "Sinjali në figurë ka vlefshmëri vetëm në orët e para të ditës.",
+        "Sinjali në figurë lejon pushimin e disa kategorive të mjeteve.",
+        //91//
+        "Sinjali në figurë ndalon pushimin e mjeteve qe nuk përfshihen ne sinjal.",
+        "Sinjali në figurë lejon pushimin e mjeteve të invalidëve.",
+        "Sinjali në figurë e ndalon pushimin e mjeteve të tjera që nuk përfshihen në të.",
+        "Sinjali në figurë tregon një zonë ku ndalohet qarkullimi për mjetet e invalidëve.",
+        //92//
+        "Sinjali në figurë ndalon pushimin e mjeteve nga ora 7:00 deri në orën 9:00 dhe nga ora 17:00 deri në orën 20:00.",
+        "Sinjali në figurë lejon pushimin i mjeteve nga ora 9:00 deri në orën 17:00 dhe nga ora 20:00 deri në orën 7:00.",
+        "Sinjali në figurë lejon qëndrimin e mjeteve.",
+        "Sinjali në figurë në qendrat e banuara e lejon pushimin nga ora 17:00 deri në 20:00 të mëngjesit.",
+        "Sinjali në figurë lejon parkimin e mjeteve nga ora 7:00 deri në 9:00 të mëngjesit.",
+        "Sinjali në figurë ndalon qëndrimin e mjeteve gjatë gjithë ditës.",
+        //118//
+        "Sinjali në figurë tregon një zonë doganore ku jemi të detyruar të ndalojmë.",
+        "Sinjali në figurë na detyron të ndalojmë në kufi për të kryer kontroll doganor.",
+        "Në prani të sinjalit në figurë duhet të ngadalësojmë shpejtësinë dhe të ndalojmë te dogana në kufi.",
+        "Sinjali në figurë paralajmëron praninë e një komisariati policie në kufi.",
+        "Sinjali në figurë na detyron të ndalojmë para doganës vetëm nëse kemi mallra për të deklaruar.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve dhe këmbësorëve në zonën doganore në kufi.",
+        //119//
+        "Sinjali në figurë tregon praninë e një postblloku rrugor të vënë nga organet e policisë.",
+        "Sinjali në figurë tregon detyrimin për të ndaluar.",
+        "Sinjali në figurë është vendosur në një largësi të përshtatshme nga postblloku i policisë dhe përsëritet deri në pikën ku duhet të ndalojmë.",
+        "Sinjali në figurë na detyron vetëm të ngadalësojmë shpejtësinë.",
+        "Sinjali në figurë përcakton kufirin e shtetit me detyrimin për të ndaluar.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një pikë kontrolli doganor.",
+        //120//
+        "Sinjali në figurë na detyron të ngadalësojmë shpejtësinë dhe te ndalojmë para stacionit në autostradë.",
+        "Sinjali në figurë të detyron të ndalosh në stacionin e autostradës për të marrë biletën e pagesës së taksës autostradale.",
+        "Sinjali në figurë paraqet një stacion autostrade ku është i detyruar ndalimi.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të ndalojnë për të marrë biletën ose për të paguar taksen e autostradës.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve në zonën e stacionit hekurudhor.",
+        //151//
+        "Sinjali në figurë ndalon përkohësisht pushimin e mjeteve.",
+        "Sinjali në figurë gjendet në pjesë rruge ku kryhen pastrime.",
+        "Sinjali në figurë ndalon pushimin e mjeteve gjatë e kohës kur kryhen pastrime të rrugëve.",
+        "Sinjali në figurë tregon se nga e hëna në të premte dhe nga ora 21:00 deri në orën 4:00 ndalohet pushimi i mjeteve sepse në këtë kohë bëhet pastrimi i rrugës.",
+        "Sinjali në figurë tregon praninë e makinave të pastrimit të borës që punojnë në rrugë.",
+        "Sinjali në figurë tregon se në ditët dhe oraret e përshkruara në sinjal, është i ndaluar pushimi i mjeteve që pastrojnë rrugën.",
+        //148//
+        "Sinjali në figurë tregon se mund të qarkullojnë të gjitha kategoritë e mjeteve me motor, përveç atyre të treguara në sinjal.",
+        "Sinjali në figurë tregon një rrugëkalim të detyruar për kategoritë e mjeteve të treguara në sinjal.",
+        //93//
+        "Sinjali në figurë ndalon kthimin nga e majta ose nga e djathta.",
+        "Sinjali në figurë gjendet në afërsi të një kryqëzimi dhe të detyron të vazhdosh lëvizjen vetëm drejt.",
+        "Sinjali në figurë lejon të kthehemi djathtas apo majtas, sipas rastit.",
+        "Sinjali në figurë lejon të ndryshojmë sensin e lëvizjes",
+        "Sinjali në figurë tregon që rruga është me një sens lëvizje.",
+        //94//
+        "Sinjali në figurë është sinjal i drejtimit të detyruar majtas.",
+        "Sinjali në figurë tregon detyrimin për t’u kthyer vetëm majtas",
+        "Sinjali në figurë e ndalon kthimin nga e djathta në kryqëzim.",
+        "Sinjali në figurë lejon të vazhdosh rrugën drejt në kryqëzim.",
+        "Sinjali në figurë lejon të kthehesh djathtas në kryqëzim.",
+        "Sinjali në figurë tregon ndalim qarkullimi.",
+        //95//
+        "Sinjali në figurë detyron kthimin djathtas në kryqëzim.",
+        "Sinjali në figurë është detyron kthimin djathtas.",
+        "Sinjali në figurë tregon që duhet të vazhdosh drejt.",
+        "Sinjali në figurë është një sinjal ndalimi.",
+        //96//
+        "Sinjali në figurë është një sinjal detyrimi.",
+        "Sinjali në figurë paralajmëron një detyrim për t’u kthyer djathtas",
+        "Sinjali në figurë është një sinjal vertikal detyrimi.",
+        "Sinjali në figurë paralajmëron se në kryqëzimin që po afrohet, është e ndaluar të kthehesh djathtas",
+        "Sinjali në figurë është një sinjal paralajmërimi për një rrezik.",
+        "Sinjali në figurë te lejon te vazhdosh drejt lëvizjen.",
+        //96-1//
+        "Sinjali në figurë tregon se pas 320 metër jemi të detyruar të kthehemi djathtas.",
+        //97//
+        "Sinjali në figurë është një sinjal vertikal detyrimi.",
+        "Sinjali në figurë paralajmëron kthim të detyruar majtas.",
+        "Sinjali në figurë paralajmëron se në kryqëzimin ku po afrohemi, është e ndaluar të kthehesh djathtas.",
+        "Sinjali në figurë paralajmëron detyrimin për t’u kthyer majtas në kryqëzim",
+        "Sinjali në figurë tregon që duhet të kalojmë majtas një pengese.",
+        "Sinjali në figurë gjendet në fillim të një rruge me pjerrësi.",
+        //98//
+        "Sinjali në figurë tregon drejtime të lejuara djathtas dhe majtas.",
+        "Sinjali në figurë të lejon të kthehesh djathtas ose majtas në kryqëzim.",
+        "Në prani të sinjalit në figurë ndalohet të vazhdosh lëvizjen drejt.",
+        "Sinjali në figurë të lejon të vazhdosh drejt në kryqëzim.",
+        "Sinjali në figurë te ndalon te kthehesh majtas ne kryqëzim.",
+        "Sinjali në figurë tregon fillimin e qarkullimit në rreshta paralelë.",
+        //99//
+        "Sinjali në figurë është një sinjal vertikal detyrimi.",
+        "Sinjali në figurë, të detyron të vazhdosh lëvizjen drejt ose të kthehesh djathtas, në kryqëzim.",
+        "Sinjali në figurë ndalon të kthehesh nga e majta në kryqëzim.",
+        "Sinjali në figurë tregon drejtimet e lejuara të lëvizjes.",
+        "Sinjali në figurë të detyron të lëvizësh vetëm drejt.",
+        "Sinjali në figurë të detyron të lëvizësh vetëm djathtas.",
+        "Sinjali në figurë tregon që duhet të japim përparësi nga e majta.",
+        //100//
+        "Sinjali në figurë është sinjal vertikal detyrimi.",
+        "Sinjali në figurë lejon të vazhdosh lëvizjen drejt ose të kthehesh majtas.",
+        "Sinjali në figurë ndalon kthimin djathtas në kryqëzim.",
+        "Sinjali në figurë të detyron të zgjedhësh një nga drejtimet e lejuara.",
+        "Sinjali në figurë paralajmëron një kryqëzim të rrezikshëm.",
+        "Sinjali në figurë ndalon kthimin majtas.",
+        //101//
     )
     val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -1038,11 +1140,113 @@ class QuestionData {
         R.drawable.img_85,
         R.drawable.img_85,
         R.drawable.img_85,
-        //86//
-        //87//
-        //88//
-        //89//
         //90//
+        R.drawable.img_90,
+        R.drawable.img_90,
+        R.drawable.img_90,
+        R.drawable.img_90,
+        R.drawable.img_90,
+        R.drawable.img_90,
+        R.drawable.img_90,
+        //91//
+        R.drawable.img_91,
+        R.drawable.img_91,
+        R.drawable.img_91,
+        R.drawable.img_91,
+        //92//
+        R.drawable.img_92,
+        R.drawable.img_92,
+        R.drawable.img_92,
+        R.drawable.img_92,
+        R.drawable.img_92,
+        R.drawable.img_92,
+        //118//
+        R.drawable.img_118,
+        R.drawable.img_118,
+        R.drawable.img_118,
+        R.drawable.img_118,
+        R.drawable.img_118,
+        R.drawable.img_118,
+        //119//
+        R.drawable.img_119,
+        R.drawable.img_119,
+        R.drawable.img_119,
+        R.drawable.img_119,
+        R.drawable.img_119,
+        R.drawable.img_119,
+        //120//
+        R.drawable.img_120,
+        R.drawable.img_120,
+        R.drawable.img_120,
+        R.drawable.img_120,
+        R.drawable.img_120,
+        //148//
+        R.drawable.img_148,
+        R.drawable.img_148,
+        R.drawable.img_148,
+        R.drawable.img_148,
+        R.drawable.img_148,
+        R.drawable.img_148,
+        //151//
+        R.drawable.img_151,
+        R.drawable.img_151,
+        //93//
+        R.drawable.img_93,
+        R.drawable.img_93,
+        R.drawable.img_93,
+        R.drawable.img_93,
+        R.drawable.img_93,
+        //94//
+        R.drawable.img_94,
+        R.drawable.img_94,
+        R.drawable.img_94,
+        R.drawable.img_94,
+        R.drawable.img_94,
+        R.drawable.img_94,
+        //95//
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        //96//
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        R.drawable.img_95,
+        //96-1//
+        R.drawable.img_96_1,
+        //97//
+        R.drawable.img_97,
+        R.drawable.img_97,
+        R.drawable.img_97,
+        R.drawable.img_97,
+        R.drawable.img_97,
+        R.drawable.img_97,
+        //98//
+        R.drawable.img_98,
+        R.drawable.img_98,
+        R.drawable.img_98,
+        R.drawable.img_98,
+        R.drawable.img_98,
+        R.drawable.img_98,
+        //99//
+        R.drawable.img_99,
+        R.drawable.img_99,
+        R.drawable.img_99,
+        R.drawable.img_99,
+        R.drawable.img_99,
+        R.drawable.img_99,
+        R.drawable.img_99,
+        //100//
+        R.drawable.img_100,
+        R.drawable.img_100,
+        R.drawable.img_100,
+        R.drawable.img_100,
+        R.drawable.img_100,
+        R.drawable.img_100,
+        //101//
     )
     val questionAnswers = arrayOf(
         //1//
@@ -1557,10 +1761,114 @@ class QuestionData {
         "Gabim",
         "Gabim",
         "Gabim",
-        //86//
-        //87//
-        //88//
-        //89//
         //90//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //91//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //92//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //118//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //119//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //120//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //148//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //151//
+        "Sakte",
+        "Gabim",
+        //93//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //94//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //95//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //96//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //96-1//
+        "Sakte",
+        //97//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //98//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //99//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //100//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //101//
+
+
     )
 }
