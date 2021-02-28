@@ -625,6 +625,115 @@ class QuestionData {
         "Sinjali në figurë paralajmëron një kryqëzim të rrezikshëm.",
         "Sinjali në figurë ndalon kthimin majtas.",
         //101//
+        "Sinjali në figurë detyron drejtuesit e mjeteve të kalojnë nga e majta e një shpëtuese trafiku.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të kalojnë nga e majta e një trafikndarësi.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të kalojnë nga e majta e një kantieri rrugor të mundshëm.",
+        "Sinjali në figurë tregon se jemi të detyruar të kalojmë nga e majta e një ishulli trafiku.",
+        "Sinjali në figurë tregon një rrugë zbritëse me pjerrësi të rrezikshme.",
+        "Sinjali në figurë te detyron te ndryshosh sensin e lëvizjes.",
+        //102//
+        "Sinjali në figurë është një sinjal detyrimi.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të kalojnë djathtas një pengesë.",
+        "Sinjali në figurë, i vendosur në prani të një ishulli trafiku, i detyron drejtuesit e mjeteve të kalojnë nga e djathta.",
+        "Sinjali në figurë, i vendosur në prani të një kantieri rrugor, i detyron drejtuesit e mjeteve të kalojnë nga e djathta.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të kalojnë nga e djathta e një trafikndarësi.",
+        "Sinjali në figurë, i vendosur në prani të një shpëtueseje trafiku, i detyron drejtuesit e mjeteve të kalojnë nga e djathta e shpëtueses.",
+        "Sinjali në figurë tregon rrugë të deformuar nga e djathta.",
+        "Sinjali në figurë paralajmëron një rrugë me pjerrësi të rrezikshme",
+        "Sinjali në figurë paralajmëron një kryqëzim me detyrimin për t’u kthyer djathtas.",
+        //103//
+        "Sinjali në figurë tregon kalime të lejuara djathtas ose majtas një kantieri rrugor.",
+        "Sinjali në figurë lejon drejtuesin e mjetit të kalojë si nga majta ashtu dhe nga e djathta e një shpëtueseje trafiku.",
+        "Sinjali në figurë lejon kalimin nga të dyja anët e një pengese të mundshme rrugore.",
+        "Sinjali në figurë tregon kalime të lejuara djathtas ose majtas një ishulli trafiku të mundshëm.",
+        "Sinjali në figurë të ndalon të vazhdosh lëvizjen në këtë rrugë.",
+        //104//
+        "Sinjali në figurë tregon se kryqëzimi ku po futemi është i rregulluar me një rrethqarkullim",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të qarkullojnë sipas drejtimit të shigjetave. ",
+        "Sinjali në figurë tregon një detyrim për rrethqarkullim vetëm për automjetet.",
+        "Sinjali në figurë tregon detyrimin që të kthehemi mbrapsht.",
+        //105//
+        "Sinjali në figurë është një sinjal detyrimi.",
+        "Sinjali në figurë tregon se në atë rrugë ndalohet të qarkullohet me shpejtësi më të vogël se 30 km/orë.",
+        "Sinjali në figurë lejon qarkullimin me shpejtësi mbi 30 km/orë, por brenda kufijve maksimale të shpejtësisë që lejohet në atë rrugë.",
+        "Sinjali në figurë të detyron të qarkullosh me shpejtësi të barabartë ose më të madhe se 30 km/orë.",
+        "Sinjali në figurë lejon të qarkullosh me shpejtësi 20 km/orë.",
+        "Sinjali në figurë tregon një pistë për mjetet që lëvizin me shpejtësi mbi 30 km/orë.",
+        "Sinjali në figurë të ndalon të qarkullosh me shpejtësi më të madhe se ajo e shënuar në të.",
+        //106//
+        "Sinjali në figurë tregon fundin e një detyrimi.",
+        "Sinjali në figurë tregon fundin e detyrimit të kufirit minimal të shpejtësisë prej 30 km/orë.",
+        "Pas sinjalit në figurë lejohet qarkullimi me shpejtësi të ndryshme, por jo më të madhe se ajo e lejuara për atë kategori rruge.",
+        "Pas sinjalit në figurë lejohet qarkullimi edhe me shpejtësi më të vogël se 30 km/orë.",
+        "Sinjali në figurë tregon fundin e detyrimit për të ruajtur një distancë sigurie 30 metër me mjetin përpara.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve me peshë mbi 30 tonë.",
+        "Sinjali në figurë tregon fundin e ndalim qarkullimit për mjetet me peshë mbi 30 tonë.",
+        //107//
+        "Sinjali në figurë detyron drejtuesit e mjeteve të qarkullojnë me zinxhirë ose me goma për borë.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve që nuk kanë vendosur goma bore ose zinxhirë për borë.",
+        "Sinjali në figurë lejon qarkullimin e mjeteve me zinxhirë në gomat aktive.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve që kanë zinxhirë në goma.",
+        "Sinjali në figurë paralajmëron që pas disa kilometrash duhet të përdorim zinxhirë në gomat aktive.",
+        "Sinjali në figurë të detyron të heqësh zinxhirët nga gomat për të mos dëmtuar asfaltin e rrugës.",
+        //149//
+        "Sinjali në figurë tregon drejtim të detyruar djathtas për mjetet që transportojnë mallra të rrezikshme.",
+        "Sinjali në figurë tregon drejtim të detyrueshëm për mjetet e transportit publik.",
+        //150//
+        "Sinjali në figurë paralajmëron drejtim të detyruar për kategorinë e mjeteve të treguara në sinjal.",
+        "Sinjali në figurë ndalon kthimin nga e djathta për mjetet e paraqitura në sinjal.",
+        "Sinjali në figurë tregon një korsi të rezervuar për kamionët.",
+        //K2//
+        //40//
+        "Sinjali në figurë urdhëron se duhet t’i japim përparësi në kryqëzim, mjeteve që vijnë si nga e majta ashtu dhe nga e djathta.",
+        "Sinjali në figurë gjendet në rrugë dytësore e cila ndërpritet me një rrugë tjetër me përparësi.",
+        "Në prani të sinjalit në figurë, duhet të zvogëlojmë shpejtësinë e lëvizjes së mjetit dhe po të jetë nevoja, të ndalojmë para kryqëzimit.",
+        "Sinjali në figurë të lejon ta kalosh kryqëzimin pa ndaluar sepse ke përparësi",
+        "Sinjali në figurë të detyron të ndalosh gjithmonë para kryqëzimit",
+        //41//
+        "Sinjali në figurë të detyron të ndalosh para vijës tërthore të ndalimit dhe të japësh përparësi.",
+        "Sinjali në figurë detyron kufizimin e shpejtësisë dhe ndalimin para vijës së ndalimit.",
+        "Sinjali në figurë, si rregull, është i vendosur në kryqëzime me rrezikshmëri të lartë ose me fushëpamje të pamjaftueshme.",
+        "Sinjali në figurë detyron të ndalosh në një pikë doganore.",
+        "Sinjali në figurë të lejon ta kalosh kryqëzimin pa ndaluar.",
+        "Sinjali në figurë të detyron të ndalosh dhe të japësh përparësi vetëm nga e djathta.",
+        "Sinjali në figurë tregon detyrimin për të ndaluar para një postblloku të policisë.",
+        //42//
+        "Sinjali në figurë paralajmëron praninë e një sinjali pasardhës “JEP PERPARESI”.",
+        "Sinjali në figurë paralajmëron drejtuesit e mjeteve për të dhënë përparësi nga e majta dhe nga e djathta, pas një distance 320 metër.",
+        "Sinjali në figurë paralajmëron që po afrohemi në një kryqëzim ku duhet të japim përparësi.",
+        "Pas sinjali në figurë duhet ta ulim shpejtësinë dhe nëse është e nevojshme të ndalojmë dhe të japim përparësi.",
+        "Sinjali në figurë tregon se po lëvizim në një rrugë që pas 320 metër duhet të japim përparësi.",
+        "Sinjali në figurë tregon distancën nga kryqëzimi ku duhet detyrimisht të ndalojmë.",
+        "Sinjali në figurë paralajmëron detyrimin që të ndalojmë dhe të japim përparësi.",
+        "Sinjali në figurë paralajmëron një kryqëzim ku është në fuqi rregulli i përparësisë nga djathta.",
+        //43//
+        "Sinjali në figurë paralajmëron praninë e një sinjali pasardhës “NDAL DHE JEP PËRPARËSI”.",
+        "Sinjali në figurë paralajmëron se do ndeshim sinjalin “STOP” në kryqëzim.",
+        "Sinjali në figurë paralajmëron se në kryqëzim jemi të detyruar të ndalojmë dhe të japim përparësi.",
+        "Sinjali në figurë tregon se duhet të ndalojmë pas distancës 320 metër dhe të japim përparësi majtas e djathtas.",
+        "Sinjali në figurë gjendet në distancë 320 metër para sinjalit “JEP PËRPARËSI”.",
+        "Sinjali në figurë paralajmëron praninë e një postblloku të doganave.",
+        "Sinjali në figurë mund të paralajmërojë një zonë shërbimi në autostrada.",
+        "Sinjali në figurë paralajmëron një postbllok të ngritur nga policia.",
+        //44//
+        "Sinjali në figurë paralajmëron një kryqëzim në të cilin është në fuqi rregulli i dhënies së përparësisë nga e djathta.",
+        "Sinjali në figurë na urdhëron të lëvizim me shpejtësi të kufizuar dhe t’u japim të drejtë kalimi mjeteve që vijnë nga krahu i djathtë.",
+        "Në prani të sinjalit në figurë duhet të sigurohemi që mjetet që vijnë nga e majta janë të gatshëm të na japin neve të drejtën e kalimit.",
+        "Sinjali në figurë te lejon ta vazhdosh lëvizjen pa e ulur shpejtësinë.",
+        //45//
+        "Sinjali në figurë te detyron t’i japësh përparësi mjeteve që vijnë nga kahu i kundërt.",
+        "Në prani të sinjalit në figurë duhet të kufizojmë shpejtësinë.",
+        "Sinjali në figurë tregon një pjesë rruge të ngushtë që lejon kalimin vetëm për një rresht mjetesh.",
+        "Sinjali në figurë tregon fundin e rrugës me dy sense lëvizjeje për qarkullim.",
+        "Sinjali në figurë tregon që rruga ecën paralel me një linjë hekurudhore.",
+        //46//
+        //47//
+        //48//
+        //49//
+        //50//
+        //51//
+        //52//
+        //53//
     )
     val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -1247,6 +1356,107 @@ class QuestionData {
         R.drawable.img_100,
         R.drawable.img_100,
         //101//
+        R.drawable.img_101,
+        R.drawable.img_101,
+        R.drawable.img_101,
+        R.drawable.img_101,
+        R.drawable.img_101,
+        R.drawable.img_101,
+        //102//
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        R.drawable.img_102,
+        //103//
+        R.drawable.img_103,
+        R.drawable.img_103,
+        R.drawable.img_103,
+        R.drawable.img_103,
+        R.drawable.img_103,
+        //104//
+        R.drawable.img_104,
+        R.drawable.img_104,
+        R.drawable.img_104,
+        R.drawable.img_104,
+        //105//
+        R.drawable.img_105,
+        R.drawable.img_105,
+        R.drawable.img_105,
+        R.drawable.img_105,
+        R.drawable.img_105,
+        R.drawable.img_105,
+        R.drawable.img_105,
+        //106//
+        R.drawable.img_106,
+        R.drawable.img_106,
+        R.drawable.img_106,
+        R.drawable.img_106,
+        R.drawable.img_106,
+        R.drawable.img_106,
+        R.drawable.img_106,
+        //107//
+        R.drawable.img_107,
+        R.drawable.img_107,
+        R.drawable.img_107,
+        R.drawable.img_107,
+        R.drawable.img_107,
+        R.drawable.img_107,
+        //149//
+        R.drawable.img_149,
+        R.drawable.img_149,
+        //150//
+        R.drawable.img_150,
+        R.drawable.img_150,
+        R.drawable.img_150,
+        //40//
+        R.drawable.img_40,
+        R.drawable.img_40,
+        R.drawable.img_40,
+        R.drawable.img_40,
+        R.drawable.img_40,
+        //41//
+        R.drawable.img_41,
+        R.drawable.img_41,
+        R.drawable.img_41,
+        R.drawable.img_41,
+        R.drawable.img_41,
+        R.drawable.img_41,
+        R.drawable.img_41,
+        //42//
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        R.drawable.img_42,
+        //43//
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        R.drawable.img_43,
+        //44//
+        R.drawable.img_44,
+        R.drawable.img_44,
+        R.drawable.img_44,
+        R.drawable.img_44,
+        //45//
+        R.drawable.img_45,
+        R.drawable.img_45,
+        R.drawable.img_45,
+        R.drawable.img_45,
+        R.drawable.img_45,
+        //46//
     )
     val questionAnswers = arrayOf(
         //1//
@@ -1868,6 +2078,107 @@ class QuestionData {
         "Gabim",
         "Gabim",
         //101//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //102//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //103//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //104//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //105//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //106//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //107//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //149//
+        "Sakte",
+        "Gabim",
+        //150//
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //40//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //41//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //42//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //43//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //44//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //45//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //46//
 
 
     )
