@@ -727,13 +727,60 @@ class QuestionData {
         "Sinjali në figurë tregon fundin e rrugës me dy sense lëvizjeje për qarkullim.",
         "Sinjali në figurë tregon që rruga ecën paralel me një linjë hekurudhore.",
         //46//
+        "Sinjali në figurë tregon fundin e rrugës me të drejtë përparësie.",
+        "Pas sinjalit në figurë duhet të jemi më të kujdesshëm sepse e drejta e përparësisë ka mbaruar.",
+        "Sinjali në figurë tregon se duhet te ulim shpejtësinë.",
+        "Sinjali në figurë tregon një rrugë me të drejtë të përparësisë.",
+        "Sinjali në figurë është sinjal i përkohshëm rrugor.",
+        "Sinjali në figurë te lejon ta vazhdosh lëvizjen pa e ulur shpejtësinë.",
         //47//
+        "Sinjali në figurë paralajmëron një kryqëzim ku mjeti në rrugën kryesore ka përparësi ndaj mjeteve që vijnë nga rrugët dytësore.",
+        "Sinjali në figurë paralajmëron një kryqëzim të rrugës kryesore me një rrugë dytësore.",
+        "Pas sinjalit në figurë duhet të ulim shpejtësinë dhe të sigurohemi se mjetet që vijnë majtas ose djathtas po na japin përparësinë.",
+        "Sinjali në figurë tregon se në kryqëzimin që po afrohemi, ndalohet kthimi nga e majta.",
+        "Sinjali në figurë paralajmëron një kryqëzim ku duhet të japësh përparësi.",
+        "Sinjali në figurë tregon se në kryqëzimin që po afrohemi, ndalohet kthimi nga e djathta.",
         //48//
+        "Sinjali në figurë paralajmëron kryqëzim të një rrugë kryesore me një rrugë dytësore nga e djathta.",
+        "Në prani të sinjalit në figurë duhet të kufizojmë shpejtësinë dhe të tregojmë kujdes gjatë lëvizjes.",
+        "Sinjali në figurë tregon një kryqëzim në të cilin kemi përparësi ndaj mjeteve që vijnë nga e djathta.",
+        "Sinjali në figurë ndalon kthimin djathtas.",
+        "Sinjali në figurë paralajmëron një korsi shpejtimi nga e djathta.",
+        "Sinjali në figurë lejon qëndrimin e mjeteve në vazhdimësi të kryqëzimit.",
         //49//
+        "Sinjali në figurë paralajmëron një kryqëzim te rrugës kryesore me një rruge dytësore nga e majta.",
+        "Pas të sinjalit në figurë, duhet të kufizojmë shpejtësinë dhe të tregojmë kujdes gjatë lëvizjes.",
+        "Sinjali në figurë tregon një kryqëzim në të cilin kemi përparësi ndaj mjeteve që vijnë nga e majta.",
+        "Sinjali në figurë ndalon kthimin majtas.",
+        "Sinjali në figurë paralajmëron një korsi shpejtimi nga e majta.",
+        "Sinjali në figurë lejon qëndrimin në vazhdimësi të kryqëzimit.",
+        "Sinjali në figurë paralajmëron një ndërprerje me një linjë hekurudhore.",
         //50//
+        "Sinjali në figurë paralajmëron hyrje nga e djathta.",
+        "Sinjali në figurë gjendet edhe në autostrada.",
+        "Në prani të sinjalit në figurë, duhet të tregojmë kujdes e të shmangim rreziqet me mjetet që kërkojnë të futen në rrugën kryesore.",
+        "Sinjali në figurë tregon se kemi përparësi ndaj mjeteve që vijnë nga e djathta.",
+        "Sinjali në figurë paraqet detyrimin që t’i japim përparësi mjeteve që vijnë nga e djathta.",
+        "Në prani të sinjalit në figurë në autostradë, duhet të rrisim shpejtësinë.",
+        "Sinjali në figurë lejon kthimin nga e djathta në kryqëzimin që po afrohet.",
         //51//
+        "Sinjali në figurë paralajmëron një hyrje nga e majta.",
+        "Sinjali në figurë tregon që kemi përparësi ndaj mjeteve që vijnë nga e majta.",
+        "Sinjali në figurë paraqet detyrimin që t’i japim përparësi mjeteve që vijnë nga e majta.",
+        "Sinjali në figurë lejon kthimin nga e majta në kryqëzimin e parë pas tij.",
+        "Në prani të sinjalit në figurë në autostradë, duhet të rrisim shpejtësinë.",
         //52//
+        "Sinjali në figurë tregon një pjesë rruge që gëzon të drejtën e përparësisë.",
+        "Në prani të sinjalit në figurë duhet të sigurohemi se mjetet që vijnë nga rrugët anësore na kanë dhënë përparësi.",
+        "Në prani të sinjalit në figurë ndalohet parakalimi.",
+        "Sinjali në figurë tregon prani të kantiereve rrugorë të përkohshëm.",
         //53//
+        "Sinjali në figurë tregon se kemi përparësi kalimi ndaj mjeteve që vijnë në sens të kundërt.",
+        "Në prani të sinjalit në figurë duhet të sigurohemi se mjetet që vijnë nga sensi i kundërt na kenë dhënë përparësi.",
+        "Në prani të sinjalit në figurë duhet të jemi të kujdesshëm edhe pse kemi përparësi kalimi.",
+        "Sinjali në figurë tregon se duhet t’i japim përparësi mjeteve që vijnë përballë nesh.",
+        "Në prani të sinjalit në figurë, nuk është e nevojshme të sigurohemi dhe të kemi kujdes sepse e kemi ne të drejtën e përparësisë.",
+        "Sinjali në figurë tregon se po lëvizim në një rrugë me një sens lëvizjeje.",
     )
     val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -1457,6 +1504,61 @@ class QuestionData {
         R.drawable.img_45,
         R.drawable.img_45,
         //46//
+        R.drawable.img_46,
+        R.drawable.img_46,
+        R.drawable.img_46,
+        R.drawable.img_46,
+        R.drawable.img_46,
+        R.drawable.img_46,
+        //47//
+        R.drawable.img_47,
+        R.drawable.img_47,
+        R.drawable.img_47,
+        R.drawable.img_47,
+        R.drawable.img_47,
+        R.drawable.img_47,
+        //48//
+        R.drawable.img_48,
+        R.drawable.img_48,
+        R.drawable.img_48,
+        R.drawable.img_48,
+        R.drawable.img_48,
+        R.drawable.img_48,
+        //49//
+        R.drawable.img_49,
+        R.drawable.img_49,
+        R.drawable.img_49,
+        R.drawable.img_49,
+        R.drawable.img_49,
+        R.drawable.img_49,
+        R.drawable.img_49,
+        //50//
+        R.drawable.img_50,
+        R.drawable.img_50,
+        R.drawable.img_50,
+        R.drawable.img_50,
+        R.drawable.img_50,
+        R.drawable.img_50,
+        R.drawable.img_50,
+        //51//
+        R.drawable.img_51,
+        R.drawable.img_51,
+        R.drawable.img_51,
+        R.drawable.img_51,
+        R.drawable.img_51,
+        //52//
+        R.drawable.img_52,
+        R.drawable.img_52,
+        R.drawable.img_52,
+        R.drawable.img_52,
+        //53//
+        R.drawable.img_53,
+        R.drawable.img_53,
+        R.drawable.img_53,
+        R.drawable.img_53,
+        R.drawable.img_53,
+        R.drawable.img_53,
+
     )
     val questionAnswers = arrayOf(
         //1//
@@ -2179,6 +2281,60 @@ class QuestionData {
         "Gabim",
         "Gabim",
         //46//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //47//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //48//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //49//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //50//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //51//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //52//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //53//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
 
 
     )
