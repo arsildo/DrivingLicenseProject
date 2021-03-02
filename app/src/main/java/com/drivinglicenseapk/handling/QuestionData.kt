@@ -781,8 +781,96 @@ class QuestionData {
         "Sinjali në figurë tregon se duhet t’i japim përparësi mjeteve që vijnë përballë nesh.",
         "Në prani të sinjalit në figurë, nuk është e nevojshme të sigurohemi dhe të kemi kujdes sepse e kemi ne të drejtën e përparësisë.",
         "Sinjali në figurë tregon se po lëvizim në një rrugë me një sens lëvizjeje.",
+
+        //5-001//
+        "Vija gjatësore e mesit të karrexhatës, kur është e ndërprerë e lejon parakalimin edhe duke kaluar përkohësisht në korsinë e sensit të kundërt.",
+        "Vijat e bardha gjatësore të ndërprera lejojnë të qarkullosh mbi to.",
+        "Vijat e bardha gjatësore të ndërprera, të vendosura në anë të karrexhatës e lejojnë daljen e mjetit nga karrexhata.",
+        "Vijat gjatësore të kufirit të karrexhatës janë gjithmonë me ngjyrë të verdhë.",
+        "Vijat e bardha gjatësore të ndërprera në anë të karrexhatës gjenden në zona që ndajnë karrexhatën nga një vendqëndrim (xhep ndalimi) për mjetet.",
+        "Vijat e bardha gjatësore të ndërprera në anë të karrexhatës gjenden në zona që përcaktojnë kufijtë e rrugës kryesore me ndërprerjet e rrugëve dytësore.",
+        "Vijat e bardha gjatësore të ndërprera në anë të karrexhatës gjenden në zona që ndajnë karrexhatën nga korsitë e shpejtimit dhe të ngadalësimit.",
+        "Vijat e bardha anësore të ndërprera të karrexhatës gjenden në zonat që ndajnë karrexhatën nga korsia e emergjencës.",
+        "Vijat e bardha gjatësore të ndërprera në anë të karrexhatës, ndajnë kufirin anësor të karrexhatës me bankinën.",
+         //5-002//
+         "Vija e bardhë e pandërprerë, që kufizon korsinë e emergjencës me karrexhatën, mund të kapërcehet vetëm në raste të emergjencës.",
+         "Vija e bardhë e vazhduar, që kufizon korsinë e emergjencës me karrexhatën, përcakton kufirin e karrexhatës.",
+         "Vija e bardhë e vazhduar, që kufizon korsinë e emergjencës me karrexhatën, mund të kapërcehet gjatë qarkullimit normal.",
+         "Vija e bardhë e vazhduar, që kufizon korsinë e emergjencës me karrexhatën, të lejon të qarkullosh mbi të, kur parakalon një mjet.",
+        //5-003//
+        "Shënimi \"BUS\" me ngjyrë të verdhë mbi asfaltin e rrugës, tregon një zonë të rezervuara për qëndrimin e autobusëve të shërbimin publik.",
+        //5-004//
+        "Shkrimi \"TAXI\" me ngjyrë të verdhë mbi asfaltin e rrugës, tregon një zonë të rezervuara për parkimin e mjeteve taksi.",
+        "Shkrimi \"TAXI\" me ngjyrë të bardhë mbi asfaltin e karrexhatës, tregon një zonë të rezervuara për parkimin e mjeteve taksi.",
+        //5-005//
+        "Germat P dhe L të vizatuara mbi sipërfaqen e karrexhatës së bashku me kryqin e Shën Andreas tregojnë se po i afrohemi një kalimi në nivel.",
+        //5-006 470a//
+        "Shiritat e pjerrët bardh e zi të vendosur në sipërfaqe vertikale si në figurë tregojnë pengesë brenda karrexhatës.",
+        "Shiritat e pjerrët bardh e zi të vendosur në sipërfaqe vertikale si në figurë tregojnë se në afërsi është një kantier pune.",
+        //5-007 470b//
+        "Shiritat e pjerrët bardh e zi të vendosur në sipërfaqe vertikale dhe anash karrexhatës si në figurë tregojnë se lejohet qëndrimi në afërsi të trotuarit.",
+        //5-008 470c//
+        "Shiritat e pjerrët bardh e zi të vendosur në sipërfaqe vertikale si në figurë tregojnë pengesë pranë karrexhatës.",
+        "Shiritat e pjerrët bardh e zi të vendosur në sipërfaqe vertikale si në figurë tregojnë një pengesë rrugore për shkak se bëhen punime.",
+        //5-009 501//
+        "Vija e bardhë e pandërprerë e mesit të karrexhatës si në figurë e ndan karrexhatën në dy korsi lëvizje.",
+        "Vija e bardhë e pandërprerë e mesit të karrexhatës, si në figurë, ndalohet të tejkalohet nga mjetet.",
+        "Vija e bardhë e pandërprerë e mesit të karrexhatës si në figurë lejon që të qarkullojmë mbi të.",
+        "Vija e bardhë e pandërprerë e mesit të karrexhatës si në figurë mund të kapërcehet, por vetëm me gomat e krahut të majtë.",
+        //5-0010 502//
+        "Vija e bardhë gjatësore e ndërprerë si në figurë e ndan karrexhatën në dy korsi lëvizje.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë mund të kapërcehet.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë ndan senset e lëvizjes në karrexhatën me dy sense lëvizjeje.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë në rastin e parakalimit lejohet të kapërcehet.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë, në rrugët me një sens lëvizjeje lejon kthimin e sensit të lëvizjes.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë lejon që të qarkullosh mbi të gjatë gjithë kohës.",
+        "Vija e bardhë gjatësore e ndërprerë si në figurë e ndan rrugën në dy karrexhata.",
+        //5-011 503//
+        "Sinjalistika e paraqitur në figurë tregon një kryqëzim të një rruge me përparësi me një rrugë tjetër pa përparësi.",
+        "Sinjalistika në figurë tregon një kryqëzim ku mjetet në karrexhatën me 4 korsi kanë përparësi ndaj mjeteve që vijnë nga e djathta dhe nga e majta.",
+        "Sinjalistika në figurë tregon që mjetet që hyjnë në kryqëzim nga karrexhata me dy korsi janë të detyruar të ndalojnë para kryqëzimit për të dhënë përparësi.",
+        "Sinjalistika në figurë tregon që karrexhata me dy korsi është rrugë me të drejtë përparësie.",
+        "Sinjalistika në figurë tregon që mjetet në karrexhatën me katër korsi duhet të rritin shpejtësinë në afërsi të kryqëzimit.",
+        "Sinjalistika në figurë tregon që mjetet në karrexhatën me katër korsi duhet t’u japin përparësi mjeteve që hyjnë nga e djathta.",
+        //5-012 507//
+        "Sinjalistika në figurë tregon një karrexhatë me katër korsi dhe me një sens lëvizje.",
+        "Sinjalistika në figurë lejon parakalimin në kthesë dhe në kurriz rrugor.",
+        "Sinjalistika në figurë ndalon ndryshimin e sensit të lëvizjes.",
+        "Sinjalistika në figurë tregon një karrexhatë me katër korsi me dy sense lëvizje.",
+        "Sinjalistika në figurë ndalon parakalimin në kthesë.",
+        //5-013 508//
+        "Sinjalistika në figurë tregon një karrexhatë me dy korsi, me dy sense lëvizje.",
+        "Sipas sinjalistikës në figurë, parakalimi u lejohet vetëm mjeteve që kanë në krahun e majtë vijën e ndërprerë.",
+        "Sipas sinjalistikës në figurë ndalohet parakalimi për mjetet që kanë në krahun e majtë vijën e pandërprerë.",
+        "Sinjalistika në figurë ndalon parakalimin për mjetet që lëvizin në të dy senset.",
+        "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes për mjetet që kanë në krahun e majtë vijën e pandërprerë.",
+        //5-014 509//
+        "Sinjalistika në figurë tregon një karrexhatë me dy korsi, me dy sense lëvizje.",
+        "Sinjalistika në figurë ndalon parakalimin për të gjithë automjetet, duke shkelur vijat.",
+        "Sipas sinjalistikës horizontale në figurë ndalohet qarkullimi mbi dy vijat e pandërprera.",
+        "Sinjalistika në figurë ndalon parakalimin vetëm në kthesë.",
+        "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes.",
+        "Sinjalistika në figurë lejon të kapërcehen vijat.",
+        //5-015 510//
+        "Sinjalistika në figurë ndalon ndryshimin e sensit të lëvizjes.",
+        "Sinjalistika në figurë lejon parakalimin edhe në kthesë.",
+        "Sinjalistika në figurë paraqet një rrugë urbane me korsi te rezervuar për autobusin e linjës.",
+        "Sinjalistika në figurë tregon se ka dy vend qëndrime autobusi.",
+        "Sinjalistika në figurë tregon se mund të qarkullojmë në korsinë e rezervuar, kur janë të zëna\n" +
+                "korsitë e lëvizjes.",
+        "Sinjalistika në figurë ndalon parakalimin në kthesë.",
+        "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes.",
+        //5-016 511//
+        "Sinjalistika në figurë tregon një rrugë me dy sense lëvizje, me nga tre korsi për çdo sens.",
+        "Sinjalistika në figurë tregon rrugë urbane të pajisur me korsi të rezervuara për biçikletat.",
+        "Sinjalistika në figurë ndalon ndryshimin e sensit të lëvizjes.",
+        "Sipas sinjalistikës në figurë lejohet parakalimi edhe në kthesë.",
+        "Sinjalistika në figurë tregon se nëse janë të zëna korsitë e lëvizjes, mjetet mund të qarkullojmë në korsinë e rezervuar.",
+        "Sinjalistika në figurë ndalon parakalimin në kthesë.",
+        "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes.",
+        //5-017 512//
     )
-    val noImage = R.drawable.img_overall
+    private val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
         //1
         R.drawable.img_1,
@@ -1558,6 +1646,92 @@ class QuestionData {
         R.drawable.img_53,
         R.drawable.img_53,
         R.drawable.img_53,
+        //5-001//
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        //5-002//
+        noImage,
+        noImage,
+        noImage,
+        noImage,
+        //5-003//
+        R.drawable.img_564,
+        //5-004//
+        noImage,
+        noImage,
+        //5-005//
+        R.drawable.img_531,
+        //5-006 II470a//
+        R.drawable.img_470a,
+        R.drawable.img_470a,
+        //5-007 II470b//
+        R.drawable.img_470b,
+        //5-008 II470c//
+        R.drawable.img_470c,
+        R.drawable.img_470c,
+        //5-009 501//
+        R.drawable.img_501,
+        R.drawable.img_501,
+        R.drawable.img_501,
+        R.drawable.img_501,
+        //5-010 502//
+        R.drawable.img_502,
+        R.drawable.img_502,
+        R.drawable.img_502,
+        R.drawable.img_502,
+        R.drawable.img_502,
+        R.drawable.img_502,
+        R.drawable.img_502,
+        //5-011 506//
+        R.drawable.img_506,
+        R.drawable.img_506,
+        R.drawable.img_506,
+        R.drawable.img_506,
+        R.drawable.img_506,
+        R.drawable.img_506,
+        //5-012 507//
+        R.drawable.img_507,
+        R.drawable.img_507,
+        R.drawable.img_507,
+        R.drawable.img_507,
+        R.drawable.img_507,
+        //5-013 508//
+        R.drawable.img_508,
+        R.drawable.img_508,
+        R.drawable.img_508,
+        R.drawable.img_508,
+        R.drawable.img_508,
+        //5-014 509//
+        R.drawable.img_509,
+        R.drawable.img_509,
+        R.drawable.img_509,
+        R.drawable.img_509,
+        R.drawable.img_509,
+        R.drawable.img_509,
+        //5-015 510//
+        R.drawable.img_510,
+        R.drawable.img_510,
+        R.drawable.img_510,
+        R.drawable.img_510,
+        R.drawable.img_510,
+        R.drawable.img_510,
+        R.drawable.img_510,
+        //5-016 511//
+        R.drawable.img_511,
+        R.drawable.img_511,
+        R.drawable.img_511,
+        R.drawable.img_511,
+        R.drawable.img_511,
+        R.drawable.img_511,
+        R.drawable.img_511,
+        //5-014 509//
 
     )
     val questionAnswers = arrayOf(
@@ -2335,6 +2509,93 @@ class QuestionData {
         "Gabim",
         "Gabim",
         "Gabim",
+        //5-001//
+        "Sakte",
+        "Gabim",
+        "Sakte",
+        "Gabim",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-002//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-003//
+        "Sakte",
+        //5-004//
+        "Sakte",
+        "Gabim",
+        //5-005 img531//
+        "Sakte",
+        //5-006 II470a//
+        "Sakte",
+        "Gabim",
+        //5-007 II470b//
+        "Gabim",
+        //5-008 II470c//
+        "Sakte",
+        "Gabim",
+        //5-009 img501//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-010 img502//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-011 img506//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-012 507//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-013 508//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-014 508//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-015 510//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-016 511//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-017 512//
+
 
 
     )
