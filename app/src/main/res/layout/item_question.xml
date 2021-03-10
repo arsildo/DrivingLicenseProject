@@ -17,6 +17,7 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="img"
         android:src="@drawable/img_overall"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +50,7 @@
         <CheckBox
             android:id="@+id/trueCheckBox"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
             android:buttonTint="@color/black"
             android:gravity="center"
@@ -61,8 +62,8 @@
 
         <ImageView
             android:id="@+id/wrongMark"
-            android:layout_width="32dp"
-            android:layout_height="match_parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:src="@drawable/ic_wrong"

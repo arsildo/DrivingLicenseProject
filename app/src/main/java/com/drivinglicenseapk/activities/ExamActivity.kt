@@ -1,10 +1,10 @@
 package com.drivinglicenseapk.activities
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.Typeface
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -26,7 +26,6 @@ import java.util.concurrent.TimeUnit
 class ExamActivity : AppCompatActivity(){
 
     private var examState  = false
-    private var alreadyPrompted = false
     private var alreadyTimed = false
     private var elapsedTimeStored = false
     private var elapsedTime : Long = 0
@@ -778,6 +777,7 @@ class ExamActivity : AppCompatActivity(){
         questionListDialog.show()
     }
 
+    @SuppressLint("SetTextI18n")
     fun showExamResultDialog(){
         val resultDialog = Dialog(this)
         resultDialog.apply {
