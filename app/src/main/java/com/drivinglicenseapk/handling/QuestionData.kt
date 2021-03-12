@@ -856,8 +856,7 @@ class QuestionData {
         "Sinjalistika në figurë lejon parakalimin edhe në kthesë.",
         "Sinjalistika në figurë paraqet një rrugë urbane me korsi te rezervuar për autobusin e linjës.",
         "Sinjalistika në figurë tregon se ka dy vend qëndrime autobusi.",
-        "Sinjalistika në figurë tregon se mund të qarkullojmë në korsinë e rezervuar, kur janë të zëna\n" +
-                "korsitë e lëvizjes.",
+        "Sinjalistika në figurë tregon se mund të qarkullojmë në korsinë e rezervuar, kur janë të zëna korsitë e lëvizjes.",
         "Sinjalistika në figurë ndalon parakalimin në kthesë.",
         "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes.",
         //5-016 511//
@@ -869,6 +868,67 @@ class QuestionData {
         "Sinjalistika në figurë ndalon parakalimin në kthesë.",
         "Sinjalistika në figurë lejon ndryshimin e sensit të lëvizjes.",
         //5-017 512//
+        "Sinjalistika në figurë tregon një karrexhatë me dy korsi dhe me dy sense lëvizje.",
+        "Sinjalistika në figurë tregon se në kthesë ka një degëzim ku është e lejuar hyrja e mjeteve. ",
+        "Sinjalistika në figurë ndalon pushimin e mjeteve në karrexhatë.",
+        "Sinjalistika në figurë tregon një karrexhatë ku lejohet pushimi.",
+        "Sinjalistika në figurë ndalon hyrjen në degëzim.",
+        //5-018 513//
+        "Sinjalistika në figurë tregon një karrexhatë me dy korsi.",
+        "Sinjalistika në figurë tregon një zonë ku është i lejuar qëndrimi i mjeteve.",
+        "Sinjalistika në figurë lejon qëndrimin e mjetit në raste emergjence.",
+        "Sinjalistika në figurë ndalon parakalimin në kurrize rruge.",
+        "Sinjalistika në figurë ndalon parakalimin vetëm në kthesë.",
+        //5-019 514//
+        "Sinjalistika në figurë tregon se jemi para një kryqëzimi ku është i detyruar ndalimi i mjetit para vijës së ndalimit.",
+        "Sinjalistika në figurë tregon se jemi duke lëvizur në një karrexhatë me një sens.",
+        "Sinjalistika në figurë tregon se jemi në një rrugë pa të drejtë përparësie.",
+        "Sinjalistika në figurë lejon të kalojmë kryqëzimin me kujdes, pa ndaluar mjetin.",
+        "Sinjalistika në figurë tregon që jemi në një rrugë me të drejtë përparësie.",
+        "Sinjalistika në figurë tregon që jemi në një karrexhatë me dy korsi, me dy sense lëvizje.",
+        //5-020 515//
+        "Sinjalistika në figurë tregon se jemi para një kryqëzimi, ku është i detyruar ndalimi i mjetit para vijës së ndalimit.",
+        "Sinjalistika në figurë tregon se jemi duke lëvizur në një karrexhatë me dy korsi me dy sense lëvizje.",
+        "Sinjalistika në figurë tregon se jemi në një rrugë ku duhet të ndalojmë dhe të japim përparësi.",
+        "Sinjalistika në figurë lejon mjetet të kalojnë kryqëzimin pa u ndaluar përpara tij.",
+        "Sinjalistika në figurë tregon se jemi në një rrugë me të drejtë përparësie.",
+        "Sinjalistika në figurë tregon se jemi në një karrexhatë me dy korsi, me një sens lëvizje",
+        "Sinjalistika në figurë lejon të kalojmë kryqëzimin pa ndaluar mjetin.",
+        //5-021 516//
+        "Sinjalistika në figurë tregon se jemi para një kryqëzimi ku duhet t'i japim përparësi mjeteve që vijnë nga e majta dhe nga e djathta.",
+        "Sinjalistika në figurë tregon karrexhatë me dy sense me një korsi për sens.",
+        "Sinjalistika në figurë tregon se jemi në një rrugë pa të drejtë përparësie.",
+        "Sinjalistika në figurë lejon të kalojmë kryqëzimin pa ndaluar mjetin, por duke respektuar rregullat e përparësisë.",
+        "Sinjalistika në figurë tregon që jemi në një rrugë me të drejtë përparësie.",
+        "Sinjalistika në figurë tregon që jemi në një karrexhatë me dy korsi me një sens lëvizje.",
+        //5-022 517//
+        "Sinjalistika në figurë tregon një vendkalim për këmbësorë.",
+        "Sinjalistika në figurë gjendët në rrugë urbane dhe interurbane.",
+        "Sipas sinjalistikës në figurë drejtuesit e mjeteve duhet të ulin shpejtësinë dhe t’i japin përparësi këmbësorëve që janë duke kaluar mbi vijat e bardha.",
+        "Sinjalistika në figurë tregon vendkalim për çiklistë.",
+        "Sinjalistika në figurë identifikon një ishull trafiku të mbrojtur për këmbësorët.",
+        "Sinjalistika në figurë tregon një kalim biçikletash të orientuar.",
+        "Sinjalistika në figurë është një zonë e vijëzuar ku ndalohet qarkullimi i mjeteve.",
+        //5-023 518//
+        "Sinjalistika në figurë tregon vendkalim këmbësorësh.",
+        "Sinjalistika në figurë tregon një vendkalim në të cilin këmbësorët kanë përparësi ndaj mjeteve.",
+        "Sinjalistika në figurë tregon një kalim për çiklistë.",
+        "Sinjalistika në figurë tregon një kalim të pjerrët për biçikleta.",
+        //5-024 519//
+        "Shkrimi “STOP” mbi rrugë si në figurë bashkëshoqëron sinjalin vertikal “NDAL DHE JEP PËRPARËSI”",
+        "Shkrimi “STOP” mbi rrugë si në figurë udhëzon që të ulim shpejtësinë dhe të ndalojmë, vetëm po të këtë mjete në kryqëzim.",
+        "Shkrimi “STOP” mbi rrugë si në figurë na detyron të japim përparësi vetëm për mjetet që vijnë nga e djathta.",
+        //5-025 520//
+        "Sinjalistika në figurë tregon vendkalim për biçikleta.",
+        "Sinjalistika në figurë tregon vendkalim, në të cilin çiklistët që janë duke kaluar midis vijave kanë përparësi ndaj mjeteve.",
+        "Vijat paralele të bardha të ndërprera si në figurë kufizojnë një vendkalim biçikletash.",
+        "Vijat paralele të bardha të ndërprera si në figurë tregojnë kalim këmbësor të orientuar.",
+        "Vijat e zeza dhe të verdha fosforeshente si në figurë, identifikojnë një kurriz artificial të  mbi sipërfaqen e karrexhatës.",
+        "Vijat paralele të bardha të ndërprera si në figurë, identifikojnë një ishull trafiku.",
+        //5-026 521//
+        //5-027 531//
+        //5-028 532//
+
     )
     private val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -1731,7 +1791,64 @@ class QuestionData {
         R.drawable.img_511,
         R.drawable.img_511,
         R.drawable.img_511,
-        //5-014 509//
+        //5-017 512//
+        R.drawable.img_512,
+        R.drawable.img_512,
+        R.drawable.img_512,
+        R.drawable.img_512,
+        R.drawable.img_512,
+        //5-018 513//
+        R.drawable.img_513,
+        R.drawable.img_513,
+        R.drawable.img_513,
+        R.drawable.img_513,
+        R.drawable.img_513,
+        //5-019 514//
+        R.drawable.img_514,
+        R.drawable.img_514,
+        R.drawable.img_514,
+        R.drawable.img_514,
+        R.drawable.img_514,
+        R.drawable.img_514,
+        //5-020 515//
+        R.drawable.img_515,
+        R.drawable.img_515,
+        R.drawable.img_515,
+        R.drawable.img_515,
+        R.drawable.img_515,
+        R.drawable.img_515,
+        R.drawable.img_515,
+        //5-021 516//
+        R.drawable.img_516,
+        R.drawable.img_516,
+        R.drawable.img_516,
+        R.drawable.img_516,
+        R.drawable.img_516,
+        R.drawable.img_516,
+        //5-022 517//
+        R.drawable.img_517,
+        R.drawable.img_517,
+        R.drawable.img_517,
+        R.drawable.img_517,
+        R.drawable.img_517,
+        R.drawable.img_517,
+        R.drawable.img_517,
+        //5-023 518//
+        R.drawable.img_518,
+        R.drawable.img_518,
+        R.drawable.img_518,
+        R.drawable.img_518,
+        //5-024 519//
+        R.drawable.img_519,
+        R.drawable.img_519,
+        R.drawable.img_519,
+        //5-025 520//
+        R.drawable.img_520,
+        R.drawable.img_520,
+        R.drawable.img_520,
+        R.drawable.img_520,
+        R.drawable.img_520,
+        R.drawable.img_520,
 
     )
     val questionAnswers = arrayOf(
@@ -2595,6 +2712,63 @@ class QuestionData {
         "Gabim",
         "Gabim",
         //5-017 512//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-018 513//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-019 514//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-020 515//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-021 516//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-022 517//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-023 518//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-024 519//
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-025 520//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
 
 
 
