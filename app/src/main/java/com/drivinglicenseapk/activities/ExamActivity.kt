@@ -31,7 +31,7 @@ class ExamActivity : AppCompatActivity(){
     private var elapsedTime : Long = 0
 
     private val questionData = QuestionData()
-    private var  questionAdapter = QuestionAdapter(questionData)
+    private var questionAdapter = QuestionAdapter(questionData)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

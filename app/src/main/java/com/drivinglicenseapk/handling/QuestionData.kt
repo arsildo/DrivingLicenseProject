@@ -926,8 +926,61 @@ class QuestionData {
         "Vijat e zeza dhe të verdha fosforeshente si në figurë, identifikojnë një kurriz artificial të  mbi sipërfaqen e karrexhatës.",
         "Vijat paralele të bardha të ndërprera si në figurë, identifikojnë një ishull trafiku.",
         //5-026 521//
+        "Sinjalistika në figurë tregon vendkalim biçikletash.",
+        "Në prani të sinjalistikës në figurë, biçiklistët që kanë zënë karrexhatën kanë përparësi ndaj mjeteve.",
+        "Sinjalistika në figurë tregon një vendkalim këmbësor urban të rregulluar nga polici ose semafori.",
+        "Sinjalistika në figurë tregon një vendkalim për këmbësorë.",
+        "Sinjalistika në figurë tregon një vendkalim për këmbësorë dhe për çiklistë.",
         //5-027 531//
+        "Sinjalistika horizontale në figurë tregon se po i afrohemi një kalimi në nivel.",
+        "Sinjalistika në figurë u tregon drejtuesve të mjeteve se po i afrohen një kalimi në nivel.",
+        "Sinjalistika në figurë ndalon parakalimin e mjeteve.",
+        "Sinjalistika në figurë paralajmëron një kryqëzim rrugësh.",
         //5-028 532//
+        "Sinjalistika horizontale e paraqitur në figurë paraqet një ishull trafiku.",
+        "Sinjalistika në figurë tregon një ishull trafiku të vizatuar në sipërfaqen e rrugës",
+        "Sinjalistika në figurë shërben për të orientuar rrymat e trafikut të mjeteve.",
+        "Sinjalistika në figurë paraqet një zonë mbi të cilën ndalohet qarkullimi i mjeteve.",
+        "Sinjalistika në figurë lejon që të kalojmë mbi të me mjet.",
+        "Sinjalistika në figurë tregon një zonë të rezervuar për qëndrimin e këmbësorëve.",
+        "Sinjalistika në figurë mund të shkelet nga mjetet taksi.",
+        //5-029 533//
+        "Sinjalistika në figurë paraqet një ishull trafiku.",
+        "Sinjalistika në figurë tregon një ishull trafiku të ngritur mbi sipërfaqen e rrugës.",
+        "Sinjalistika në figurë lejon qëndrimin e mjeteve përkohësisht mbi të.",
+        "Sinjalistika në figurë është e ndërtuar jashtë sipërfaqes së rrugës.",
+        "Sinjalistika në figurë tregon një zonë të rezervuar për qëndrimin e këmbësorëve.",
+        //5-030 534//
+        "Në prani të sinjalistikës në figurë, duhet të zvogëlojmë shpejtësinë e lëvizjes së mjetit. ",
+        "Sinjalistika e paraqitur në figurë gjendet e vizatuar në sipërfaqen e karrexhatës.",
+        "Sinjalistika e paraqitur në figurë ndalon kalimin e mjeteve mbi te.",
+        "Sinjalistika në figurë tregon një vendkalim këmbësoresh.",
+        //5-031 535//
+        "Sinjalistika e paraqitur në figurë tregon se duhet të zvogëlojmë shpejtësinë e lëvizjes.",
+        "Sinjalistika në figurë tregon një kurriz artificial të vendosur në karrexhatë, me qëllim ngadalësimin e shpejtësisë së mjeteve.",
+        "Sinjalistika në figurë është e vendosur mbi sipërfaqen e karrexhatës.",
+        "Vijat e zeza dhe të verdha fosforeshente si në figurë, identifikojnë një kurriz artificial të vendosur mbi sipërfaqen e karrexhatës.",
+        "Vijat e zeza dhe të verdha fosforeshente si në figurë, identifikojnë një ishull trafiku.",
+        "Sinjalistika në figurë tregon se mjetet duhet të ecin në një rresht të vetëm.",
+        "Vijat e zeza dhe të verdha fosforeshente si në figurë, identifikojnë një ishull trafiku.",
+        "Sinjalistika e paraqitur në figurë tregon se jemi para një kalimi në nivel.",
+        //5-032 537//
+        "Sinjalistika në figurë tregon një korsi shpejtimi që lejon hyrjen e mjeteve në karrexhatën me një sens lëvizje dhe me dy korsi.",
+        "Sipas sinjalistikës në figurë ndalohet ndryshimi i sensit të lëvizjes.",
+        "Sinjalistika në figurë lejon parakalimin vetëm në korsinë e shpejtimit.",
+        "Sinjalistika në figurë tregon një korsi ngadalësimi për të dalë nga rruga.",
+        //5-033 538//
+        "Sinjalistika si në figurë ndalon ndryshimin e sensit të lëvizjes në pjesët ngjitëse dhe zbritëse të kurrizit.",
+        "Sinjalistika në figurë lejon parakalimin në pjesën zbritëse të kurrizit.",
+        "Sinjalistika e paraqitur në figurë tregon një karrexhatë me një sens.",
+        "Sinjalistika në figurë lejon parakalimin në pjesën ngjitëse të kurrizit.",
+        "Sinjalistika në figurë lejon qëndrimin përveç pjesës ngjitëse dhe zbritëse.",
+        //5-034 539//
+        "Sipas sinjalistikës në figurë, ndalohet ndryshimi i sensit të lëvizjes.",
+        "Sinjalistika në figurë lejon parakalimin gjatë gjithë karrexhatës.",
+        "Sinjalistika e paraqitur në figurë tregon një karrexhatë me një sens lëvizje.",
+        //5-035 540//
+        //5-036 541//
 
     )
     private val noImage = R.drawable.img_overall
@@ -1849,6 +1902,60 @@ class QuestionData {
         R.drawable.img_520,
         R.drawable.img_520,
         R.drawable.img_520,
+        //5-026 531//
+        R.drawable.img_521,
+        R.drawable.img_521,
+        R.drawable.img_521,
+        R.drawable.img_521,
+        R.drawable.img_521,
+        //5-027 531//
+        R.drawable.img_531,
+        R.drawable.img_531,
+        R.drawable.img_531,
+        R.drawable.img_531,
+        //5-028 532//
+        R.drawable.img_532,
+        R.drawable.img_532,
+        R.drawable.img_532,
+        R.drawable.img_532,
+        R.drawable.img_532,
+        R.drawable.img_532,
+        R.drawable.img_532,
+        //5-029 533//
+        R.drawable.img_533,
+        R.drawable.img_533,
+        R.drawable.img_533,
+        R.drawable.img_533,
+        R.drawable.img_533,
+        //5-030 534//
+        R.drawable.img_534,
+        R.drawable.img_534,
+        R.drawable.img_534,
+        R.drawable.img_534,
+        //5-031 535//
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        R.drawable.img_535,
+        //5-032 537//
+        R.drawable.img_537,
+        R.drawable.img_537,
+        R.drawable.img_537,
+        R.drawable.img_537,
+        //5-033 538//
+        R.drawable.img_538,
+        R.drawable.img_538,
+        R.drawable.img_538,
+        R.drawable.img_538,
+        R.drawable.img_538,
+        //5-034 539//
+        R.drawable.img_539,
+        R.drawable.img_539,
+        R.drawable.img_539,
 
     )
     val questionAnswers = arrayOf(
@@ -2767,6 +2874,60 @@ class QuestionData {
         "Sakte",
         "Sakte",
         "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-026 521//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-027 531//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //5-028 532//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-029 533//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-030 534//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-031 535//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-032 537//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //5-033 538//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //5-034 539//
+        "Sakte",
         "Gabim",
         "Gabim",
 
