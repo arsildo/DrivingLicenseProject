@@ -1791,6 +1791,153 @@ class QuestionData {
         "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i pari.",
         "Në kryqëzimin e paraqitur në figurë, mjeti R kalon pas mjetit A.",
         "Në kryqëzimin e paraqitur në figurë, mjeti C kalon i dyti.",
+        //10-011//
+        "Në kryqëzimin e paraqitur në figurë, mjeti B kalon i pari kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: S, B, T.",
+        //10-012//
+        "Në kryqëzimin e paraqitur në figurë, mjeti N përfundon manovrën e kthimit majtas pas kalimit të mjeteve R e A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N pasi vendoset në qendër të kryqëzimit, duhet të presë kalimin e mjeteve R dhe A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N ka përparësi ndaj mjetit A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N hyn i fundit në qendër të kryqëzimit.",
+        //10-013//
+        "Në kryqëzimin e paraqitur në figurë, mjeti L kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti H kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L kalon njëkohësisht me mjetin C, pastaj mjeti H.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: H, C, L.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: L, H, C.",
+        //10-014//
+        "Në kryqëzimin e paraqitur në figurë, mjeti A, kur nuk ka ndezur sinjalet e urgjencës, duhet ti japë përparësi mjetit M.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i pari kur ka në funksion sinjalet e urgjencës.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti M kalon i fundit kur mjeti A ka ndezur sinjalet e urgjencës.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: M, S, A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A, edhe kur ka ndezur sinjalet e urgjencës, i jep përparësi mjetit M.",
+        //10-015//
+        "Në kryqëzimin e paraqitur në figurë, mjeti B duhet të presë të kalojë mjeti P.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti P kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C ka krahun e djathtë të zënë.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti B kalon i fundit kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: P, C, B.",
+        //10-016//
+        "Në kryqëzimin e paraqitur në figurë, mjeti L kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C i jep përparësi mjetit L",
+        "Në kryqëzimin e paraqitur në figurë, mjeti B kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C kalon i pari sepse i duhet të lëvizë drejt",
+        "Në kryqëzimin e paraqitur në figurë, mjeti B kalon para mjetit L.",
+        //10-017//
+        "Në kryqëzimin e paraqitur në figurë, mjeti E kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L i jep përparësi mjetit E.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti B kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L është pozicionuar gabim për lëvizjen drejt.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L kalon i pari sepse i duhet të lëvizë drejt.",
+        //10-018//
+        "Në kryqëzimin e paraqitur në figurë, mjeti C për të lëvizur drejt duhet të ishte pozicionuar në korsinë e mesit.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet A dhe R kalojnë njëkohësisht.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është A dhe R njëkohësisht, pastaj mjeti C.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A ka zënë pozicion të rregullt për kthim djathtas të tij.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C kalon i pari sepse i duhet të lëvizë drejt.",
+        "Në kryqëzimin e paraqitur në figurë mjetet R dhe C kalojnë njëkohësisht që t’i hapin rrugë mjetit A.",
+        "Në kryqëzimin e paraqitur në figurë mjeti C kalon para mjetit A.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: A, C, R.",
+        //10-019//
+        "Sipas figurës, mjeti S ka zgjedhur korsi të gabuar.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti S i jep përparësi mjetit C.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti S kalon i pari që tu hapë rrugë mjeteve C dhe B. ",
+        //10-020//
+        "Në kryqëzimin e paraqitur në figurë, mjeti P mund të lëvizë drejt ose të kthehet djathtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A është i detyruar të lëvizë vetëm drejt.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D mund të lëvizë drejt, ose të kthehet majtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A ka të drejtë të kthehet edhe majtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D lëviz i pari, pasi ka krahun e majtë të lire.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti P ka të drejtë të kthehet vetëm djathtas.",
+        //10-021//
+        "Në kryqëzimin e paraqitur në figurë, mjeti C ka bërë zgjedhje të gabuar të korsisë.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: E dhe C njëkohësisht pastaj mjeti A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A, për kthim majtas, ka zgjedhur korsi të gabuar.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C i jep përparësi mjetit E.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti E duhet t’i japë përparësi mjetit C.",
+        //10-022//
+        "Në kryqëzimin e paraqitur në figurë, mjeti N, është i pozicionuar në korsi të gabuar.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C është pozicionuar ne korsi të gabuar.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C i jep përparësi mjetit N.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: C, N, B.",
+        //10-023//
+        "Në kryqëzimin e paraqitur në figurë, të tre mjetet, për drejtimet që kanë zgjedhur, janë pozicionuar në korsitë e duhura.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: N dhe C njëkohësit, pastaj D.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C i jep përparësi mjetit D.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D lejohet të kthehet vetëm majtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet kalojnë sipas radhës: D, C, N.",
+        //10-024//
+        "Në kryqëzimin e paraqitur në figurë, mjeti A ka të drejtë të lëvizë drejt ose të kthehet djathtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A i jep përparësi mjetit H.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti E ka të drejtë të kthehet vetëm majtas.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A mund të kalojë vetëm drejt.",
+        //10-025//
+        "Në kryqëzimin e paraqitur në figurë duhet zbatuar rregulli i dhënies së përparësisë nga e djathta.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti S kalon i pari dhe mbas tij kalojnë mjetet D dhe E.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: S, D, E.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: E, D, S.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: D, E, S.",
+        //10-026//
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: R, D, F.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti F, kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti F kalon i pari sepse është trolejbus.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: F, R, D.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N kalon i fundit.",
+        //10-027//
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: D, P, B, N.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N kalon pas mjetit B.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: D, B, N, P.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet D dhe N kalojnë njëkohësisht.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet D e B kalojnë njëkohësisht, pasi trajektoret e tyre nuk ndërpriten.",
+        //10-028//
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: N, A, R.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A duhet t`i jap përparësi mjetit N.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti R duhet t`i jap përparësi mjetit A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N kalon i pari, sepse e ka krahun e djathtë të lirë.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: A, N, R.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: N, R, A.",
+        //10-029//
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i pari kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L, duhet të kaloje i fundit kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: A, C, L.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon kryqëzimin pas mjeteve L dhe C.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet duhet të kalojnë sipas radhës: L, C, A.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti C kalon pas mjetit L.",
+        //10-030//
+        "Në kryqëzimin e paraqitur në figurë, mjeti P kalon i pari ndërsa mjetet E dhe S kalojnë njëkohësisht.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti P kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti P lëviz në rrugë me përparësi.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: S, P, E.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti S kalon i pari sepse e ka krahun e djathtë të lirë.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti E kalon i pari sepse ka krahun e majtë të lirë.",
+        //10-031//
+        "Në kryqëzimin e paraqitur në figurë tramvaji T kalon i pari kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon pas tramvajit T.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: T, A, S.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i pari kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: A, T, S.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti S kalon menjëherë pas mjetit T.",
+        //10-032//
+        "Në kryqëzimin e paraqitur në figurë, mjeti L kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D është i fundit që kalon kryqëzimin.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti L e ka krahun e djathtë të lirë.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A duhet të presë të kalojë mjeti D.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti A kalon i fundit.",
+        "Në kryqëzimin e paraqitur në figurë, radha e kalimit të mjeteve është: C, A, D, L.",
+        //10-033//
+        "Në kryqëzimin e paraqitur në figurë, mjeti B lëviz i pari deri në qendër të kryqëzimit dhe ndalon.",
+        "Në kryqëzimin e paraqitur në figurë, mjetet D dhe N kalojnë njëkohësisht pasi ka kaluar mjeti R.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti B duhet të ndalojë në qendër të kryqëzimit.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti N kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D kalon i pari.",
+        "Në kryqëzimin e paraqitur në figurë, mjeti D duhet t’i japë përparësi mjetit B.",
+        //10-021//
+        //10-021//
+        //10-021//
+        //10-021//
     )
     private val noImage = R.drawable.img_overall
     val questionImages = arrayOf(
@@ -3577,6 +3724,65 @@ class QuestionData {
         R.drawable.img_615,
         R.drawable.img_615,
         R.drawable.img_615,
+        //10-011//
+        R.drawable.img_616,
+        R.drawable.img_616,
+        //10-012//
+        R.drawable.img_617,
+        R.drawable.img_617,
+        R.drawable.img_617,
+        R.drawable.img_617,
+        //10-013//
+        R.drawable.img_619,
+        R.drawable.img_619,
+        R.drawable.img_619,
+        R.drawable.img_619,
+        R.drawable.img_619,
+        //10-014//
+        R.drawable.img_620,
+        R.drawable.img_620,
+        R.drawable.img_620,
+        R.drawable.img_620,
+        R.drawable.img_620,
+        //10-015//
+        R.drawable.img_621,
+        R.drawable.img_621,
+        R.drawable.img_621,
+        R.drawable.img_621,
+        R.drawable.img_621,
+        //10-016//
+        R.drawable.img_622,
+        R.drawable.img_622,
+        R.drawable.img_622,
+        R.drawable.img_622,
+        R.drawable.img_622,
+        //10-017//
+        R.drawable.img_623,
+        R.drawable.img_623,
+        R.drawable.img_623,
+        R.drawable.img_623,
+        R.drawable.img_623,
+        //10-018//
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        R.drawable.img_624,
+        //10-019//
+        R.drawable.img_625,
+        R.drawable.img_625,
+        R.drawable.img_625,
+        //10-020//
+        R.drawable.img_626,
+        R.drawable.img_626,
+        R.drawable.img_626,
+        R.drawable.img_626,
+        R.drawable.img_626,
+        R.drawable.img_626,
     )
     val questionAnswers = arrayOf(
         //1//
@@ -5356,6 +5562,65 @@ class QuestionData {
         "Gabim",
         "Gabim",
         //10-010//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //10-011//
+        "Sakte",
+        "Gabim",
+        //10-012//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //10-013//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //10-014//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //10-015//
+        "Sakte",
+        "Gabim",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //10-016//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //10-017//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        //10-018//
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        "Gabim",
+        //10-019//
+        "Sakte",
+        "Sakte",
+        "Gabim",
+        //10-020//
         "Sakte",
         "Sakte",
         "Sakte",
