@@ -119,6 +119,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
 
     override fun getItemCount() = 40
 
+    // TODO NEW GENERATING INDEX LOGIC
     private fun generateIndexes(): Array<Int> {
         if (!generatedOnce){
             for (i in 0..39){
