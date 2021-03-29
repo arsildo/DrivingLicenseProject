@@ -15,7 +15,9 @@ import androidx.core.view.isVisible
 import androidx.viewpager2.widget.ViewPager2
 import com.drivinglicenseapk.R
 import com.drivinglicenseapk.handling.QuestionAdapter
-import com.drivinglicenseapk.handling.QuestionData
+import com.drivinglicenseapk.handling.data.QuestionAnswers
+import com.drivinglicenseapk.handling.data.QuestionImages
+import com.drivinglicenseapk.handling.data.QuestionStrings
 import kotlinx.android.synthetic.main.activity_exam.*
 import kotlinx.android.synthetic.main.exam_question_list_dialog.*
 import kotlinx.android.synthetic.main.exam_result_dialog.*
@@ -30,8 +32,10 @@ class ExamActivity : AppCompatActivity(){
     private var elapsedTimeStored = false
     private var elapsedTime : Long = 0
 
-    private val questionData = QuestionData()
-    private var questionAdapter = QuestionAdapter(questionData)
+    private val questionStrings = QuestionStrings()
+    private val questionImages = QuestionImages()
+    private val questionAnswers = QuestionAnswers()
+    private var questionAdapter = QuestionAdapter(questionAnswers,questionStrings,questionImages)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

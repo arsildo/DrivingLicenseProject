@@ -11,11 +11,18 @@ import android.widget.TextView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.drivinglicenseapk.R
+import com.drivinglicenseapk.handling.data.QuestionAnswers
+import com.drivinglicenseapk.handling.data.QuestionImages
+import com.drivinglicenseapk.handling.data.QuestionStrings
 import kotlinx.android.synthetic.main.item_question.view.*
 import java.util.*
 
 
-class QuestionAdapter(private val questionData: QuestionData) :
+class QuestionAdapter(
+    private val questionAnswers: QuestionAnswers,
+    private val questionStrings: QuestionStrings,
+    private val questionImages: QuestionImages
+) :
     RecyclerView.Adapter<QuestionAdapter.QuestionViewPagerViewHolder>() {
 
     private val checkBoxStateA = BooleanArray(40)
@@ -89,11 +96,12 @@ class QuestionAdapter(private val questionData: QuestionData) :
         val chFalse = holder.chFalse
         val wrongMark = holder.wrongMark
         generateIndexes()
-        qString.text = questionData.questionStrings[randomIndexes[position]]
-        Log.d("MATCHst","${questionData.questionStrings.size}")
-        qImage.setImageResource(questionData.questionImages[randomIndexes[position]])
-        Log.d("MATCHimg","${questionData.questionImages.size}")
-        Log.d("MATCHans","${questionData.questionAnswers.size}")
+        qString.text = questionStrings.questionStrings[randomIndexes[position]]
+        qImage.setImageResource(questionImages.questionImages[randomIndexes[position]])
+
+        Log.d("MATCH NR STRING","${questionStrings.questionStrings.size}")
+        Log.d("MATCH NR IMAGE","${questionImages.questionImages.size}")
+        Log.d("MATCH  NR ANSWER","${questionAnswers.questionAnswers.size}")
         wrongMark.isVisible = false
 
 
@@ -123,9 +131,9 @@ class QuestionAdapter(private val questionData: QuestionData) :
     private fun generateIndexes(): Array<Int> {
         if (!generatedOnce){
             for (i in 0..39){
-                val random = Random().nextInt(questionData.questionAnswers.size)
+                val random = Random().nextInt(questionAnswers.questionAnswers.size)
                 randomIndexes[i] = random
-                if (randomIndexes.contains(random)) randomIndexes[i]=Random().nextInt(questionData.questionAnswers.size)
+                if (randomIndexes.contains(random)) randomIndexes[i]=Random().nextInt(questionAnswers.questionAnswers.size)
             }
             generatedOnce = true
         }
@@ -135,7 +143,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
     fun countMistakes() : Int{
         mistakes=0
         for (i in 0..39){
-            if (userGivenAnswers[i]!=questionData.questionAnswers[generateIndexes()[i]]){
+            if (userGivenAnswers[i]!=questionAnswers.questionAnswers[generateIndexes()[i]]){
                 mistakes++
             }
         }
@@ -150,7 +158,7 @@ class QuestionAdapter(private val questionData: QuestionData) :
             1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
         )
         for (i in 0..39){
-            if (userGivenAnswers[i]!=questionData.questionAnswers[generateIndexes()[i]]){
+            if (userGivenAnswers[i]!=questionAnswers.questionAnswers[generateIndexes()[i]]){
                 markMistakes[i] = 0
             }
         }
