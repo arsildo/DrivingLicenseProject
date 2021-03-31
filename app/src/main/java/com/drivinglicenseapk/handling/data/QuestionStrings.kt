@@ -1,4 +1,4 @@
-package com.drivinglicenseapk.handling.data
+ package com.drivinglicenseapk.handling.data
 
 class QuestionStrings {
     val questionStrings = arrayOf(
@@ -2541,6 +2541,60 @@ class QuestionStrings {
         "Kur një i dëmtuar nga aksidenti rrugor ka djegie dhe mbeturina të veshjeve në pjesët e trupit, duhet të largohen menjëherë mbetjet e veshjeve",
         "Kur një i dëmtuar nga aksidenti rrugor ka djegie, duhet të dezinfektohen djegiet me alkool.",
         "Kur një i dëmtuar nga aksidenti rrugor ka djegie, duhet vetëm të njoftojmë shërbimin zjarrfikës dhe të presim.",
-
+        //15-001//
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të pushojë në vendpushimin më të afërt.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të ulë shpejtësinë dhe të mbajë krahun e djathtë për të gjetur një vend pushimi.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje mund të përdorë për pushim korsinë e emergjencës.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të nxitojë dhe të shtojë shpejtësinë, që të mbërrijë sa më shpejt në destinacionin për ku është nisur.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet t’i qëndrojë sa më afër automjetit që ka përpara.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të fikë dritat e kroskotit.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të mbajë një shpejtësi të lartë për të arritur shpejt në destinacion.",
+        "Drejtuesi i mjetit i cili shfaq shenja lodhje duhet të shuajë dritat e kroskotit dhe të ndezë dritat e kabinës.",
+        //15-002//
+        "Përdorimi i alkoolit nga drejtuesi i mjetit mund të çojë në eufori, pakujdesi dhe e bën më pak të sigurt drejtimin e mjetit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit i bën më të ngadalta reflekset e tij në drejtimin e mjetit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit mund të shkaktojë gjendjen e gjumit dhe mundësinë e aksidenteve.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit zvogëlon aftësitë e përqendrimit në drejtimin e mjetit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit ul përqendrimin në drejtimin e mjetit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit përbën rrezik të madh për qarkullimin.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit përbën një shkelje të rëndë të Kodit Rrugor.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit mund të verifikohet me testin e alkoolit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit e bën më të sigurt drejtimin sepse largon lodhjen.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit rrit aftësinë e përqendrimit dhe e lehtëson drejtimin e mjetit.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit e bën atë më vigjilent dhe të kujdesshëm.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit e bën më të këndshëm udhëtimin.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit përmirëson aftësinë pamore dhe shpejtësinë e reagimit të tij.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit ndalohet vetëm në fundjavë.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit lejohet kur nuk ka pasagjerë në mjet.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit ndalohet vetëm në autostrada.",
+        "Përdorimi i alkoolit nga drejtuesi i mjetit lejohet vetëm nëse qarkullon me shpejtësi të ulët.",
+        "Abuzimi me alkoolin i shkakton drejtuesit të mjetit shpërqendrim dhe moskuptim të rrezikut",
+        "Abuzimi me alkoolin nga drejtuesit e mjeteve rrit përqendrimin në drejtimin e mjetit.",
+        //15-003//
+        "Ndalohet të drejtojmë mjete kur vuajmë nga sëmundje që e pengojnë drejtimin e tij.",
+        //15-004//
+        "Ai që ka përdorur rregullisht lëndë narkotike dhe zotëron lejedrejtimi, mund të drejtojë mjete vetëm nëse vërteton zyrtarisht se nuk është më përdorues i lëndëve narkotike.",
+        "Ai që ka përdorur rregullisht lëndë narkotike dhe zotëron lejedrejtimi, mund të drejtojë mjete nëse komisioni mjekësor vërteton se nuk është me përdorues i lëndëve narkotike.",
+        "Ai që ka përdorur rregullisht lëndë narkotike dhe rezulton akoma përdorues i tyre, nuk mund të drejtojë asnjë lloj mjeti rrugor.",
+        "Ai që ka përdorur rregullisht lëndë narkotike mund të drejtojë vetëm mjete me cilindratë të vogël.",
+        "Ai që ka përdorur rregullisht lëndë narkotike mund të drejtojë çdo mjet, edhe pse është akoma përdorues, mjafton të mos jetë rrezikshëm për shoqërinë.",
+        "Ai që ka përdorur rregullisht lëndë narkotike e humb përgjithmonë të drejtën për të mbajtur lejedrejtimi.",
+        "Ai që përdor rregullisht lëndë narkotike të lehta mund të drejtojë mjete.",
+        "Përdorimi i substancave narkotike nga drejtuesit e mjeteve ul aftësitë reaguese gjatë drejtimit.",
+        "Përdorimi i substancave narkotike nga drejtuesit e mjeteve ndikon në drejtimin e mjetit sepse mund t'i shkaktojë atyre përgjumje.",
+        "Përdorimi i substancave narkotike ndikon pozitivisht në drejtimin e mjetit.",
+        "Përdorimi i substancave narkotike nga drejtuesit e mjeteve ndikon në drejtimin e mjetit sepse përmirëson vetëkontrollin.",
+        "Përdorimi i substancave narkotike nga drejtuesit e mjeteve ndikon në drejtimin e mjetit sepse përmirëson dëgjimin dhe shikimin.",
+        "Përdorimi i substancave narkotike nga drejtuesit e mjeteve e rrit përqendrimin e tyre gjatë drejtimit të mjetit.",
+        //15-005//
+        "Ndalohet në çdo rast drejtimi i mjetit kur kurohemi me barna mjekësore me veprim qetësues.",
+        "Mund te drejtojë mjetin gjithmonë, pa problem, një drejtues mjeti që kurohet me barna mjekësore qetësuese.",
+        "Përdorimi i barnave qetësues nga drejtuesi i mjetit mund t'i shkaktojë atij ulje të vëmendjes.",
+        "Përdorimi i barnave qetësuese nga drejtuesi i mjetit mund t'i shkaktojë atij përgjumje gjatë përdorimit të mjetit.",
+        "Përdorimi i barnave qetësuese nga drejtuesi i mjetit mund t'i shkaktojë atij ulje të reflekseve.",
+        "Përdorimi i barnave qetësuese nga drejtuesi i mjetit mund t'i shkaktojë atij zgjatje të kohës së reagimit gjatë përdorimit të mjetit.",
+        "Kur përdorim barna qetësuese gjate drejtimit te mjetit nuk duhet te interesohemi për efektet anësore te tyre.",
+        "Kur përdorim barna qetësuese gjate drejtimit te mjetit udhëtimi është gjithmonë i sigurt.",
+        "Përdorimi i barnave qetësues mund t'i shkaktojë drejtuesit të mjetit shpërqendrim dhe moskuptim të rrezikut.",
     )
 }

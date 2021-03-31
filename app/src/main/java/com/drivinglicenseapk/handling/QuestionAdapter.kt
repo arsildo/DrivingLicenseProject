@@ -22,8 +22,7 @@ class QuestionAdapter(
     private val questionAnswers: QuestionAnswers,
     private val questionStrings: QuestionStrings,
     private val questionImages: QuestionImages
-) :
-    RecyclerView.Adapter<QuestionAdapter.QuestionViewPagerViewHolder>() {
+    ) : RecyclerView.Adapter<QuestionAdapter.QuestionViewPagerViewHolder>() {
 
     private val checkBoxStateA = BooleanArray(40)
     private val checkBoxStateB = BooleanArray(40)
