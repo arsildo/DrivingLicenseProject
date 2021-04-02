@@ -1,4 +1,4 @@
- package com.drivinglicenseapk.handling.data
+package com.drivinglicenseapk.handling.data
 
 class QuestionStrings {
     val questionStrings = arrayOf(
@@ -2795,5 +2795,258 @@ class QuestionStrings {
         //16-030//
         "Sinjali në figurë ndalon qarkullimin e autoveturave dhe motorëve.",
         "Sinjali në figurë tregon rrugë, korsi ose itinerar të rezervuar vetëm për biçikleta.",
+        //16-031//
+        "Sinjali në figurë tregon fundin e një rruge ose korsie të rezervuar për qarkullimin vetëm të\n" +
+                "biçikletave.",
+        "Sinjali në figurë tregon se pas tij është i ndaluar qarkullimi i biçikletave.",
+        //16-032//
+        "Sinjali në figurë tregon një pistë biçikletash ngjitur me trotuarin",
+        "Sinjali në figurë tregon një rrugë për biçikleta ngjitur me një rrugë për këmbësorë.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve me motor.",
+        "Sinjali në figurë tregon një rrugë të përbashkët për qarkullimin e këmbësorëve dhe biçikletave.",
+        "Sinjali në figurë tregon fillimin e një rruge të përcaktuar për qarkullimin e përbashkët të biçikletave dhe këmbësorëve.",
+        //16-033//
+        "Sinjali në figurë tregon një rrugë të përbashkët për këmbësorë dhe biçikleta.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve me motor.",
+        "Sinjali në figurë tregon një zonë këmbësore paralel me një rrugë për biçikleta.",
+        //16-034//
+        "Sinjali në figurë tregon fundin e pistës për biçikletat paralel me rrugën e këmbësorëve.",
+        "Sinjali në figurë tregon fundin e zonës së rezervuar për qarkullimin e përzier të këmbësorëve dhe biçikletave.",
+        //16-035//
+        "Sinjali në figurë tregon fundin e rrugës apo zonës të përcaktuar për këmbësorë dhe biçikleta.",
+        "Pas sinjalit në figurë lejohet të qarkullojnë biçikleta dhe këmbësorë.",
+        //16-036//
+        "Sinjali në figurë ndalon qarkullimin e mjeteve.",
+        "Sinjali në figurë tregon një rrezik që mund të vijë nga kuajt në rrugë.",
+        "Sinjali në figurë tregon një vend ku rriten kuaj.",
+        //16-037//
+        "Sinjali në figurë tregon fundin e një rruge të rezervuar për kuajt që mbajnë ngarkesa ose që mbajnë kalorës.",
+        "Sinjali në figurë tregon se mbaron kalimi i rezervuar për kuajt.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një vend për stërvitjen e kuajve.",
+        "Sinjali në figurë tregon fundin e rrezikut nga kalimi i kuajve.",
+        //17-001//
+        "Sinjali në figurë paralajmëron kryqëzim në një zonë të banuar.",
+        "Sinjali në figurë tregon vendet në të cilat mund të shkohet nga ky kryqëzim.",
+        "Sinjali në figurë na tregon se për të shkuar në qendër të qytetit duhet të kthehemi djathtas.",
+        "Sinjali në figurë na tregon se për të shkuar tek stacioni i trenit duhet të kthehemi djathtas.",
+        "Sinjali në figurë tregon se për të dalë nga zona e banuar duhet të vazhdojmë lëvizjen drejt.",
+        "Sinjali në figurë tregon se për të shkuar në Kavajë duhet të vazhdojmë lëvizjen drejt.",
+        "Sinjali në figurë paralajmëron afrimin e disa kryqëzimeve njëri pas tjetrit.",
+        //17-002//
+        "Sinjali në figurë tregon dy kryqëzime të njëpasnjëshme.",
+        "Sinjali në figurë tregon se në kryqëzimin e parë ndalohet kthimi majtas.",
+        "Sinjali në figurë tregon se për të shkuar në spital duhet të kthehemi majtas në kryqëzimin e dytë.",
+        "Sinjali në figurë tregon se për të shkuar në Gjirokastër, duhet të kthehemi djathtas në kryqëzimin e parë.",
+        "Sinjali në figurë tregon se për të shkuar në r Sarandë, duhet të ktheheni djathtas në kryqëzimin e dytë.",
+        "Sinjali në figurë tregon se për të shkuar në Kakavijë, duhet të ktheheni majtas në kryqëzimin e dytë.",
+        "Sinjali në figurë paralajmëron ndalim kalimi në kryqëzimin e dytë.",
+        "Sinjali në figurë tregon detyrimin për t’u kthyer vetëm djathtas.",
+        "Sinjali në figurë tregon një pjesë të rrugës kryesore që kryqëzohet me rrugë dytësore.",
+        //17-003//
+        "Sinjali në figurë paralajmëron kryqëzim urban të rregulluar me rrethqarkullim.",
+        "Sinjali në figurë tregon se për të shkuar në Elbasan duhet të kthehemi djathtas në degëzimin e parë.",
+        "Sinjali në figurë tregon se për të shkuar në Tiranë duhet të kthehemi djathtas në degëzimin e dytë.",
+        "Sinjali në figurë tregon një pjesë rruge që ka mbikalim.",
+        "Sinjali në figurë paralajmëron një zonë të përshtatur për park publik.",
+        //17-004//
+        "Sinjali në figurë i lejon autoveturat të vazhdojnë lëvizjen drejt për në Përrenjas",
+        "Sinjali në figurë paralajmëron se për të hyrë në autostradë duhet të kthehemi majtas në kryqëzim.",
+        "Sinjali në figurë ndalon qarkullimin e mjeteve për transportin e mallrave me ngarkesë të plotë mbi 3.5 tonë në qendër të qytetit të Pogradecit.",
+        "Sinjali në figurë i lejon autobusët që të vazhdojnë drejt për në qendrën e Pogradecit.",
+        "Sinjali në figurë ndalon qarkullimin për të gjitha llojet e automjeteve që të vazhdojnë drejt për në qendër të Pogradecit.",
+        "Sinjali në figurë paralajmëron një kryqëzim të rregulluar me rrethqarkullim.",
+        //17-005//
+        "Sinjali në figurë paralajmëron kryqëzim në rrugë interurbane.",
+        "Sinjali në figurë tregon se në rast se kthehemi djathtas, futemi në një rrugë që ka kalim në nivel të pambrojtur.",
+        "Sinjali në figurë tregon se për të shkuar në qendrën turistike të Vorës duhet të kthehemi majtas.",
+        "Sinjali në figurë paralajmëron se për të shkuar në Rinas duhet të marrim drejtimin djathtas.",
+        "Sinjali në figurë paralajmëron që zona industriale e Vorës është në të majtë të kryqëzimit.",
+        //17-006//
+        "Sinjali në figurë i tregon drejtuesit të mjetit se për të shkuar në Shëngjin duhet të pozicionohet në korsinë e majtë.",
+        "Sinjali në figurë i tregon drejtuesit të mjetit se për të shkuar në Shkodër duhet të pozicionohet në korsinë e djathtë.",
+        "Sinjali në figurë tregon korsinë e rezervuar për parakalim.",
+        "Sinjali në figurë tregon një degëzim në autostrade.",
+        "Sinjali në figurë paralajmëron një kryqëzim urban (qytetës).",
+        //17-007//
+        "Sinjali në figurë orienton të pozicionohesh në korsinë e duhur sipas destinacionit të dëshiruar.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve që duan të shkojnë në Elbasan, të pozicionohen në korsinë e majtë.",
+        "Sinjali në figurë i tregon drejtuesit të mjetit që po lëviz drejt qendrës së qytetit, të pozicionohet në korsinë e djathtë.",
+        "Sinjali në figurë tregon një degëzim në autostradë.",
+        "Sinjali në figurë paralajmëron një kryqëzim autostradal.",
+        //17-008//
+        "Sinjali në figurë paralajmëron se për të shkuar në Durrës, duhet të vazhdojmë lëvizjen drejt.",
+        "Sinjali në figurë është sinjal i parazgjedhjes mbi rrugë interurbane kryesore.",
+        //17-009//
+        "Sinjali në figurë paralajmëron një degëzim nga e djathta për të shkuar në qendër të qytetit.",
+        "Sinjali në figurë paralajmëron se për të shkuar në Tiranë, duhet vazhduar lëvizja drejt.",
+        "Sinjali në figurë i vendosur në fillim të qendrës urbane paralajmëron detyrimin për të vazhduar lëvizjen drejt.",
+        "Sinjali në figurë tregon kthimin nga e djathta për të shkuar në një qendër historikosportive",
+        //17-010//
+        "Sinjali në figurë tregon se duke lëvizur sipas drejtimit të shigjetës, rruga të çon në Rinas.",
+        "Sinjali në figurë tregon se duke lëvizur sipas drejtimit të shigjetës, ndodhet rruga shtetërore interurbane që të çon në Durrës.",
+        "Sinjali në figurë tregon se për të shkuar në Durrës duhet të përshkojmë edhe 35 km.",
+        //17-011//
+        "Sinjali në figurë tregon se për të shkuar në qendër të qytetit të Fierit, duhet vazhduar lëvizja drejt.",
+        "Sinjali në figurë paralajmëron se qyteti më i afërt është qyteti i Fierit.",
+        //17-012//
+        "Sinjali në figurë tregon korsinë e autostradës që duhet zgjedhur për të shkuar në destinacionet e shënuara.",
+        "Sinjali në figurë tregon se për të shkuar në Rrogozhinë, duhet të marrim autostradën A9.",
+        "Sinjali në figurë tregon se për të shkuar në Kavajë, duhet të marrim autostradën A8.",
+        "Sinjali në figurë tregon se vendmbërritje është edhe Rinasi.",
+        "Sinjali në figurë tregon se për të shkuar në Rrogozhinë duhen edhe 9 km.",
+        //17-013//
+        "Sinjali në figurë tregon se rruga interurbane të çon në destinacionet e shënuara në të.",
+        "Sinjali në figurë tregon se rruga interurbane është me dy korsi.",
+        //17-014//
+        "Sinjali në figurë, i vendosur në autostradë, tregon korsinë që duhet zgjedhur për të dalë në zonë urbane.",
+        "Sinjali në figurë është një panel plotësues.",
+        //17-015//
+        "Sinjali në figurë tregon korsi autostrade me kufi të shpejtësisë minimale, për të shkuar në destinacionet e shënuar në të.",
+        "Sinjali në figurë tregon se në atë korsi mund të lëvizet me shpejtësi nga 90 km/orë deri në 110 km/orë.",
+        "Sinjali në figurë tregon se në korsinë ku është vendosur, drejtuesit e mjeteve duhet të lëvizin me shpejtësi më të vogël se 90 km/orë.",
+        "Sinjali në figurë tregon se në korsinë ku është vendosur, lejohet kthimi i sensit të lëvizjes.",
+        //17-016//
+        "Sinjali në figurë tregon drejtimin i cili duhet ndjekur për të mbërritur në qendër të qytetit të Vorës.",
+        "Sinjali në figurë tregon se pas 60 km ndodhet qyteti i përshkruar në sinjal.",
+        "Sinjali në figurë tregon shpejtësinë maksimale me të cilën duhet të lëvizin mjetet në rrugën ku është vendosur sinjali.",
+        //17-017//
+        "Sinjali në figurë tregon se pas 500 m është një dalje e rrugës interurbane nëpërmjet së cilës shkohet në destinacionet e shënuar në të.",
+        "Sinjali në figurë tregon se dalja për Lushnje është pas distancës 500 metër.",
+        "Sinjali në figurë tregon qendrat e banimit në të cilat shkohet duke përdorur këtë dalje.",
+        "Sinjali në figurë tregon dalje pas distancës 500 metër, për të shkuar në zonat turistike të shënuar në sinjal.",
+        "Sinjali në figurë paralajmëron daljen nga qendra urbane (qytetëse).",
+        "Sinjali në figurë tregon qendrat e banuara që janë në distancën 500 metër mbas sinjalit.",
+        "Sinjali në figurë tregon destinacionet ku arrihet duke vazhduar lëvizjen në autostradë.",
+        "Sinjali në figurë tregon daljen nga kufiri territorial i bashkisë së Lushnjës.",
+        //17-018//
+        "Sinjali në figurë tregon fundin e zonës urbane dhe fillimin e rrugës interurbane.",
+        "Sinjali në figurë, në pjesën blu tregon qendrat e ardhshme te banuara më të rëndësishme me distancat përkatëse në kilometër.",
+        "Pas sinjalit në figurë mund të filloni të përdorni sinjalizimin zanor (boritë).",
+        "Sinjali në figurë tregon fillimin e një pjese rruge në ngjitje për të shkuar në një qytet malor.",
+        "Sinjali në figurë tregon një qendër të banuar ku rruga e hyrjes është e mbyllur.",
+        "Sinjali në figurë paralajmëron zgjerimin e rrugës në hyrje të autostradës.",
+        "Sinjali në figurë tregon fundin e ndalimit të qarkullimit për mjetet mbi 3.5 tonë.",
+        //17-019//
+        "Sinjali në figurë është sinjal autostradal që tregon distancat në kilometër për të arritur në qendrat e ardhshme te banuara te shënuara.",
+        "Sinjali në figurë tregon distancat në kilometër për të arritur në qendrat e ardhshme te banuara te shënuara.",
+        "Sinjali në figurë paralajmëron korsitë e kanalizimit.",
+        "Sinjali në figurë tregon distancën nga zonat e shërbimit.",
+        //17-020//
+        "Sinjali në figurë tregon zona këmbësore apo turistike, sipas drejtimit që tregohet nëpërmjet shigjetave.",
+        "Sinjali në figurën B tregon se për të shkuar në portin turistik, duhet lëvizur drejt.",
+        "Sinjali në figurën C tregon se për të shkuar në zonën arkeologjike, duhet të marrim drejtimin majtas.",
+        "Sinjali në figurën D tregon se për të shkuar në det me pisha, duhet të marrim drejtimin djathtas.",
+        "Sinjali në figurën C tregon se për të shkuar në zonën arkeologjike, fillimisht duhet të lëvizim drejt.",
+        "Sinjali në figurën D tregon se për të shkuar në zonën “Det me pisha”, fillimisht duhet të lëvizim drejt portit e pastaj të kthehemi djathtas.",
+        //17-021//
+        "Pas sinjalit në figurë ndalohet qarkullimi i mjeteve, përveç atyre të shënuar në panelin plotësues.",
+        "Sinjali në figurë tregon një zonë për këmbësorë, ku lejohet të qarkullojnë mjetet e shënuar në panelin plotësues.",
+        "Sinjali në figurë tregon një zonë të banuar jashtë qytetëse.",
+        "Sinjali në figurë tregon një pistë të detyrueshme për kalimtarët.",
+        //17-022//
+        "Sinjali në figurë tregon zonë me trafik të kufizuar.",
+        "Pas sinjalit në figurë ndalohet qarkullimi i mjeteve, përveç atyre të shënuar në panelin tregues.",
+        "Sinjali në figurë paralajmëron një zonë të rezervuar për kalimtarët.",
+        "Sinjali në figurë paralajmëron një zonë të pakalueshme në afërsi të një poligoni qitje.",
+        //17-023//
+        "Sinjali në figurë informon se rruga për të arritur në qendrat e ardhshme te banuara te shënuar është e lirë (e kalueshme).",
+        "Sinjali në figurë tregon se rruga është e zënë nga bora e madhe.",
+        //17-024//
+        "Sinjali në figurë detyron vendosjen e zinxhirëve në goma ose të përdoren goma për borë.",
+        "Sinjali në figurë tregon se për të shkuar në Kukës, jemi të detyruar të vendosim zinxhirë ose goma bore.",
+        "Sinjali në figurë tregon rrugën e hapur për kalimin e të gjitha mjeteve të papajisura me zinxhirë.",
+        "Sinjali në figurë tregon që rruga e mbuluar me borë është e papajisur me kufizues anësore.",
+        //17-025//
+        "Sinjali në figurë këshillon drejtuesit e mjeteve të vendosin zinxhirë në goma ose të përdorin goma për borë.",
+        "Sinjali në figurë ndalon drejtuesit e mjeteve të përdorin goma për borë.",
+        //17-026//
+        "Sinjali në figurë informon se rruga është e pakalueshme për të shkuar në vendin e shënuar.",
+        "Sinjali në figurë lajmëron se rruga është pastruar nga bora dhe mund të kalohet nga mjetet.",
+        "Sinjali në figurë lajmëron drejtuesit e mjeteve që të heqin zinxhirët ose gomat e borës.",
+        //17-027//
+        "Sinjali në figurë informon rrugë pjesërisht të kalueshme me vendosje zinxhirësh në goma ose me përdorim gomash për borë.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se rruga për në Kukës është e mbyllur, por me vendosje të zinxhirëve në goma arrihet në Fushë Arrëz.",
+        "Sinjali në figurë tregon se kalimi i rrugës është i mundshëm edhe pa zinxhirë apo goma bore.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se rruga është e pakalueshme deri në Fushë Arrëz.",
+        //17-028//
+        "Sinjali në figurë këshillon përdorimin e zinxhirëve ose gomave të borës deri në Fushë-Arrёz.",
+        "Sinjali në figurë tregon që rruga deri në Kukës është e hapur, mjafton që të montojmë zinxhirë në goma.",
+        //17-029//
+        "Sinjali në figurë tregon fillimin e një rruge interurbane kryesore.",
+        "Sinjali në figurë tregon hyrjen në një rrugë me karrexhata të ndara.",
+        "Sinjali në figurë tregon një rrugë me karrexhata të ndara.",
+        "Sinjali në figurë tregon praninë e një mbikalimi që lejon kthimin e sensit të lëvizjes.",
+        "Sinjali në figurë tregon që qarkullimi në rrugën që po futemi, është i detyrueshëm të bëhet në rreshta paralel.",
+        //17-030//
+        "Sinjali në figurë tregon fundin e autostradës.",
+        "Sinjali në figurë tregon praninë e një mbikalimi.",
+        "Sinjali në figurë tregon praninë e një ure.",
+        //17-031//
+        "Sinjali në figurë tregon se shpejtësia maksimale e lejuar në rrugë urbane, në Shqipëri është 40 km/orë.",
+        "Sinjali në figurë tregon se shpejtësia maksimale e lejuar në rrugë interurbane dytësore, në Shqipëri është 80 km/orë.",
+        "Sinjali në figurë tregon se shpejtësia maksimale e lejuar në rrugët interurbane kryesore, në Shqipëri është 90 km/orë.",
+        "Sinjali në figurë tregon se shpejtësia maksimale e lejuar në autostrada, në Shqipëri është 110 km/orë.",
+        "Sinjali në figurë tregon kufijtë e shpejtësisë për kamionët dhe autobusët.",
+        //17-032//
+        "Sinjali në figurë tregon drejtime në rrugë interurbane për të arritur në vendet e shënuara.",
+        "Sinjali në figurë tregon drejtimin, distancën dhe numrin e rrugës shtetërore për të arritur në destinacionin e shënuar.",
+        "Sinjali në figurë përmban një shifër e cila shpreh largësinë në metër nga një qendër e banuar.",
+        //17-033//
+        "Sinjali në figurë tregon numrin e një rruge ndërkombëtare Evropiane.",
+        "Sinjali në figurë tregon numrin e Autostradës Ndërkombëtare Evropiane.",
+        "Sinjali në figurë tregon se distanca me kufirin e shtetit tjetër është 55 kilometër.",
+        //17-034//
+        "Sinjali në figurë është një sinjal i identifikimit te autostradës.",
+        "Sinjali në figurë tregon numrin e autostradës në të cilën ndodheni ose do të futeni.",
+        "Sinjali në figurë tregon distancën nga stacioni i ardhshëm i autostradës.",
+        //17-035//
+        "Sinjali në figurë tregon numrin e rrugës shtetërore.",
+        "Sinjali në figurë tregon se ndodhemi apo do të futemi në rrugën shtetërore Nr. 2.",
+        "Sinjali në figurë tregon numrin e një rrugë fshati.",
+        "Sinjali në figurë tregon një rrugë të rrëshqitshme pas distancës 2 kilometër.",
+        //17-036//
+        "Sinjali në figurë tregon rrugë komune me nr. 19.",
+        "Sinjali në figurë tregon distancën 19 kilometër nga Rajoni i Policisë.",
+        //17-037//
+        "Sinjali në figurë tregon distancën 24 kilometër nga fillimi i rrugës.",
+        "Sinjali në figurë tregon se jemi në kilometrin 24 të rrugës ku po lëvizim, distancë kjo e matur nga fillimi i rrugës.",
+        "Sinjali në figurë tregon numrin e identifikimit të rrugës.",
+        "Sinjali në figurë tregon se pas distancës 24 metër ndodhet një dalje nga rruga.",
+        //17-038//
+        "Sinjali në figurë tregon se distanca nga fillimi i rrugës është 24 kilometër e 800 metër.",
+        //17-039//
+        "Sinjali në figurë tregon distancën prej 16 km të përshkuar nga fillimi i autostradës dhe distancën prej 7 km për të arritur në vendin e treguar.",
+        "Sinjali në figurë, nga e majta tregon distancën e përshkuar dhe nga e djathta distancën për të arritur në vendin e treguar.",
+        "Sinjali në figurë është një sinjal i drejtimit të detyruar në autostradë.",
+        "Sinjali në figurë, në pjesën e djathtë, shënon numrin e autostradës.",
+        "Sinjali në figurë tregon një lokalitet turistik.",
+        //17-040//
+        "Sinjali në figurë tregon fillimin e një qendre urbane.",
+        "Shpejtësia maksimale që lejohet pas sinjalit në figurë, është 40 km/orë.",
+        "Pas sinjalit në figurë ndalohet përdorimi i sinjalit akustik (borisë).",
+        "Sinjali në figurë tregon fillimin e territorit të qarkut.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve të përdorin sinjalin akustik (borinë) për të tërhequr vëmendjen e këmbësorëve.",
+        "Sinjali në figurë tregon drejtim të detyrueshëm për të arritur në Kukës.",
+        //17-041//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke hyrë në territorin e Elbasanit.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke dalë nga territori i Tiranës.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke dalë nga territori i Elbasanit.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke hyrë në territorin e Tiranës.",
+        //17-042//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke hyrë në territorin e komunës së Ndroqit.",
+        "Sinjali në figurë u tregon drejtueseve te mjeteve se janë duke dalë nga territori i komunës së Pezës.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke hyrë në territorin e i komunës së Pezës.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se janë duke dalë nga territori i Ndroqit.",
+        //17-043//
+        "Sinjali në figurë tregon drejtimin për të shkuar në ambulancë.",
+        "Sinjali në figurë tregon një vend në kufi me Zvicrën.",
+        "Sinjali në figurë tregon drejtimin për të shkuar në një farmaci komunale.",
+        //17-044//
+        "Sinjali në figurë tregon drejtimin për të hyrë në stacionin e trenit.",
+        "Sinjali në figurë tregon një vendpushim për lokomotivat e trenave.",
+        //17-045//
+        "Sinjali në figurë tregon drejtimin për te vendndodhja e policisë së qarkullimit rrugor.",
+        "Sinjali në figurë i vendosur në një kryqëzim tregon se kryqëzimi rregullohet nga punonjësi i policisë.",
+
     )
 }
