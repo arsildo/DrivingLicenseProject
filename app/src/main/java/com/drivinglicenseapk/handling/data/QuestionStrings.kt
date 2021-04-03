@@ -3047,6 +3047,293 @@ class QuestionStrings {
         //17-045//
         "Sinjali në figurë tregon drejtimin për te vendndodhja e policisë së qarkullimit rrugor.",
         "Sinjali në figurë i vendosur në një kryqëzim tregon se kryqëzimi rregullohet nga punonjësi i policisë.",
+        //17-046//
+        "Sinjali në figurë tregon se majtas ndodhet një spital.",
+        "Sinjali në figurë tregon drejtimin për të shkuar në një spital.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një studio mjekësore.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një farmaci.",
+        "Sinjali në figurë tregon një parking të rezervuar për personelin sanitar.",
+        //17-047//
+        "Sinjali në figurë tregon drejtimin për në stacionin e policisë bashkiake.",
+        "Sinjali në figurë tregon se sipas drejtimit të shigjetës, lejohet të lëvizin vetëm mjete ushtarake.",
+        //17-048//
+        "Sinjali në figurë tregon emrin e lumit në afërsi të një ure.",
+        "Sinjali në figurë tregon që jemi afër një lumi.",
+        "Sinjali në figurë tregon që lumi është i pambrojtur nga prita.",
+        "Sinjali në figurë tregon një pjesë rruge, veçanërisht të rrëshqitshme në rast përmbytjeje.",
+        //17-049//
+        "Sinjali në figurë tregon praninë e një zyre, e cila ndodhet në distancë 150 metër, ku mund të kërkoni informacion mbi hotelet e zonës turistike.",
+        "Sinjali në figurë është i vendosur 150 m larg një hoteli turistik.",
+        //17-050//
+        "Sinjali në figurë tregon një vendkalim këmbësorësh të parregulluar me semafor.",
+        "Në prani të sinjalit në figurë duhet të ulet shpejtësia e lëvizjes së mjetit dhe po të jetë nevoja, të ndalohet.",
+        "Sinjali në figurë paralajmëron shkolla publike në afërsi.",
+        "Sinjali në figurë ndalon kalimin e këmbësorëve.",
+        //17-051//
+        "Sinjali në figurë i vendosur buzë trotuarit tregon vendqëndrimin e një autobusi shkolle.",
+        "Sinjali në figurë i vendosur në pjesën e jashtme të një autobusi, tregon se autobusi përdoret për transportin e nxënësve të shkollave.",
+        "Sinjali në figurë paralajmëron një park lojërash për fëmijë.",
+        "Sinjali në figurë paralajmëron një shkollë fillore.",
+        //17-052//
+        "Sinjali në figurë tregon vendin për të kërkuar asistencë teknike ose ndihmë mjekësorë në autostradë.",
+        "Sinjali në figurë tregon se në afërsi gjendet një pajisje për thirrjen e ndihmës në rrugë.",
+        "Sinjali në figurë fton drejtuesit e mjeteve të shmangin zhurmat në afërsi të një qendre të ndihmës mjekësore.",
+        "Sinjali në figurë përdoret për të zëvendësuar trekëndëshin e lëvizshëm të rrezikut.",
+        //17-053//
+        "Sinjali në figurë tregon një nënkalim për këmbësorë.",
+        "Sinjali në figurë tregon një kalim të veçantë të rezervuar vetëm për invalidët.",
+        //17-054//
+        "Sinjali në figurë tregon një mbikalim për këmbësorë.",
+        "Sinjali në figurë tregon një mbikalim të veçantë të rezervuar vetëm për invalidët.",
+        //17-055//
+        "Sinjali në figurë tregon një plan të pjerrët për kalimin e ngarkesave të rënda në anën tjetër të rrugës.",
+        //17-056//
+        "Në prani të sinjalit në figurë, lejohet qarkullimi i mjeteve por rruga në fund është e mbyllur.",
+        "Sinjali në figurë tregon një rrugë në të cilën lejohet qarkullimi i mjeteve, por që është pa dalje.",
+        "Sinjali në figurë ndalon manovrat e kthimit të sensit dhe të lëvizjes prapa.",
+        "Sinjali në figurë ndalon kalimin e këmbësorëve.",
+        //17-057//
+        "Sinjali në figurë tregon se djathtas është një degëzim pa dalje.",
+        "Në prani të sinjalit në figurë lejohet kthimi djathtas në kryqëzim.",
+        "Sinjali në figurë ndalon kalimin e këmbësorëve.",
+        "Sinjali në figurë paralajmëron ndalim për t’u kthyer nga e djathta.",
+        //17-058//
+        "Sinjali në figurë tregon shpejtësinë e lëvizjes së mjeteve që këshillohet të mos tejkalohet në kushte normale të motit dhe të trafikut.",
+        "Sinjali në figurë detyron lëvizjen e mjeteve me shpejtësi më të madhe se 60 km/orë.",
+        "Sinjali në figurë detyron të mbahet një distancë minimale sigurie prej 60 metër nga mjeti që lëviz para.",
+        //17-059//
+        "Sinjali në figurë tregon fundin e shpejtësisë së këshilluar.",
+        "Sinjali në figurë tregon se pas tij mund të vazhdohet lëvizja me çdo shpejtësi.",
+        //17-060//
+        "Sinjali në figurë tregon fillimin e një rruge të rezervuar për qarkullimin e mjeteve me motor.",
+        "Në prani të sinjalit në figurë lejohet qarkullimi i motomjeteve.",
+        "Në prani të sinjalit në figurë lejohet qarkullimi i autotrenave",
+        "Sinjali në figurë tregon korsi të rezervuar për autoveturat.",
+        "Sinjali në figurë ndalon kalimin e motorëve.",
+        "Sinjali në figurë detyron mjetet me motor të vendosen në një radhë të vetme.",
+        //17-061//
+        "Sinjali në figurë tregon fundin e vlefshmërisë së një rruge të rezervuar për mjetet me motor.",
+        "Sinjali në figurë tregon se rruga pas këtij sinjali lejon lëvizjen edhe të mjeteve pa motor.",
+        "Sinjali në figurë tregon fundin e korsisë së rezervuar për autoveturat.",
+        "Sinjali në figurë detyron mjetet me motor të lëvizin në një rresht të vetëm.",
+        //17-062//
+        "Sinjali në figurë tregon fillimin e një tuneli në autostradë.",
+        "Në prani të sinjalit në figurë, gjatë lëvizjes në tunel, drejtuesit e mjeteve duhet të zbatojnë rregullat e qarkullimit në tunele (ndalohet qëndrimi, përdorimi i fenerëve verbues, etj.).",
+        "Sinjali në figurë paralajmëron drejtuesit e mjeteve se duhet të përdorin fenerët joverbues brenda në tunel.",
+        "Sinjali në figurë tregon që ndalohet kalimi në tunel për shkak të punimeve.",
+        "Sinjali në figurë detyron përdorimin e sinjalizimit zanore (borisë) brenda në tunel.",
+        //17-063//
+        "Sinjali në figurë tregon fillimin e një ure ose të një mbikalimi.",
+        "Sinjali në figurë mund të tregojë fillimin e një tuneli.",
+        "Sinjali në figurë tregon fillimin e një tuneli në autostradë.",
+        //17-064//
+        "Sinjali në figurë tregon se futemi në një zonë urbane ose në një zone me park lojërash.",
+        "Në prani të sinjalit në figurë, mjetet duhet të lëvizin me shpejtësi jo më të madhe se 40 km/orë.",
+        "Sinjali në figurë tregon fillimin e një zone të gjelbër.",
+        "Në prani të sinjalit në figurë lejohet përdorimi i borive.",
+        //17-065//
+        "Sinjali në figurë tregon se jemi në dalje të një zone me park lojërash apo të banuar.",
+        "Sinjali në figurë sinjalizon drejtuesit e mjeteve se në rrugën që vjen pas sinjalit, ndalohet të përdoren sinjalet akustike (boritë).",
+        //17-066//
+        "Sinjali në figurë tregon fundin e zonës për këmbësorë.",
+        "Pas sinjalit në figurë lejohet qarkullimi i këmbësorëve.",
+        "Sinjali në figurë ndalon kalimin e këmbësorëve.",
+        "Sinjali në figurë tregon fillimin e një zone ku ndalohet lëvizja e mjeteve.",
+        //17-067//
+        "Sinjali në figurë tregon fundin e zonës me trafik të kufizuar.",
+        "Sinjali në figurë lajmëron drejtuesit e mjeteve se në afërsi ndodhet një poligon për qitje. ",
+        //17-068//
+        "Sinjali në figurë tregon një vendkalim biçikletash.",
+        "Në prani të sinjalit në figurë, drejtuesit e mjeteve duhet të tregojnë kujdes sepse mund të ketë çiklistë duke kaluar karrexhatën.",
+        "Sinjali në figurë tregon fillimin e një piste për biçikleta.",
+        "Sinjali në figurë tregon një pistë për biçikleta pranë një trotuari.",
+        "Sinjali në figurë tregon një rrugë të rezervuar vetëm për mjete me dy rrota me motor.",
+        //17-069//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve, rrugën që duhet të ndjekin për rastet kur duan të kthehen majtas.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve që duan të kthehen majtas në kryqëzim, se duhet fillimisht të kthehen djathtas dhe më pas sipas itinerarit të treguar.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se është e pamundur të kthehen majtas. ",
+        //17-070//
+        "Sinjali në figurë tregon itinerarin e mundshëm për t'u kthyer nga e majta.",
+        "Sinjali në figurë tregon se kthimi direkt majtas në kryqëzimin e parë është i ndaluar.",
+        "Sinjali në figurë tregon se ndalohet të vazhdosh lëvizjen drejt.",
+        "Sinjali në figurë paraqet një seri kthesash të rrezikshme.",
+        //17-071//
+        "Sinjali në figurë mund të tregojë praninë e një mbikalimi për ndryshimin e sensit të lëvizjes.",
+        "Sinjali në figurë mund të tregojë një nënkalim që lejon ndryshimin e sensit të lëvizjes.",
+        "Sinjali në figurë tregon praninë e një mbikalimi ose nënkalimi për ndryshimin e sensit të lëvizjes, në rrugë me karrexhata të ndara.",
+        "Sinjali në figurë detyron kthimin e sensit të lëvizjes nga e majta.",
+        "Sinjali në figurë paralajmëron një kryqëzim të rrugës kryesore me një rrugë dytësore.",
+        "Sinjali në figurë tregon fillimin e një rruge interurbane kryesore.",
+        //17-072//
+        "Sinjali në figurë tregon vendqëndrim për mjetet në anë të karrexhatës të rrugës interurbane.",
+        "Sinjali në figurë paralajmëron një zgjerim të karrexhatës.",
+        "Sinjali në figurë detyron mjetet të kthehen djathtas.",
+        //17-073//
+        "Sinjali në figurë tregon një vendqëndrim (xhep) në autostradë ku mund të kërkojmë ndihmë teknike ose mjekësore.",
+        "Sinjali në figurë tregon se në afërsi gjendet një shesh (xhep) në autostradë ku lejohet të qëndrojmë.",
+        "Sinjali në figurë sinjalizon drejtuesit e mjeteve për një zgjerim të karrexhatës.",
+        //17-074//
+        "Sinjali në figurë tregon si të përdoren korsitë e karrexhatës.",
+        "Sinjali në figurë tregon se në korsinë e majtë ndalohet qarkullimi për mjetet e transportit të mallrave me peshë të përgjithshme mbi 3.5 tonë.",
+        "Sinjali në figurë ndalon qarkullimin e autoveturave në të dy korsitë.",
+        "Sinjali në figurë ndalon qarkullimin e gjithë mjeteve me peshë të përgjithshme mbi 3.5 tonë në korsinë e krahut të majtë.",
+        //17-075//
+        "Sinjali në figurë tregon karrexhatë autostrade dhe shpejtësitë minimale të detyrueshme në korsitë e veçanta të saj.",
+        "Në prani të sinjalit në figurë, një mjet që lëviz me shpejtësi 80 km/orë i lejohet të qarkullojë në korsinë e mesit.",
+        "Sinjali në figurë lejon qarkullimin me 100 km/orë vetëm në korsinë e majtë.",
+        "Sinjali në figurë detyron mjetet të lëvizin në çdo korsi nën shpejtësitë e treguara në sinjal.",
+        "Sinjali në figurë tregon shpejtësinë maksimale të lëvizjes për korsi të veçanta.",
+        "Sinjali në figurë tregon një karrexhatë ku shpejtësia maksimale e lëvizjes së mjeteve është deri në 90 km/orë.",
+        "Sinjali në figurë tregon distancën minimale të sigurisë që mjetet duhet të ruajnë gjatë qarkullimit në korsitë përkatëse.",
+        //17-076//
+        "Sinjali në figurë tregon se korsia e majtë është e rezervuar për autobusët e transportit publik.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se korsia e krahut të djathtë është për trafik normal.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve edhe sensin e lëvizjes.",
+        "Sinjali në figurë detyron gjithmonë lëvizjen e mjeteve në rreshta paralele.",
+        "Sinjali në figurë përcakton me anë të shiritit të verdhë një pistë për biçikleta.",
+        "Sinjali në figurë lejon mjetet “TAKSI” të përdorin korsinë e krahut të majtë.",
+        //17-077//
+        "Sinjali në figurë tregon mënyrën si përdoren korsitë përbërëse të karrexhatës.",
+        "Sinjali në figurë tregon se korsitë e majta janë për qarkullim normal dhe korsia e djathtë është e rezervuar për autobusë.",
+        "Sinjali në figurë paraqet një karrexhatë me një sens lëvizjeje për qarkullim.",
+        "Sinjali në figurë i lejon mjetet e shërbimit “TAKSI” të qarkullojnë në korsinë e rezervuar për autobusë.",
+        "Sinjali në figurë kufizon me vijë të verdhë një pistë për biçikleta.",
+        "Sinjali në figurë detyron qarkullimin në rreshta paralelë.",
+        //17-078//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se mbyllet korsia e djathtë.",
+        "Pas sinjalit në figurë, drejtuesit e mjeteve duhet të ulin shpejtësinë për shkak të zvogëlimit të numrit të korsive.",
+        "Sinjali në figurë paralajmëron drejtuesit e mjeteve se duhet të marrin kthesën majtas.",
+        "Sinjali në figurë tregon ngushtim të karrexhatës për shkak të punimeve në rrugë.",
+        //17-079//
+        "Sinjali në figurë tregon ndryshimin e numrit të korsive të përdorshme në njërin sens lëvizje.",
+        "Sinjali në figurë tregon afrimin e një mbikalimi për të ndryshuar sensin e lëvizjes.",
+        "Sinjali në figurë paraqet detyrimin e kthimit të mjeteve nga e djathta.",
+        "Sinjali në figurë paralajmëron një korsi ngadalësimi të vendosur nga e djathta.",
+        "Sinjali në figurë tregon që në çdo rast duhet të zhvendosësh nga e djathta.",
+        "Sinjali në figurë lejon parakalimin vetëm nga e djathta.",
+        //17-080//
+        "Sinjali në figurë tregon zvogëlim të numrit të korsive, nga 3(tre) në 2(dy), në karrexhatën e autostradës.",
+        "Në prani të sinjalit në figurë mund të kemi ngadalësim të lëvizjes së mjeteve për shkak të ngushtimit të karrexhatës së autostradës.",
+        "Sinjali në figurë tregon ngushtimin e karrexhatës për shkak të punimeve në rrugë.",
+        "Sinjali në figurë paralajmëron një korsi shpejtimi nga krahu i djathtë.",
+        //17-081//
+        "Sinjali në figurë tregon rritje të numrit të korsive, nga 2(dy) në 3(tre), në karrexhatën e autostradës.",
+        "Sinjali në figurë paralajmëron drejtuesit e mjeteve se duhet të marrin kthesën djathtas.",
+        //17-082//
+        "Sinjali në figurë tregon se mjetet në sinjal këshillohen të lëvizin sipas drejtimit të treguar.",
+        "Sinjali në figurë paralajmëron se këshillohet kthimi djathtas për autotrenat dhe gjysmërimorkiatorët.",
+        "Sinjali në figurë i detyron të gjithë kamionët të lëvizin vetëm sipas drejtimit të treguar.",
+        "Sinjali në figurë tregon afrimin në një zonë për qëndrimin dhe pushimin e mjeteve të treguara në sinjal.",
+        //17-083//
+        "Sinjali në figurë tregon drejtim të këshilluar djathtas, përkohësisht, për kamionët me peshë të përgjithshme mbi 3.5 tonë.",
+        //17-084//
+        "Sinjali në figurë tregon që në afërsi është një ofiçinë për riparimin e mjeteve.",
+        "Sinjali në figurë tregon praninë e asistencës (ndihmës) teknike pranë rrugës interurbane.",
+        "Sinjali në figurë tregon një pikë vetëshërbimi për furnizimin me karburant.",
+        "Sinjali në figurë tregon se në afërsi të rrugës ndodhet një fabrikë për prodhimin e veglave mekanike.",
+        //17-085//
+        "Sinjali në figurë tregon praninë e një telefoni publik që mund të përdoret nga drejtuesit e mjeteve.",
+        "Sinjali në figurë tregon që jemi në afërsi të një vendi nga ku mund të telefonojmë.",
+        "Sinjali në figurë tregon afrimin e një vendi ku është vendosur një central telefonik.",
+        "Sinjali në figurë tregon që në atë zonë është i ndaluar komunikimi me telefon.",
+        "Sinjali në figurë tregon se në anë të rrugës ndodhet një pikë shitje për aparate telefonike.",
+        //17-086//
+        "Sinjali në figurë tregon që në afërsi është një pikë furnizimi karburanti.",
+        "Sinjali në figurë informon drejtuesit e mjeteve që qarkullojnë në rrugë interurbane për praninë e një karburanti.",
+        "Sinjali në figurë tregon një vendqëndrim për mjetet e transportit të mallrave të rrezikshme.",
+        "Sinjali në figurë tregon një rafineri naftë.",
+        //17-087//
+        "Sinjali në figurë tregon një pikë furnizimi me benzinë, naftë dhe benzinë pa plumb.",
+        "Sinjali në figurë tregon që është e mundur të furnizohesh edhe me benzinë pa plumb.",
+        "Sinjali në figurë tregon një rafineri nafte në afërsi të rrugës.",
+        //17-088//
+        "Sinjali në figurë tregon vendqëndrim në rrugë urbane për autobusët e shërbimit publik interurban.",
+        "Sinjali në figurë tregon një korsi të rezervuar për autobusët interurbanë (ndërqytetës).",
+        "Sinjali në figurë tregon një stacion të shërbimit dhe riparimit të autobusëve.",
+        //17-089//
+        "Sinjali në figurë tregon vendqëndrim në rrugë urbane për tramvajet e transportit publik interurban.",
+        "Sinjali në figurë tregon ndalim kalimi për tramvajet e shërbimit publik interurban.",
+        //17-090//
+        "Sinjali në figurë tregon se në afërsi gjendet një pikë turistike.",
+        "Sinjali në figurë tregon vend turistik për të rinj (kamp rinie).",
+        "Sinjali në figurë tregon një qendër kurative me ujëra termale.",
+        //17-091//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se në afërsi ndodhet një zonë për piknik.",
+        "Sinjali në figurë tregon një hapësirë të pajisur me stola dhe tavolina, për piknik.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve dhe përdoruesit e tjerë të rrugës që të bëjnë pushim.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një shkollë fillore.",
+        //17-092//
+        "Sinjali në figurë tregon afërsinë e një zone për pushimin e mjeteve kamping.",
+        "Sinjali në figurë tregon zonë kampingu me tenda dhe vend qëndrimi për autokampet.",
+        "Sinjali në figurë tregon rrugë të rezervuar për autokampet.",
+        "Sinjali në figurë tregon stacion qëndrimi të autobusëve në zonat turistike.",
+        "Sinjali në figurë tregon një pikë shitje për pajisje turistike.",
+        //17-093//
+        "Sinjali në figurë tregon frekuencën e valëve të radios, ku merret informacion për qarkullimin rrugor, në autostradën që ndodheni.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve të tregojnë kujdes për arsye se në afërsi ndodhet një televizion lokal.",
+        //17-094//
+        "Sinjali në figurë u tregon për drejtueseve të mjeteve se në afërsi ndodhet një hotel.",
+        "Sinjali në figurë u tregon përdoruesve të rrugës se në afërsi ndodhet një spital.",
+        "Sinjali në figurë sinjalizon se në afërsi ndodhet një qendër për dhënien e ndihmës së parë.",
+        //17-095//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve që qarkullojnë në rrugë interurbane se në afërsi ndodhet një bar (kafe).",
+        "Sinjali në figurë u tregon përdoruesve të rrugës se në afërsi ndodhet një spital për kurimin e të sëmurëve.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një qendër për dhënien e ndihmës së parë. ",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të vendosin mjetet në parkim dhe të pushojnë.",
+        //17-096//
+        "Sinjali në figurë u tregon drejtueseve të mjeteve që qarkullojnë në rrugë interurbane se në afërsi ndodhet një restorant.",
+        "Sinjali në figurë tregon se në afërsi ndodhet një qendër për dhënien e ndihmës së parë.",
+        "Sinjali në figurë u tregon përdoruesve të rrugës se shumë afër ndodhet një supermarket.",
+        "Sinjali në figurë detyron drejtuesit e mjeteve të parkojnë mjetin dhe të ushqehen në restorant.",
+        "Sinjali në figurë u kujton drejtueseve të mjeteve orarin për t’u ushqyer.",
+        //17-097//
+        "Sinjali në figurë tregon një vend që mund të parkosh mjetin për të marrë autobusin e linjës të treguar me numër.",
+        "Sinjali në figurë tregon zonën e parkimit të autobusëve të transportit publik.",
+        //17-098//
+        "Sinjali në figurë tregon një vend që mund të parkosh mjetin për të marrë tramvajin e linjës sipas numrit të shënuar.",
+        "Sinjali në figurë sinjalizon drejtuesit e mjeteve se në afërsi ndodhet një qendër mjekësore për dhënien e ndihmës së parë.",
+        //17-099//
+        "Sinjali në figurë tregon vendparkim mjeti për të marrë metronë e linjës së shënuar poshtë, në anën e djathtë të sinjalit.",
+        "Në anën e djathtë të sinjalit në figurë, në pjesën e poshtme, tregohet numri i linjës së transportit publik me metro.",
+        "Sinjali në figurë u bën të ditur përdoruesve të rrugës se detyrimisht duhet të pushojnë me mjetet e tyre.",
+        "Sinjali në figurë lajmëron përdoruesit e rrugës për fundin e karrexhatës dhe fillimin e hekurudhës.",
+        //17-100//
+        "Sinjali në figurë tregon vendparkim për mjetet në zona turistike, për të mundësuar lëvizjen e njerëzve në këmbë.",
+        "Sinjali në figurë u tregon përdoruesve të mjeteve se duhet të vazhdojnë lëvizjen në këmbë, për shkak të bllokimit të rrugës nga bora.",
+        //17-101//
+        "Sinjali në figurë tregon stacion treni ku lejohet hyrja e mjeteve që transportohen me",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve se shumë afër ndodhet një qendër për rimorkimin (tërheqjen) e mjeteve me avari.",
+        "Sinjali në figurë lajmëron përdoruesit e mjeteve se në afërsi ndodhet një kalim në nivel.",
+        //17-102//
+        "Sinjali në figurë tregon stacion hekurudhor që ofron shërbime për transport mjetesh dhe mundësi fjetje në tren.",
+        "Sinjali në figurë tregon mundësinë të qëndrosh në makinë gjatë transportit të saj me tren.",
+        //17-103//
+        "Sinjali në figurë tregon për drejtuesit e mjeteve se në afërsi ndodhet një port që ofron shërbime për transport mjetesh.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve që udhëtojnë drejt porteve, se deti është shumë i trazuar.",
+        "Sinjali në figurë u tregon drejtueseve të mjeteve agjencinë e udhëtimit të kamionëve.",
+        //17-104//
+        "Sinjali në figurë tregon një vend pushimi për taksi.",
+        "Sinjali në figurë tregon një zonë të përcaktuar për parkimin e mjeteve të shërbimit “TAKSI”.",
+        "Sinjali në figurë tregon një korsi të rezervuar për lëvizjen e mjeteve “TAKSI”.",
+        "Sinjali në figurë tregon praninë e një telefoni për thirrjen e shërbimit “TAKSI”.",
+        //17-105//
+        "Sinjali në figurë tregon një zonë të pajisur me impiante për shkarkimin e ujërave të zeza dhe të bardha nga autokampe.",
+        "Sinjali në figurë tregon praninë e shërbimeve higjienike për kampistët (pushuesit).",
+        "Sinjali në figurë tregon një impiant për peshimin e autokampeve.",
+        "Sinjali në figurë tregon një impiant për larjen e autokampeve.",
+        //17-106//
+        "Sinjali në figurë tregon adresën dhe numrin e telefonit të Policisë Rrugore, për rast nevoje. ",
+        "Sinjali në figurë tregon një postbllok të policisë.",
+        //17-107//
+        "Sinjali në figurë tregon kufirin e një shteti që bën pjesë në Bashkimin Evropian.",
+        "Sinjali në figurë tregon kufirin e shtetit Italian, që bën pjesë në Bashkimin Evropian.",
+        "Sinjali në figurë tregon një postbllok të policisë, në afërsi të kufirit shtetëror.",
+        "Sinjali në figurë tregon detyrimin për të ndaluar në doganën kufitare mes dy vendeve të Bashkimit Evropian.",
+        //17-108//
+        "Sinjali në figurë tregon se pas 1 km ndodhet kufiri i një shteti që bën pjesë në Bashkimin Evropian.",
+        "Sinjali në figurë gjendet pranë kufirit me një vend të Bashkimit Evropian",
+        "Sinjali në figurë tregon një postbllok të policisë, menjëherë pas kalimit të kufirit.",
+        "Sinjali në figurë tregon detyrimin për të ndaluar pas një 1 km, në doganën e shtetit të shënuar.",
 
     )
 }
