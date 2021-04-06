@@ -3761,6 +3761,167 @@ class QuestionStrings {
         "Kur parkojmë mjetin në një të përpjetë (pjerrësi ngjitëse), duhet të kujdesemi që leva e marshit të ingranohet në marshin me të lartë.",
         "Mjeti mund të parkohet duke vendosur rrotat e krahut të djathtë mbi trotuar, kur lihet hapësirë e mjaftueshme për kalimtarët.",
         //20-011//
+        "Sinjali në figurë tregon një zonë të caktuar për pushimin e mjeteve pa kufizim kohor.",
+        "Sinjali në figurë i shoqëruar me panel plotësues tregon se lejohet pushimi, por sipas kushteve të vendosur në panel.",
+        "Sinjali në figurë tregon zonë pushimi me pagesë.",
+        //20-012//
+        "Sinjali në figurë tregon një parkim me pagesë, pa kufizime në kohë por me tarifë orare. ",
+        "Sinjali në figurë është i zbatueshëm vetëm për autoveturat.",
+        //20-013//
+        "Sinjali në figurë tregon një vend parkimi me pagesë fikse.",
+        "Sinjali në figurë tregon një vend parkimi, me orare të përcaktuara dhe pagesë fikse.",
+        "Sinjali në figurë është i zbatueshëm vetëm për automjetet e transportit publik.",
+        //20-014//
+        "Sinjali në figurë tregon një vendparkim që gjendet në drejtimin e shigjetës.",
+        "Sinjali në figurë tregon se pas 300 metër në drejtimin e shigjetës, ndodhet një vendparkim.",
+        "Sinjali në figurë paralajmëron një parkim që gjendet pas 300 m.",
+        "Sinjali në figurë paralajmëron një pikë të ndihmës së shpejtë në drejtim të shigjetës.",
+        "Sinjali në figurë paralajmëron ndalim pushimi për mjetet në drejtim të shigjetës.",
+        "Sinjali në figurë paralajmëron një parkim të rezervuar vetëm për autobusë, në distancë 300 metër.",
+
+        //21-001//
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë blu ne kroskot, kur ndizen fenerët e largësisë.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë të verdhë ne kroskot, kur ndizen fenerët e largësisë.",
+        //21-002//
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile ne kroskot, kur ndizen fenerët joverbues.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile ne kroskot, kur ndizen fenerët e largësisë.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile ne kroskot, kur ndizen fenerët e pasmë të mjegullës.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile ne kroskot, kur ndizen fenerët e përparme të mjegullës.",
+        //21-003//
+        "Shigjeta majtas, e simbolit në figurë, bëhet e dukshme në kroskot me ngjyrë jeshile që pulson, kur ndizet sinjali i drejtimit majtas.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile pulsuese ne kroskot, kur ndizen dritat e emergjencës.",
+        "Simboli në figurë bëhet i dukshëm, me ngjyrë jeshile pulsuese në kroskot, kur ndizen dritat e pozicionit.",
+        //21-004//
+        "Simboli i paraqitur në figurë me dritë të kuqe ndezur tregon se janë ndezur dritat e emergjencës.",
+        "Simboli i paraqitur në figurë me dritë të kuqe ndezur tregon se janë ndezur fenerët e largësisë.",
+        //21-005//
+        "Simboli në figurë vendoset mbi komandën që aktivizon fshirëset e xhamit të përparmë.",
+        "Simboli në figurë vendoset mbi komandën që aktivizon fshirëset e xhamit të pasmë.",
+        //21-006//
+        "Simboli i paraqitur në figurë vendoset mbi çelësin që komandon fshirjen dhe larjen e xhamit të përparmë.",
+        "Simboli i paraqitur në figurë vendoset mbi çelësin që komandon larjen e xhamit të pasmë. ",
+        //21-007//
+        "Simboli i paraqitur në figurë vendoset mbi butonin që aktivizon sinjalin zanor të mjetit (boria).",
+        "Simboli i paraqitur në figurë ndizet sa herë që ka defekt në pajisjen e sinjalizimit zanor (borisë).",
+        //21-008//
+        "Kur llamba spiune e simbolit në figurë është e ndezur, tregon që mjeti është me rezervën e karburantit.",
+        "Simboli i paraqitur në figurë tregon se ndalohet duhani.",
+        //21-009//
+        "Simboli në figurë bëhet i dukshëm në kroskot, kur temperatura e lëngut ftohës që qarkullon në motor rritet mbi normën e lejuar.",
+        "Simboli në figurë bëhet i dukshëm në kroskot, kur temperatura e vajit lubrifikues që qarkullon në motor rritet mbi normën e lejuar.",
+        //21-010//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur dinamoja nuk çon rrymë te bateria.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur kemi një defekt në sistemin e shpërndarjes së karburantit.",
+        //21-011//
+        "Nëse llamba spiune e simbolit të paraqitur në figurë është e fikur gjatë lëvizjes me mjet, presioni i vajit në motor është në vlera normale.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur presioni i vajit lubrifikues në motor është i pamjaftueshëm.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ka defekt në frena.",
+        //21-012//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur nuk është vënë rripi i sigurimit.",
+        "Kur drejtuesi i mjetit dhe pasagjeri vendosin rripin e sigurimit, llamba mbi tё cilёn ёshtё vendosur sinjali në figurë fiket.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur pasagjeri nuk ka vendosur rripin e sigurimit.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur drejtuesi i mjetit dhe pasagjeri kanë vënë rripin e sigurimit.",
+        //21-013//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur rezistencat termike të xhamit të pasmë janë në punë.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ventilimi apo ngrohja e xhamit të përparmë është në funksion.",
+        //21-014//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ventilimi apo ngrohja e xhamit të përparmë janë në funksion.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur rezistenca termike e xhamit të pasmë është në funksion.",
+        "Simboli i paraqitur në figurë vendoset mbi komandën e pajisjes që shkrin veshjen e xhamit të pasmë nga ngrica.",
+        //21-015//
+        "Simboli në figurë bëhet i dukshëm, me dritë jeshile në kroskot, kur janë të ndezura dritat e pozicionit.",
+        "Simboli në figurë tregon vendin e komandimit të dritave të kabinës.",
+        "Simboli në figurë vendoset mbi çelësin e komandimit të dritave të gjata.",
+        //21-016//
+        "Simboli në figurë tregon vendin e komandimit të sinjaleve.",
+        //21-017//
+        "Simboli në figurë tregon vendin e komandimit të dritave të parkimit.",
+        "Simboli në figurë vendoset mbi çelësin e komandimit të fenerëve verbues.",
+        //21-018//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ingranohet marshi i lëvizjes prapa.",
+        "Simboli në figurë tregon vendin e komandimit të dritave të pasme të mjetit.",
+        //21-019//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur janë të ndezura dritat e pasme për mjegullën.",
+        //21-020//
+        "Simboli në figurë bëhet i dukshëm në kroskot kur janë ndezur fenerët e përparmë mjegullçarës.",
+        "Simboli i paraqitur në figurë tregon komandën që ndez fenerët e pasmë kundër mjegullës.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ndizen dritat e pasme kundër mjegullës.",
+        //21-021//
+        "Simboli në figurë tregon vendin e komandimit të çelësit të larësit të fenerëve.",
+        "Simboli në figurë tregon vendin e komandimit të dritave të kabinës.",
+        "Simboli në figurë tregon vendin e komandimit të dritave të gjata.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur rimorkiojmë një mjet me defekt.",
+        //21-022//
+        "Kur freni i dorës është i aktivizuar, në kroskot ndizet simboli i paraqitur në figurë.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur aktivizohet freni i dorës.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ndizen dritat e pozicionit.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ingranohet marshi i lëvizjes prapa.",
+        //21-023//
+        "Kur ferrotat e frenave konsumohen më shumë se norma e lejuar, ndizet llamba që bën të dukshëm në kroskot simbolin e paraqitur në figurë.",
+        "Kur nivelit i lëngut të frenave në sistem bie nën nivelin e lejuar, ndizet llamba që bën të dukshëm në kroskot simbolin e paraqitur në figurë.",
+        "Kur në kroskot ndizet llamba që bën të dukshëm simbolin e paraqitur në figurë, duhet të kontrollohet sistemi i frenimit.",
+        "Simboli në figurë bëhet i dukshëm në kroskot kur ndonjë nga dyert e mjetit nuk është mbyllur mirë.",
+        //21-024//
+        "Targa e pasme duhet të jetë e ndriçuar natën për të qenë e dallueshme.",
+        "Targa e pasme duhet të jetë e ndriçuar sapo të ndizen dritat e pozicionit.",
+        "Targa e pasme duhet të jetë e ndriçuar edhe kur mjeti është në parkim.",
+        //21-025//
+        "Përdorimi i sistemeve të sinjalizimit pamor është i detyrueshëm vetëm ditën.",
+        "Përdorimi i sistemeve të sinjalizimit pamor është i detyrueshëm gjatë gjithë kohës së lëvizjes, pavarësisht llojit të rrugës.",
+        "Përdorimi i sistemeve të sinjalizimit pamor është i detyrueshëm vetëm kur lëvizim në rrugë urbane.",
+        "Përdorimi i dritave të pozicionit është i detyrueshëm natën, gjatë qëndrimit apo pushimit në karrexhatë, kur mungon ndriçimi publik.",
+        "Përdorimi i dritave të pozicionit është i detyrueshëm edhe kur mjeti gjendet në korsinë e emergjencës, natën.",
+        "Dritat e pozicionit janë të ndezur në rastet kur janë në funksionim fenerët e largësisë, fenerët joverbues apo dritat kundër mjegullës.",
+        "Përdorimi i dritave të pozicionit është i detyrueshëm kur mjeti është parkuar jashtë karrexhatës.",
+        "Përdorimi i dritave të pozicionit është i detyrueshëm vetëm në rastet kur mjetit gjendet në korsinë e emergjencës.",
+        //21-026//
+        "Fenerët joverbues shërbejnë për të ndriçuar rrugën, pa shkaktuar verbim.",
+        "Përdorimi i fenerëve joverbues gjatë qarkullimit është i detyrueshëm edhe ditën, kur transportojmë të aksidentuar.",
+        "Përdorimi i fenerëve joverbues (dritat e shkurtra) gjatë qarkullimit në rrugë interurbane është i detyrueshëm edhe ditën.",
+        "Përdorimi i fenerëve joverbues (dritat e shkurtra) gjatë qarkullimit në autostradë është i detyrueshëm edhe ditën.",
+        "Përdorimi i fenerëve joverbues (dritat e shkurtra) gjatë qarkullimit në tunele është i ndaluar.",
+        "Përdorimi i fenerëve joverbues (dritat e shkurtra) gjatë qarkullimit në qendrat e banuara është i ndaluar.",
+        "Përdorimi i fenerëve joverbues ditën është i lejuar vetëm në raste emergjence.",
+        "Kur lëvizim natën në rrugë interurbane dhe këmbehemi me mjete të tjera, duhet të fikim fenerët e largësisë dhe të përdorim fenerët joverbues.",
+        "Natën, në rrugët interurbane, kur ndjekim një mjet tjetër në distancë të afërt, duhet të fikim fenerët e largësisë dhe të përdorim fenerët joverbues.",
+        "Natën, në rrugët interurbane, kur është i pranishëm rreziku që të verbojmë përdoruesit e tjerë të rrugës, duhet të fikim fenerët e largësisë dhe të përdorim fenerët joverbues.",
+        "Natën, në rrugët interurbane, kur ka rrezik të verbojmë drejtuesit e mjeteve në karrexhatën tjetër, duhet të fikim fenerët e largësisë dhe të përdorim fenerët joverbues.",
+        //21-027//
+        "Përdorimi i fenerëve të largësisë është i ndaluar në qendrat e banuara.",
+        "Përdorimi i fenerëve të largësisë me ndërprerje në intervale të shkurtra, lejohet për të sinjalizuar një parakalim.",
+        "Përdorimi i fenerëve të largësisë me ndërprerje në intervale të shkurtra, lejohet për të sinjalizuar një situatë të mundshme rreziku.",
+        "Përdorimi i fenerëve të largësisë lejohet në qendrat e banuara, në kushtet e mjegullës së dendur.",
+        //21-028//
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur kryejmë manovrën e parakalimit.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur duam të ndryshojmë korsinë e lëvizjes.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur kryejmë manovrën e kthimit të drejtimit të lëvizjes.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur futemi në një karrexhatë përmes korsisë së shpejtimit.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur kemi ndërmend të ndalojmë mjetin jashtë karrexhatës.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur dalim nga rruga për të hyrë në një korsi ngadalësimi.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur nisemi nga vendi për të hyrë në qarkullim.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur ndalojmë për shkak të ndërprerjes së qarkullimit.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur lëvizim në rreshta paralelë.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur lëvizim drejt në tunel.",
+        "Përdorimi i sinjaleve treguese të drejtimit është i detyrueshëm kur kërkojmë të lëvizim drejt në kryqëzim.",
+        //21-029//
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut në rastet e zënies së karrexhatës, për shkaqe emergjence.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut, gjatë kohës që ndalojnë për të vendosur apo rimarrë trekëndëshin e rrezikut.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut, kur janë të detyruar të lëvizin me shpejtësi të ulët, për shkak të defektit në mjet.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut, kur në rrugë verifikohen ngadalësime të papritura për shkak të vargut të mjeteve.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut kur qëndrimi i emergjencës mund të shkaktojë rrezik për përdoruesit e rrugës.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut kur mendojmë se mjetet që vinë pas, nuk ruajnë distancën e sigurisë.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut, kur nuk funksionon ndonjë prej dritave të pozicionit.",
+        "Drejtuesit e mjeteve me motor duhet të aktivizojnë sinjalizimin e ndritshëm të rrezikut, kur lëvizin në rreshta paralele jashtë qendrave të banuara.",
+        //21-030//
+        "Ndalohet përdorimi i pajisjeve të sinjalizimit zanor (borive) në qendrat e banuara, përveç rasteve të rreziqeve të papritura.",
+        "Lejohet përdorimi i pajisjeve të sinjalizimit zanor (boritë) në qendrat e banuara, kur transportohen të plagosur ose të sëmurë rëndë.",
+        "Pajisjet e sinjalizimit zanor (boritë) mund të përdoren jashtë qendrave të banuara, në rastet e parakalimeve.",
+        "Pajisjet e sinjalizimit zanor (boritë) si rregull janë të ndaluara të përdoren në qendrat e banuara.",
+        "Pajisjet e sinjalizimit zanor (boritë) lejohen të përdoren në rrugë urbane, veçanërisht natën.",
+        "Sinjalizimi zanor (boria) duhet përdorur me kohëzgjatje sa më të madhe që të jetë e mundur.",
+        "Pajisjet e sinjalizimit zanor (boritë) mund të përdoren pa ndërprerje nga automjetet e ndihmës së shpejtë edhe kur janë jashtë shërbimit.",
+        "Pajisjet e sinjalizimit zanor (boritë) përdoren kryesisht kur bllokohet trafiku.",
+        "Pajisjet e sinjalizimit zanor (boritë) ndalohen të përdoren në rrugët interurbane kryesore.",
 
 
     )
