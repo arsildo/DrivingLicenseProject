@@ -4281,6 +4281,8 @@ class QuestionImages {
         noImage,
         noImage,
         noImage,
+        noImage,
+        noImage,
         //25-012//
         noImage,
         noImage,
