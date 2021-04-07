@@ -62,7 +62,6 @@ class QuestionAdapter(
                         checkBoxStateA[adapterPosition] = false
                     }
                 }
-
                 chFalse.setOnCheckedChangeListener { _, isChecked ->
                     if (isChecked) {
                         chTrue.isChecked = false
@@ -72,7 +71,6 @@ class QuestionAdapter(
                         checkBoxStateB[adapterPosition] = false
                     }
                 }
-
             }else{
                 chTrue.isClickable = false
                 chFalse.isClickable = false
@@ -94,15 +92,14 @@ class QuestionAdapter(
         val chTrue = holder.chTrue
         val chFalse = holder.chFalse
         val wrongMark = holder.wrongMark
+        wrongMark.isVisible = false
         generateIndexes()
         qString.text = questionStrings.questionStrings[randomIndexes[position]]
         qImage.setImageResource(questionImages.questionImages[randomIndexes[position]])
 
-        Log.d("MATCH NR STRING","${questionStrings.questionStrings.size}")
-        Log.d("MATCH NR IMAGE","${questionImages.questionImages.size}")
-        Log.d("MATCH  NR ANSWER","${questionAnswers.questionAnswers.size}")
-        wrongMark.isVisible = false
-
+        Log.d("STR NR ","${questionStrings.questionStrings.size}")
+        Log.d("IMG NR","${questionImages.questionImages.size}")
+        Log.d("ANS NR","${questionAnswers.questionAnswers.size}")
 
         val markMistakes = markMistakes()
         if (!examEditState){
@@ -132,7 +129,6 @@ class QuestionAdapter(
             for (i in 0..39){
                 val random = Random().nextInt(questionAnswers.questionAnswers.size)
                 randomIndexes[i] = random
-                if (randomIndexes.contains(random)) randomIndexes[i]=Random().nextInt(questionAnswers.questionAnswers.size)
             }
             generatedOnce = true
         }

@@ -15,7 +15,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:foregroundGravity="center"
         android:gravity="center"
         android:orientation="vertical"
@@ -32,12 +35,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
             android:text="NUM Gabime"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="27sp" />
+            android:textSize="32sp" />
 
         <TextView
             android:id="@+id/resultMessage"
@@ -45,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="REZULATAT"
-            android:textStyle="italic"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="27sp" />
@@ -76,11 +78,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_marginTop="20dp"
-            android:text="RISHIKO GABIMET"
+            android:text="RISHIKO Pyetjet"
             android:textColor="@color/black"
             android:drawableStart="@drawable/ic_review"
-            android:paddingStart="80dp"
-            android:paddingEnd="80dp"/>
+            android:paddingVertical="8dp"
+            android:paddingStart="64dp"
+            android:paddingEnd="64dp"/>
 
         <Button
             android:id="@+id/startNewExam"
@@ -92,8 +95,9 @@
             android:text="PROVIM TJETER"
             android:textColor="@color/black"
             android:drawableStart="@drawable/ic_redo"
-            android:paddingStart="80dp"
-            android:paddingEnd="80dp"/>
+            android:paddingVertical="8dp"
+            android:paddingStart="64dp"
+            android:paddingEnd="64dp"/>
 
         <Button
             android:id="@+id/closeResults"
@@ -105,8 +109,9 @@
             android:text="MBYLL PROVIMIN"
             android:textColor="@color/black"
             android:drawableStart="@drawable/ic_close"
-            android:paddingStart="80dp"
-            android:paddingEnd="80dp"/>
+            android:paddingVertical="8dp"
+            android:paddingStart="64dp"
+            android:paddingEnd="64dp"/>
 
     </LinearLayout>
 
