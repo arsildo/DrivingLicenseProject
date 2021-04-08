@@ -825,8 +825,6 @@ class ExamActivity : AppCompatActivity(){
 
             endExam.apply {
                 text = "KTHEHU NE MENU"
-                setTextColor(Color.BLACK)
-                setBackgroundColor(Color.WHITE)
                 setBackgroundResource(R.drawable.style_navigation)
                 setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
             }

@@ -31,7 +31,7 @@
             android:text="Kategoria A1 A2 B1 B"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:text="VERSIONI BAZE (2021)"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
                 <TextView
@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:text="40 MINUTA"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
                 <TextView
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:text="40 PYETJE"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
                 <TextView
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:text="4 GABIME TE LEJUARA"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
             </LinearLayout>
@@ -101,13 +101,14 @@
             android:background="@drawable/style_button_category"
             android:text="FILLO"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:textSize="16sp" />
 
     </LinearLayout>
 
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="250dp"
         android:layout_gravity="center"
@@ -121,14 +122,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="light_mode"
+            android:src="@drawable/ic_light_mode" />
+
+        <Switch
+            android:id="@+id/themeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/SwitchTheme"
+            android:trackTint="@color/green"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="night_mode"
+            android:src="@drawable/ic_night_mode" />
+
+
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/gitHubLink"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_margin="16dp"
         android:layout_gravity="end"
+        android:layout_margin="16dp"
         android:contentDescription="info"
-        android:src="@drawable/ic_github"
+        android:src="@drawable/ic_github_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
