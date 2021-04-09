@@ -833,5 +833,4 @@ class ExamActivity : AppCompatActivity(){
         resultDialog.show()
     }
 
-
 }
