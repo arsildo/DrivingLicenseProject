@@ -18,27 +18,33 @@ class MainActivity : AppCompatActivity() {
         val themeSettingEditor : SharedPreferences.Editor = themeSetting.edit()
         val themeSettingCheck : Boolean = themeSetting.getBoolean("DarkMode",false)
 
+
         if (themeSettingCheck){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             gitHubLink.setImageResource(R.drawable.ic_github_dark)
+            themeToggle.setImageResource(R.drawable.ic_light_mode)
         }else{
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             gitHubLink.setImageResource(R.drawable.ic_github_light)
+            themeToggle.setImageResource(R.drawable.ic_dark_mode)
         }
 
-        themeSwitch.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked){
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        themeToggle.setOnClickListener {
+            if (themeSettingCheck){
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 gitHubLink.setImageResource(R.drawable.ic_github_dark)
-                themeSettingEditor.putBoolean("DarkMode",true)
+                themeToggle.setImageResource(R.drawable.ic_light_mode)
+                themeSettingEditor.putBoolean("DarkMode",false)
                 themeSettingEditor.apply()
             }else{
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
                 gitHubLink.setImageResource(R.drawable.ic_github_light)
-                themeSettingEditor.putBoolean("DarkMode",false)
+                themeToggle.setImageResource(R.drawable.ic_dark_mode)
+                themeSettingEditor.putBoolean("DarkMode",true)
                 themeSettingEditor.apply()
             }
         }
+
 
 
         openExam.setOnClickListener {
