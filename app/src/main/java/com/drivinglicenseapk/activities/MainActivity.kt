@@ -45,8 +45,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
-
         openExam.setOnClickListener {
             val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)

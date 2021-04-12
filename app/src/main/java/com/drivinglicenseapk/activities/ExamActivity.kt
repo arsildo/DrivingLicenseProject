@@ -93,7 +93,6 @@ class ExamActivity : AppCompatActivity(){
         }
         exitPrompt.setNegativeButton("Jo"){ _, _ -> }
         val dialog: AlertDialog = exitPrompt.create()
-
         if (!examState){
             dialog.show()
         }
@@ -825,7 +824,7 @@ class ExamActivity : AppCompatActivity(){
 
             endExam.apply {
                 text = "KTHEHU NE MENU"
-                setBackgroundResource(R.drawable.style_navigation)
+                setBackgroundResource(R.drawable.style_completed)
                 setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
             }
 
