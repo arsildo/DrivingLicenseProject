@@ -97,10 +97,6 @@ class QuestionAdapter(
         qString.text = questionStrings.questionStrings[randomIndexes[position]]
         qImage.setImageResource(questionImages.questionImages[randomIndexes[position]])
 
-        Log.d("STR NR ","${questionStrings.questionStrings.size}")
-        Log.d("IMG NR","${questionImages.questionImages.size}")
-        Log.d("ANS NR","${questionAnswers.questionAnswers.size}")
-
         val markMistakes = markMistakes()
         if (!examEditState){
             chTrue.isChecked = checkBoxStateA[position]
@@ -123,12 +119,15 @@ class QuestionAdapter(
 
     override fun getItemCount() = 40
 
-    // TODO NEW GENERATING INDEX LOGIC
+    // more testing required
     private fun generateIndexes(): Array<Int> {
         if (!generatedOnce){
             for (i in 0..39){
                 val random = Random().nextInt(questionAnswers.questionAnswers.size)
                 randomIndexes[i] = random
+                if (randomIndexes.contains(random)){
+                    randomIndexes[i] = Random().nextInt(questionAnswers.questionAnswers.size)
+                }
             }
             generatedOnce = true
         }
