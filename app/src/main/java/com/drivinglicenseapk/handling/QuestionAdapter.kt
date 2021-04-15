@@ -119,7 +119,6 @@ class QuestionAdapter(
 
     override fun getItemCount() = 40
 
-    // more testing required
     private fun generateIndexes(): Array<Int> {
         if (!generatedOnce){
             for (i in 0..39){

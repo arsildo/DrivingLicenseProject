@@ -49,14 +49,12 @@ class ExamActivity : AppCompatActivity(){
             }
 
         })
-
         nextQuestion.setOnClickListener {
             questionViewPager.currentItem = questionViewPager.currentItem+1
         }
         previousQuestion.setOnClickListener {
             questionViewPager.currentItem = questionViewPager.currentItem-1
         }
-
         chronometer.apply {
             base = SystemClock.elapsedRealtime()
             format = "%02d:%02d"
@@ -65,12 +63,9 @@ class ExamActivity : AppCompatActivity(){
                 alreadyTimed = true
             }else stop()
         }
-
-
         questionListDialog.setOnClickListener {
             showQuestionList()
         }
-
         endExam.setOnClickListener {
             if (examState){
                 showExamResultDialog()
@@ -78,12 +73,9 @@ class ExamActivity : AppCompatActivity(){
                 promptExamEnd()
             }
         }
-
-
         startExamTimer()
 
     }
-
     override fun onBackPressed() {
         val exitPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         exitPrompt.setMessage("Jeni te sigurte qe doni te mbyllni provimin pa marre rezultatin?")
@@ -100,7 +92,6 @@ class ExamActivity : AppCompatActivity(){
             finish()
         }
     }
-
     private fun promptExamEnd(){
         val endPrompt = AlertDialog.Builder(this, R.style.AlertDialog)
         endPrompt.setMessage("Perfundo  Provimin ?")
@@ -114,7 +105,6 @@ class ExamActivity : AppCompatActivity(){
         endPrompt.create()
         endPrompt.show()
     }
-
     private fun startExamTimer(){
         object : CountDownTimer(2401000, 1000){
             override fun onTick(millisUntilFinished: Long) {
@@ -139,21 +129,18 @@ class ExamActivity : AppCompatActivity(){
 
         }.start()
     }
-
     private fun formatChronometer(chronometer: Chronometer) : String {
 
         if (!elapsedTimeStored){
             elapsedTime = SystemClock.elapsedRealtime()
             elapsedTimeStored = true
         }
-
         val elapsedTime = elapsedTime - chronometer.base
         val time = elapsedTime / 1000
         val minutes = time / 60
         val seconds = time % 60
         return  String.format(format = "%02d:%02d", minutes, seconds)
     }
-
     private fun showQuestionList(){
         val questionListDialog = Dialog(this)
         val questionViewPager = questionViewPager
@@ -779,7 +766,6 @@ class ExamActivity : AppCompatActivity(){
         }
         questionListDialog.show()
     }
-
     @SuppressLint("SetTextI18n")
     fun showExamResultDialog(){
         val resultDialog = Dialog(this)
@@ -788,7 +774,6 @@ class ExamActivity : AppCompatActivity(){
             window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             setCancelable(false)
         }
-
         val numberOfMistakes = questionAdapter.countMistakes()
         if (numberOfMistakes>4){
             ("$numberOfMistakes Gabime").also { resultDialog.numberOfMistakes.text = it }
@@ -801,9 +786,7 @@ class ExamActivity : AppCompatActivity(){
             "Urime ju kaluat!".also { resultDialog.resultMessage.text = it }
             resultDialog.resultMessage.setTextColor(Color.GREEN)
         }
-
         resultDialog.examChronometer.text = formatChronometer(chronometer)
-
         resultDialog.startNewExam.setOnClickListener {
             val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)

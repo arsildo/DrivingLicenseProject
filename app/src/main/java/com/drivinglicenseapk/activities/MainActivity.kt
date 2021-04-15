@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         val themeSetting : SharedPreferences = getSharedPreferences("themeSetting", MODE_PRIVATE)
         val themeSettingEditor : SharedPreferences.Editor = themeSetting.edit()
         val themeSettingCheck : Boolean = themeSetting.getBoolean("DarkMode",false)
-
-
         if (themeSettingCheck){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             gitHubLink.setImageResource(R.drawable.ic_github_dark)
@@ -28,7 +26,6 @@ class MainActivity : AppCompatActivity() {
             gitHubLink.setImageResource(R.drawable.ic_github_light)
             themeToggle.setImageResource(R.drawable.ic_dark_mode)
         }
-
         themeToggle.setOnClickListener {
             if (themeSettingCheck){
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
@@ -49,7 +46,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ExamActivity::class.java)
             startActivity(intent)
         }
-
         gitHubLink.setOnClickListener {
             val openUrl = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/arsildo"))
             startActivity(openUrl)
